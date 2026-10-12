@@ -1,0 +1,50 @@
+export type CategoryId = 'family' | 'firsts' | 'adventures' | 'arts' | 'legacy' | 'early-life';
+export interface Category {
+  id: CategoryId;
+  name: string;
+  description: string;
+  symbol: string;
+  color: string;
+}
+export interface Source {
+  id: string;
+  name: string;
+  url: string;
+  checkedOn: string;
+}
+export interface HistoricalImage {
+  path: string;
+  sourceUrl: string;
+  attribution: string;
+  rights: string;
+}
+export interface PresidentialTerm {
+  presidentId: string;
+  start: number;
+  end: number;
+  ordinal: number;
+}
+export interface Person {
+  id: string;
+  name: string;
+  kind: 'president' | 'first-lady' | 'hostess';
+  years: string;
+  subtitle: string;
+  biography: string;
+  image: HistoricalImage;
+}
+export interface Relationship {
+  from: string;
+  to: string;
+  kind: 'spouse' | 'daughter' | 'father';
+  label: string;
+}
+export interface Fact {
+  id: string;
+  personId: string;
+  headline: string;
+  description: string;
+  category: CategoryId;
+  sourceId: string;
+  verification: 'verified' | 'unverified';
+}

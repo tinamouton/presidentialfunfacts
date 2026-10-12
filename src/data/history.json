@@ -1,0 +1,1658 @@
+{
+  "sources": [
+    {
+      "id": "washington",
+      "name": "National Park Service",
+      "url": "https://www.nps.gov/gewa/planyourvisit/park-brochure.htm",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "martha-washington",
+      "name": "National Park Service",
+      "url": "https://www.nps.gov/people/martha-washington.htm",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "jefferson",
+      "name": "Thomas Jefferson Foundation / Monticello",
+      "url": "https://www.monticello.org/biography-of-jefferson",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "randolph",
+      "name": "White House Historical Association",
+      "url": "https://www.whitehousehistory.org/bios/martha-jefferson-randolph",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "lincoln",
+      "name": "National Park Service",
+      "url": "https://www.nps.gov/people/abraham-lincoln.htm",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "lincoln-home",
+      "name": "National Park Service",
+      "url": "https://www.nps.gov/features/liho/home/home.htm",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "mary-lincoln",
+      "name": "National Park Service",
+      "url": "https://www.nps.gov/liho/learn/historyculture/marylincoln.htm",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "roosevelt",
+      "name": "National Park Service",
+      "url": "https://www.nps.gov/articles/000/theodore-roosevelt-biography.htm",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "edith-roosevelt",
+      "name": "White House Historical Association",
+      "url": "https://www.whitehousehistory.org/bios/edith-roosevelt",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "kennedy",
+      "name": "John F. Kennedy Presidential Library and Museum",
+      "url": "https://www.jfklibrary.org/learn/about-jfk/life-of-john-f-kennedy",
+      "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "jacqueline-kennedy",
+      "name": "John F. Kennedy Presidential Library and Museum",
+      "url": "https://www.jfklibrary.org/learn/about-jfk/life-of-jacqueline-b-kennedy",
+      "checkedOn": "2026-10-09"
+    }
+  ],
+  "people": [
+    {
+      "id": "washington",
+      "name": "George Washington",
+      "kind": "president",
+      "years": "1789–1797",
+      "subtitle": "1st President · The founding farmer",
+      "biography": "Surveyor, soldier, and farmer, Washington helped establish the presidency and returned to Mount Vernon after two terms.",
+      "image": {
+        "path": "/portraits/washington.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+        "attribution": "Gilbert Stuart, George Washington, 1803. Clark Art Institute; reproduction via Wikimedia Commons.",
+        "rights": "Public-domain painting and faithful reproduction; artist died in 1828."
+      }
+    },
+    {
+      "id": "jefferson",
+      "name": "Thomas Jefferson",
+      "kind": "president",
+      "years": "1801–1809",
+      "subtitle": "3rd President · A mind in motion",
+      "biography": "A writer and architect who championed liberty while enslaving people, Jefferson’s life exposes profound contradictions in the founding era.",
+      "image": {
+        "path": "/portraits/jefferson.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_%28by_Rembrandt_Peale%2C_1800%29.jpg",
+        "attribution": "Rembrandt Peale, Thomas Jefferson, 1800. Official presidential portrait reproduction via Wikimedia Commons.",
+        "rights": "Public-domain painting; official U.S. Executive Office reproduction is public domain."
+      }
+    },
+    {
+      "id": "lincoln",
+      "name": "Abraham Lincoln",
+      "kind": "president",
+      "years": "1861–1865",
+      "subtitle": "16th President · From cabin to capital",
+      "biography": "Largely self-educated, Lincoln became a lawyer and led the Union during the Civil War.",
+      "image": {
+        "path": "/portraits/lincoln.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+        "attribution": "Alexander Gardner, Abraham Lincoln, 1863. Mead Art Museum; reproduction via Wikimedia Commons.",
+        "rights": "Public domain: historical photograph published before 1931; photographer died in 1882."
+      }
+    },
+    {
+      "id": "roosevelt",
+      "name": "Theodore Roosevelt",
+      "kind": "president",
+      "years": "1901–1909",
+      "subtitle": "26th President · An adventurous spirit",
+      "biography": "A rancher, author, and conservationist, Roosevelt brought an energetic approach to public life.",
+      "image": {
+        "path": "/portraits/roosevelt.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros_%284x5_cropped%29_%282%29.jpg",
+        "attribution": "Pach Brothers, Theodore Roosevelt, 1904. Library of Congress; restored by Adam Cuerden; cropped version via Wikimedia Commons.",
+        "rights": "Public domain in the U.S. (published before 1931). Restorer grants unrestricted reuse and requests attribution."
+      }
+    },
+    {
+      "id": "kennedy",
+      "name": "John F. Kennedy",
+      "kind": "president",
+      "years": "1961–1963",
+      "subtitle": "35th President · A new frontier",
+      "biography": "A naval veteran who entered politics after World War II, Kennedy encouraged public service and space exploration.",
+      "image": {
+        "path": "/portraits/kennedy.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy%2C_White_House_color_photo_portrait.jpg",
+        "attribution": "Cecil W. Stoughton, John F. Kennedy, 1963. White House photograph; JFK Library / National Archives, via Wikimedia Commons.",
+        "rights": "Public domain: photograph made in the course of official U.S. federal government duties."
+      }
+    },
+    {
+      "id": "martha-washington",
+      "name": "Martha Washington",
+      "kind": "first-lady",
+      "years": "1789–1797",
+      "subtitle": "First Lady · Washington administration",
+      "biography": "Martha shaped the role of presidential spouse, supported wartime encampments, and managed an estate built on enslaved labor.",
+      "image": {
+        "path": "/portraits/martha-washington.jpg",
+        "sourceUrl": "https://firstladies.si.edu/object/npg_NPG.70.3",
+        "attribution": "Unidentified artist, copy after Gilbert Stuart. Martha Washington, early–mid 19th century. National Portrait Gallery, Smithsonian Institution, NPG.70.3; via Wikimedia Commons.",
+        "rights": "CC0 / Smithsonian Open Access; public-domain artwork."
+      }
+    },
+    {
+      "id": "randolph",
+      "name": "Martha Jefferson Randolph",
+      "kind": "hostess",
+      "years": "1802–1803 · 1805–1806",
+      "subtitle": "White House hostess · Jefferson administration",
+      "biography": "Jefferson’s daughter, known as Patsy, served as an occasional hostess. She was not his spouse.",
+      "image": {
+        "path": "/portraits/randolph.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martha_Jefferson_Randolph_portrait.jpg",
+        "attribution": "Thomas Sully, Martha Jefferson Randolph. Image from Monticello via Wikimedia Commons.",
+        "rights": "Public-domain painting and faithful reproduction; artist died in 1872."
+      }
+    },
+    {
+      "id": "mary-lincoln",
+      "name": "Mary Todd Lincoln",
+      "kind": "first-lady",
+      "years": "1861–1865",
+      "subtitle": "First Lady · Lincoln administration",
+      "biography": "An educated Kentuckian, Mary and Abraham built their family life in Springfield before moving to Washington.",
+      "image": {
+        "path": "/portraits/mary-lincoln.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Todd_Lincoln2crop.jpg",
+        "attribution": "Mathew Brady, Mary Todd Lincoln, circa 1861; crop by Materialscientist via Wikimedia Commons.",
+        "rights": "Public-domain historical photograph; Commons marks the cropped reproduction as public domain."
+      }
+    },
+    {
+      "id": "edith-roosevelt",
+      "name": "Edith Roosevelt",
+      "kind": "first-lady",
+      "years": "1901–1909",
+      "subtitle": "First Lady · Roosevelt administration",
+      "biography": "Edith professionalized White House social operations and helped preserve the history of the presidential home.",
+      "image": {
+        "path": "/portraits/edith-roosevelt.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edith_Kermit_Carow_Roosevelt_by_Frances_Benjamin_Johnston_%28cropped%29.jpg",
+        "attribution": "Frances Benjamin Johnston, Edith Roosevelt. Library of Congress; restored by Adam Cuerden; cropped version via Wikimedia Commons.",
+        "rights": "Public-domain historical photograph. Restorer grants unrestricted reuse and requests attribution."
+      }
+    },
+    {
+      "id": "jacqueline-kennedy",
+      "name": "Jacqueline Kennedy",
+      "kind": "first-lady",
+      "years": "1961–1963",
+      "subtitle": "First Lady · Kennedy administration",
+      "biography": "An advocate for art and preservation, Jacqueline restored the White House and later built a career in publishing.",
+      "image": {
+        "path": "/portraits/jacqueline-kennedy.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg",
+        "attribution": "Mark Shaw, Jacqueline Kennedy, 1961; originally in Look magazine; cropped reproduction via Wikimedia Commons.",
+        "rights": "Public domain in the U.S. due to nonrenewal of copyright as recorded by Commons; other jurisdictions may differ."
+      }
+    }
+  ],
+  "terms": [
+    {
+      "presidentId": "washington",
+      "start": 1789,
+      "end": 1797,
+      "ordinal": 1
+    },
+    {
+      "presidentId": "jefferson",
+      "start": 1801,
+      "end": 1809,
+      "ordinal": 3
+    },
+    {
+      "presidentId": "lincoln",
+      "start": 1861,
+      "end": 1865,
+      "ordinal": 16
+    },
+    {
+      "presidentId": "roosevelt",
+      "start": 1901,
+      "end": 1909,
+      "ordinal": 26
+    },
+    {
+      "presidentId": "kennedy",
+      "start": 1961,
+      "end": 1963,
+      "ordinal": 35
+    }
+  ],
+  "relationships": [
+    {
+      "to": "martha-washington",
+      "kind": "spouse",
+      "label": "Spouse",
+      "from": "washington"
+    },
+    {
+      "to": "washington",
+      "kind": "spouse",
+      "label": "Spouse",
+      "from": "martha-washington"
+    },
+    {
+      "to": "mary-lincoln",
+      "kind": "spouse",
+      "label": "Spouse",
+      "from": "lincoln"
+    },
+    {
+      "to": "lincoln",
+      "kind": "spouse",
+      "label": "Spouse",
+      "from": "mary-lincoln"
+    },
+    {
+      "to": "edith-roosevelt",
+      "kind": "spouse",
+      "label": "Spouse",
+      "from": "roosevelt"
+    },
+    {
+      "to": "roosevelt",
+      "kind": "spouse",
+      "label": "Spouse",
+      "from": "edith-roosevelt"
+    },
+    {
+      "to": "jacqueline-kennedy",
+      "kind": "spouse",
+      "label": "Spouse",
+      "from": "kennedy"
+    },
+    {
+      "to": "kennedy",
+      "kind": "spouse",
+      "label": "Spouse",
+      "from": "jacqueline-kennedy"
+    },
+    {
+      "to": "randolph",
+      "kind": "daughter",
+      "label": "Daughter · occasional White House hostess",
+      "from": "jefferson"
+    },
+    {
+      "to": "jefferson",
+      "kind": "father",
+      "label": "Father · associated administration",
+      "from": "randolph"
+    }
+  ],
+  "facts": [
+    {
+      "id": "washington-01",
+      "personId": "washington",
+      "headline": "A teenage mapmaker",
+      "description": "His earliest surviving map dates to age fifteen.",
+      "category": "early-life",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-02",
+      "personId": "washington",
+      "headline": "Into the valley",
+      "description": "He joined a Shenandoah surveying expedition in 1748.",
+      "category": "adventures",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-03",
+      "personId": "washington",
+      "headline": "Surveying for a living",
+      "description": "Culpeper County appointed him surveyor in 1749.",
+      "category": "early-life",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-04",
+      "personId": "washington",
+      "headline": "A mother’s veto",
+      "description": "His mother opposed a naval career.",
+      "category": "family",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-05",
+      "personId": "washington",
+      "headline": "Before the presidency",
+      "description": "He served as Braddock’s aide in 1755.",
+      "category": "adventures",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-06",
+      "personId": "washington",
+      "headline": "A colonial legislator",
+      "description": "He entered the House of Burgesses in 1758.",
+      "category": "legacy",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-07",
+      "personId": "washington",
+      "headline": "A January wedding",
+      "description": "He married Martha Custis in January 1759.",
+      "category": "family",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-08",
+      "personId": "washington",
+      "headline": "An inherited home",
+      "description": "He inherited Mount Vernon in 1761.",
+      "category": "family",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-09",
+      "personId": "washington",
+      "headline": "Leading the army",
+      "description": "He became Continental Army commander in 1775.",
+      "category": "legacy",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-10",
+      "personId": "washington",
+      "headline": "Six years away",
+      "description": "Army command kept him from home for six years.",
+      "category": "adventures",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-11",
+      "personId": "washington",
+      "headline": "Raising grandchildren",
+      "description": "He and Martha raised two Custis grandchildren.",
+      "category": "family",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-12",
+      "personId": "washington",
+      "headline": "Back to the fields",
+      "description": "He resigned his military commission in 1783.",
+      "category": "legacy",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-13",
+      "personId": "washington",
+      "headline": "At the convention",
+      "description": "He presided over the 1787 Constitutional Convention.",
+      "category": "legacy",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-14",
+      "personId": "washington",
+      "headline": "The first president",
+      "description": "He was elected president in 1789.",
+      "category": "firsts",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "washington-15",
+      "personId": "washington",
+      "headline": "A farmer’s retirement",
+      "description": "He returned to farming after his presidency.",
+      "category": "legacy",
+      "sourceId": "washington",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-01",
+      "personId": "jefferson",
+      "headline": "A Virginia beginning",
+      "description": "He was born at Shadwell in 1743.",
+      "category": "early-life",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-02",
+      "personId": "jefferson",
+      "headline": "Learning many languages",
+      "description": "Young Jefferson studied Latin, Greek, and French.",
+      "category": "early-life",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-03",
+      "personId": "jefferson",
+      "headline": "College at seventeen",
+      "description": "He entered William and Mary in 1760.",
+      "category": "early-life",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-04",
+      "personId": "jefferson",
+      "headline": "An influential mentor",
+      "description": "He studied law under George Wythe.",
+      "category": "early-life",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-05",
+      "personId": "jefferson",
+      "headline": "Starting in law",
+      "description": "His first recorded legal case dates to 1767.",
+      "category": "early-life",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-06",
+      "personId": "jefferson",
+      "headline": "Designing his home",
+      "description": "He designed the house at Monticello.",
+      "category": "arts",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-07",
+      "personId": "jefferson",
+      "headline": "On the mountaintop",
+      "description": "Monticello construction began in 1769.",
+      "category": "arts",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-08",
+      "personId": "jefferson",
+      "headline": "The Declaration’s draftsman",
+      "description": "He drafted the Declaration of Independence.",
+      "category": "legacy",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-09",
+      "personId": "jefferson",
+      "headline": "Freedom of belief",
+      "description": "He authored Virginia’s Statute for Religious Freedom.",
+      "category": "legacy",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-10",
+      "personId": "jefferson",
+      "headline": "A university founder",
+      "description": "He founded the University of Virginia.",
+      "category": "legacy",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-11",
+      "personId": "jefferson",
+      "headline": "A troubling contradiction",
+      "description": "He enslaved over 600 people during his lifetime.",
+      "category": "legacy",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-12",
+      "personId": "jefferson",
+      "headline": "An expanding nation",
+      "description": "The Louisiana Purchase doubled the country’s size.",
+      "category": "legacy",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-13",
+      "personId": "jefferson",
+      "headline": "A daughter as hostess",
+      "description": "His daughter Martha sometimes served as hostess.",
+      "category": "family",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-14",
+      "personId": "jefferson",
+      "headline": "Choosing his epitaph",
+      "description": "His grave marker omits his presidency.",
+      "category": "legacy",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "jefferson-15",
+      "personId": "jefferson",
+      "headline": "An extraordinary anniversary",
+      "description": "He died on Independence Day’s fiftieth anniversary.",
+      "category": "legacy",
+      "sourceId": "jefferson",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-01",
+      "personId": "lincoln",
+      "headline": "A Kentucky beginning",
+      "description": "He was born near Hodgenville in 1809.",
+      "category": "early-life",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-02",
+      "personId": "lincoln",
+      "headline": "Teaching himself",
+      "description": "Lincoln was largely self-educated.",
+      "category": "early-life",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-03",
+      "personId": "lincoln",
+      "headline": "A lawyer’s path",
+      "description": "He qualified as a lawyer in 1836.",
+      "category": "early-life",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-04",
+      "personId": "lincoln",
+      "headline": "Statehouse experience",
+      "description": "He served in Illinois’s legislature from 1834–1842.",
+      "category": "legacy",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-05",
+      "personId": "lincoln",
+      "headline": "A Whig in Congress",
+      "description": "He won election to Congress in 1846.",
+      "category": "legacy",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-06",
+      "personId": "lincoln",
+      "headline": "Joining a new party",
+      "description": "He joined the Republican Party in 1856.",
+      "category": "legacy",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-07",
+      "personId": "lincoln",
+      "headline": "Debates without victory",
+      "description": "His 1858 Senate campaign ended in defeat.",
+      "category": "legacy",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-08",
+      "personId": "lincoln",
+      "headline": "A wartime proclamation",
+      "description": "He issued the Emancipation Proclamation in 1863.",
+      "category": "legacy",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-09",
+      "personId": "lincoln",
+      "headline": "Finding his general",
+      "description": "He appointed Grant overall commander in 1864.",
+      "category": "legacy",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-10",
+      "personId": "lincoln",
+      "headline": "A tragic ending",
+      "description": "He died after being shot at Ford’s Theatre.",
+      "category": "legacy",
+      "sourceId": "lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-11",
+      "personId": "lincoln",
+      "headline": "Less than a year",
+      "description": "He received under a year of formal schooling.",
+      "category": "early-life",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-12",
+      "personId": "lincoln",
+      "headline": "Two left feet",
+      "description": "He met Mary at a Springfield dance.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-13",
+      "personId": "lincoln",
+      "headline": "One home of his own",
+      "description": "He bought his only house in Springfield.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-14",
+      "personId": "lincoln",
+      "headline": "Room to grow",
+      "description": "The Lincolns expanded their cottage to two stories.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "lincoln-15",
+      "personId": "lincoln",
+      "headline": "Seventeen years at home",
+      "description": "His family lived there for seventeen years.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-01",
+      "personId": "roosevelt",
+      "headline": "Meet Teedie",
+      "description": "His family called young Theodore “Teedie.”",
+      "category": "early-life",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-02",
+      "personId": "roosevelt",
+      "headline": "A difficult childhood",
+      "description": "He suffered severe childhood asthma.",
+      "category": "early-life",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-03",
+      "personId": "roosevelt",
+      "headline": "A Harvard chapter",
+      "description": "He began Harvard studies in 1876.",
+      "category": "early-life",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-04",
+      "personId": "roosevelt",
+      "headline": "A western reinvention",
+      "description": "He worked as a Dakota Territory rancher.",
+      "category": "adventures",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-05",
+      "personId": "roosevelt",
+      "headline": "A rancher in print",
+      "description": "He wrote Hunting Trips of a Ranchman.",
+      "category": "arts",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-06",
+      "personId": "roosevelt",
+      "headline": "A prolific author",
+      "description": "He wrote roughly thirty books.",
+      "category": "arts",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-07",
+      "personId": "roosevelt",
+      "headline": "A London wedding",
+      "description": "He married Edith Carow in London in 1886.",
+      "category": "family",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-08",
+      "personId": "roosevelt",
+      "headline": "Before the Oval Office",
+      "description": "He served as New York City police commissioner.",
+      "category": "legacy",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-09",
+      "personId": "roosevelt",
+      "headline": "The Rough Riders",
+      "description": "He led volunteers in the Spanish-American War.",
+      "category": "adventures",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-10",
+      "personId": "roosevelt",
+      "headline": "A Buffalo inauguration",
+      "description": "He took the presidential oath in Buffalo.",
+      "category": "firsts",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-11",
+      "personId": "roosevelt",
+      "headline": "Peace prize president",
+      "description": "He received the 1906 Nobel Peace Prize.",
+      "category": "legacy",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-12",
+      "personId": "roosevelt",
+      "headline": "Protecting forests",
+      "description": "His presidency established 150 national forests.",
+      "category": "legacy",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-13",
+      "personId": "roosevelt",
+      "headline": "A bird sanctuary",
+      "description": "He established the Pelican Island federal bird reserve.",
+      "category": "legacy",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-14",
+      "personId": "roosevelt",
+      "headline": "A Smithsonian expedition",
+      "description": "He collected African specimens for the Smithsonian.",
+      "category": "adventures",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "roosevelt-15",
+      "personId": "roosevelt",
+      "headline": "The River of Doubt",
+      "description": "He explored a Brazilian river with Kermit.",
+      "category": "adventures",
+      "sourceId": "roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-01",
+      "personId": "kennedy",
+      "headline": "Meet Jack",
+      "description": "Family and friends called him Jack.",
+      "category": "early-life",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-02",
+      "personId": "kennedy",
+      "headline": "A big family",
+      "description": "He was one of nine Kennedy children.",
+      "category": "family",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-03",
+      "personId": "kennedy",
+      "headline": "A Boston namesake",
+      "description": "He was named for his maternal grandfather.",
+      "category": "family",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-04",
+      "personId": "kennedy",
+      "headline": "A young newspaper reader",
+      "description": "At Choate, he subscribed to the New York Times.",
+      "category": "early-life",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-05",
+      "personId": "kennedy",
+      "headline": "A book from a thesis",
+      "description": "His thesis became Why England Slept.",
+      "category": "arts",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-06",
+      "personId": "kennedy",
+      "headline": "Harvard graduate",
+      "description": "He graduated from Harvard in 1940.",
+      "category": "early-life",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-07",
+      "personId": "kennedy",
+      "headline": "Commanding PT-109",
+      "description": "He commanded a Pacific patrol torpedo boat.",
+      "category": "adventures",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-08",
+      "personId": "kennedy",
+      "headline": "A message on a coconut",
+      "description": "He carved a rescue message into coconut shell.",
+      "category": "adventures",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-09",
+      "personId": "kennedy",
+      "headline": "Saving a shipmate",
+      "description": "He towed injured Patrick McMahon to shore.",
+      "category": "adventures",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-10",
+      "personId": "kennedy",
+      "headline": "Recognized for courage",
+      "description": "He received the Navy and Marine Corps Medal.",
+      "category": "legacy",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-11",
+      "personId": "kennedy",
+      "headline": "Three House terms",
+      "description": "He served six years in the House.",
+      "category": "legacy",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-12",
+      "personId": "kennedy",
+      "headline": "A Senate chapter",
+      "description": "He won a Senate seat in 1952.",
+      "category": "legacy",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-13",
+      "personId": "kennedy",
+      "headline": "A Pulitzer winner",
+      "description": "Profiles in Courage won the 1957 biography Pulitzer.",
+      "category": "arts",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-14",
+      "personId": "kennedy",
+      "headline": "Elected at forty-three",
+      "description": "He was the youngest elected U.S. president.",
+      "category": "firsts",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "kennedy-15",
+      "personId": "kennedy",
+      "headline": "Service around the world",
+      "description": "He created the Peace Corps.",
+      "category": "legacy",
+      "sourceId": "kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-01",
+      "personId": "martha-washington",
+      "headline": "Before she was Washington",
+      "description": "Her birth surname was Dandridge.",
+      "category": "early-life",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-02",
+      "personId": "martha-washington",
+      "headline": "A Virginia childhood",
+      "description": "She was born in New Kent County.",
+      "category": "early-life",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-03",
+      "personId": "martha-washington",
+      "headline": "A first marriage",
+      "description": "She married Daniel Parke Custis in 1750.",
+      "category": "family",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-04",
+      "personId": "martha-washington",
+      "headline": "Four Custis children",
+      "description": "She had four children with Daniel Custis.",
+      "category": "family",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-05",
+      "personId": "martha-washington",
+      "headline": "Widowed at twenty-six",
+      "description": "Daniel died in 1757.",
+      "category": "family",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-06",
+      "personId": "martha-washington",
+      "headline": "Managing an estate",
+      "description": "She managed business interests during her widowhood.",
+      "category": "legacy",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-07",
+      "personId": "martha-washington",
+      "headline": "Meeting George",
+      "description": "She met George Washington in 1758.",
+      "category": "family",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-08",
+      "personId": "martha-washington",
+      "headline": "A new home",
+      "description": "The Washingtons settled at Mount Vernon.",
+      "category": "family",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-09",
+      "personId": "martha-washington",
+      "headline": "A blended family",
+      "description": "They raised her surviving Custis children.",
+      "category": "family",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-10",
+      "personId": "martha-washington",
+      "headline": "Winter with the army",
+      "description": "She visited Cambridge’s 1775–1776 winter encampment.",
+      "category": "adventures",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-11",
+      "personId": "martha-washington",
+      "headline": "At Valley Forge",
+      "description": "She joined the 1777–1778 winter encampment.",
+      "category": "adventures",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-12",
+      "personId": "martha-washington",
+      "headline": "Supplies for soldiers",
+      "description": "She organized clothing and supplies for troops.",
+      "category": "legacy",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-13",
+      "personId": "martha-washington",
+      "headline": "Weekly receptions",
+      "description": "She hosted presidential gatherings called levees.",
+      "category": "firsts",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-14",
+      "personId": "martha-washington",
+      "headline": "Longing for privacy",
+      "description": "She preferred private life at Mount Vernon.",
+      "category": "family",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "martha-washington-15",
+      "personId": "martha-washington",
+      "headline": "Freedom, and its limits",
+      "description": "She freed George’s enslaved people but enslaved others.",
+      "category": "legacy",
+      "sourceId": "martha-washington",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-01",
+      "personId": "randolph",
+      "headline": "Known as Patsy",
+      "description": "Her family called her Patsy.",
+      "category": "early-life",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-02",
+      "personId": "randolph",
+      "headline": "A September birthday",
+      "description": "She was born September 27, 1772.",
+      "category": "early-life",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-03",
+      "personId": "randolph",
+      "headline": "A daughter, not spouse",
+      "description": "She was Thomas Jefferson’s eldest daughter.",
+      "category": "family",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-04",
+      "personId": "randolph",
+      "headline": "Learning beyond home",
+      "description": "She received a private education.",
+      "category": "early-life",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-05",
+      "personId": "randolph",
+      "headline": "Traveling with her father",
+      "description": "She accompanied Jefferson abroad.",
+      "category": "adventures",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-06",
+      "personId": "randolph",
+      "headline": "A February wedding",
+      "description": "She married Thomas Mann Randolph in 1790.",
+      "category": "family",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-07",
+      "personId": "randolph",
+      "headline": "A large household",
+      "description": "She had twelve children.",
+      "category": "family",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-08",
+      "personId": "randolph",
+      "headline": "Eleven reached adulthood",
+      "description": "Eleven of her children survived to adulthood.",
+      "category": "family",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-09",
+      "personId": "randolph",
+      "headline": "Life at Monticello",
+      "description": "Her family lived at Monticello.",
+      "category": "family",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-10",
+      "personId": "randolph",
+      "headline": "Plantation management",
+      "description": "She managed households and enslaved workers.",
+      "category": "legacy",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-11",
+      "personId": "randolph",
+      "headline": "Two hostess seasons",
+      "description": "She hosted in 1802–1803 and 1805–1806.",
+      "category": "firsts",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-12",
+      "personId": "randolph",
+      "headline": "A presidential-house birth",
+      "description": "Her son James Madison Randolph was born there.",
+      "category": "family",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-13",
+      "personId": "randolph",
+      "headline": "Financial hardship",
+      "description": "Monticello was sold after Jefferson’s death.",
+      "category": "legacy",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-14",
+      "personId": "randolph",
+      "headline": "Preserving her father’s papers",
+      "description": "She helped compile and edit Jefferson’s papers.",
+      "category": "arts",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "randolph-15",
+      "personId": "randolph",
+      "headline": "Resting at Monticello",
+      "description": "She died in 1836 and is buried there.",
+      "category": "legacy",
+      "sourceId": "randolph",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-01",
+      "personId": "mary-lincoln",
+      "headline": "A Kentucky childhood",
+      "description": "She was born in Lexington in 1818.",
+      "category": "early-life",
+      "sourceId": "mary-lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-02",
+      "personId": "mary-lincoln",
+      "headline": "Mary Ann",
+      "description": "Her birth name was Mary Ann Todd.",
+      "category": "early-life",
+      "sourceId": "mary-lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-03",
+      "personId": "mary-lincoln",
+      "headline": "An unusual classroom",
+      "description": "She attended Dr. Ward’s coeducational academy.",
+      "category": "early-life",
+      "sourceId": "mary-lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-04",
+      "personId": "mary-lincoln",
+      "headline": "More education than most",
+      "description": "Her schooling exceeded many contemporary women’s opportunities.",
+      "category": "early-life",
+      "sourceId": "mary-lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-05",
+      "personId": "mary-lincoln",
+      "headline": "A family’s objections",
+      "description": "Some relatives disapproved of her marrying Lincoln.",
+      "category": "family",
+      "sourceId": "mary-lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-06",
+      "personId": "mary-lincoln",
+      "headline": "A November wedding",
+      "description": "She married Abraham on November 4, 1842.",
+      "category": "family",
+      "sourceId": "mary-lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-07",
+      "personId": "mary-lincoln",
+      "headline": "A Springfield farewell",
+      "description": "She died in Springfield in 1882.",
+      "category": "legacy",
+      "sourceId": "mary-lincoln",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-08",
+      "personId": "mary-lincoln",
+      "headline": "Very different homes",
+      "description": "She grew up in a fourteen-room house.",
+      "category": "early-life",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-09",
+      "personId": "mary-lincoln",
+      "headline": "Meeting on the dance floor",
+      "description": "She met Abraham at a dance.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-10",
+      "personId": "mary-lincoln",
+      "headline": "A broken courtship",
+      "description": "Their courtship broke off in January 1841.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-11",
+      "personId": "mary-lincoln",
+      "headline": "A secret reunion",
+      "description": "They resumed dating secretly through mutual friends.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-12",
+      "personId": "mary-lincoln",
+      "headline": "A sister’s wedding venue",
+      "description": "They married at Elizabeth’s house.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-13",
+      "personId": "mary-lincoln",
+      "headline": "A one-room beginning",
+      "description": "Their first married home was one rented room.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-14",
+      "personId": "mary-lincoln",
+      "headline": "Welcoming Robert",
+      "description": "Their first child was born in that room.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "mary-lincoln-15",
+      "personId": "mary-lincoln",
+      "headline": "Moving in May",
+      "description": "They moved into their house in May 1844.",
+      "category": "family",
+      "sourceId": "lincoln-home",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-01",
+      "personId": "edith-roosevelt",
+      "headline": "A Manhattan beginning",
+      "description": "Edith Carow was born in Manhattan in 1861.",
+      "category": "early-life",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-02",
+      "personId": "edith-roosevelt",
+      "headline": "Childhood connections",
+      "description": "She was friends with Theodore’s sister Corinne.",
+      "category": "family",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-03",
+      "personId": "edith-roosevelt",
+      "headline": "Learning at home",
+      "description": "Tutors provided most of her early education.",
+      "category": "early-life",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-04",
+      "personId": "edith-roosevelt",
+      "headline": "A private-school chapter",
+      "description": "She later attended Miss Comstock’s school.",
+      "category": "early-life",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-05",
+      "personId": "edith-roosevelt",
+      "headline": "Teenage letters",
+      "description": "She and Theodore exchanged letters as teenagers.",
+      "category": "family",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-06",
+      "personId": "edith-roosevelt",
+      "headline": "A chance reunion",
+      "description": "They reconnected at Theodore’s sister Anna’s home.",
+      "category": "family",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-07",
+      "personId": "edith-roosevelt",
+      "headline": "A December wedding",
+      "description": "They married December 2, 1886.",
+      "category": "family",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-08",
+      "personId": "edith-roosevelt",
+      "headline": "A Long Island home",
+      "description": "They settled at Sagamore Hill.",
+      "category": "family",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-09",
+      "personId": "edith-roosevelt",
+      "headline": "A blended household",
+      "description": "She raised Alice and five more children.",
+      "category": "family",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-10",
+      "personId": "edith-roosevelt",
+      "headline": "Running the estate",
+      "description": "She managed Sagamore Hill’s finances and personnel.",
+      "category": "legacy",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-11",
+      "personId": "edith-roosevelt",
+      "headline": "A social secretary",
+      "description": "She hired Isabella Hagner, the first White House social secretary.",
+      "category": "firsts",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-12",
+      "personId": "edith-roosevelt",
+      "headline": "Gardens for gatherings",
+      "description": "She added two colonial gardens.",
+      "category": "arts",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-13",
+      "personId": "edith-roosevelt",
+      "headline": "A historic renovation",
+      "description": "She helped oversee the 1902 White House renovation.",
+      "category": "arts",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-14",
+      "personId": "edith-roosevelt",
+      "headline": "Presidential china on display",
+      "description": "She commissioned cabinets for presidential china.",
+      "category": "arts",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "edith-roosevelt-15",
+      "personId": "edith-roosevelt",
+      "headline": "Remembering the first ladies",
+      "description": "She proposed displaying first ladies’ portraits downstairs.",
+      "category": "legacy",
+      "sourceId": "edith-roosevelt",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-01",
+      "personId": "jacqueline-kennedy",
+      "headline": "A Southampton beginning",
+      "description": "She was born in Southampton in 1929.",
+      "category": "early-life",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-02",
+      "personId": "jacqueline-kennedy",
+      "headline": "A champion rider",
+      "description": "She won national riding championships by eleven.",
+      "category": "adventures",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-03",
+      "personId": "jacqueline-kennedy",
+      "headline": "A year in Paris",
+      "description": "She studied abroad during college.",
+      "category": "early-life",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-04",
+      "personId": "jacqueline-kennedy",
+      "headline": "Changing colleges",
+      "description": "She transferred from Vassar to George Washington University.",
+      "category": "early-life",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-05",
+      "personId": "jacqueline-kennedy",
+      "headline": "A Newport wedding",
+      "description": "She married Kennedy in Newport in 1953.",
+      "category": "family",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-06",
+      "personId": "jacqueline-kennedy",
+      "headline": "The campaign columnist",
+      "description": "She wrote the weekly column Campaign Wife.",
+      "category": "arts",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-07",
+      "personId": "jacqueline-kennedy",
+      "headline": "First lady at thirty-one",
+      "description": "She was thirty-one at Kennedy’s inauguration.",
+      "category": "firsts",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-08",
+      "personId": "jacqueline-kennedy",
+      "headline": "A White House classroom",
+      "description": "She created a kindergarten on the sun porch.",
+      "category": "family",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-09",
+      "personId": "jacqueline-kennedy",
+      "headline": "A curator for history",
+      "description": "She established the White House curator’s position.",
+      "category": "legacy",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-10",
+      "personId": "jacqueline-kennedy",
+      "headline": "A televised tour",
+      "description": "Eighty million Americans watched her White House tour.",
+      "category": "arts",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-11",
+      "personId": "jacqueline-kennedy",
+      "headline": "An honorary Emmy",
+      "description": "Her televised tour earned an honorary Emmy.",
+      "category": "arts",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-12",
+      "personId": "jacqueline-kennedy",
+      "headline": "Languages across borders",
+      "description": "She spoke French, Spanish, and Italian.",
+      "category": "adventures",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-13",
+      "personId": "jacqueline-kennedy",
+      "headline": "Choosing the library architect",
+      "description": "She selected I.M. Pei for Kennedy’s library.",
+      "category": "arts",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-14",
+      "personId": "jacqueline-kennedy",
+      "headline": "A publishing career",
+      "description": "She worked as an editor at Viking and Doubleday.",
+      "category": "arts",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    },
+    {
+      "id": "jacqueline-kennedy-15",
+      "personId": "jacqueline-kennedy",
+      "headline": "Saving a landmark",
+      "description": "She campaigned to preserve Grand Central Station.",
+      "category": "legacy",
+      "sourceId": "jacqueline-kennedy",
+      "verification": "verified"
+    }
+  ]
+}
