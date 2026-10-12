@@ -1,0 +1,472 @@
+<script setup lang="ts">
+  import { ref, onMounted, onUnmounted } from 'vue';
+  import {
+    Home,
+    Users,
+    Heart,
+    Shuffle,
+    BookOpen,
+    Menu,
+    X,
+    Download,
+    WifiOff,
+    Sparkles,
+  } from 'lucide-vue-next';
+  import { useRoute } from 'vue-router';
+  import { useRegisterSW } from 'virtual:pwa-register/vue';
+  import { useFavorites } from './stores/favorites';
+  const route = useRoute(),
+    favorites = useFavorites(),
+    menuOpen = ref(false),
+    online = ref(navigator.onLine);
+  const { needRefresh, updateServiceWorker } = useRegisterSW();
+  const links = [
+    { to: '/', label: 'Home', icon: Home },
+    { to: '/presidents', label: 'Presidents', icon: Users },
+    { to: '/first-ladies', label: 'First Ladies', icon: Sparkles },
+    { to: '/topics', label: 'Topics', icon: BookOpen },
+    { to: '/random', label: 'Random', icon: Shuffle },
+    { to: '/favorites', label: 'Favorites', icon: Heart },
+  ];
+  interface InstallPrompt extends Event {
+    prompt: () => Promise<void>;
+    userChoice: Promise<{ outcome: string }>;
+  }
+  const installPrompt = ref<InstallPrompt | null>(null);
+  const onInstall = (event: Event) => {
+    event.preventDefault();
+    installPrompt.value = event as InstallPrompt;
+  };
+  const onOnline = () => {
+    online.value = navigator.onLine;
+  };
+  async function install() {
+    await installPrompt.value?.prompt();
+    await installPrompt.value?.userChoice;
+    installPrompt.value = null;
+  }
+  onMounted(() => {
+    window.addEventListener('beforeinstallprompt', onInstall);
+    window.addEventListener('online', onOnline);
+    window.addEventListener('offline', onOnline);
+    window.addEventListener('storage', favorites.load);
+  });
+  onUnmounted(() => {
+    window.removeEventListener('beforeinstallprompt', onInstall);
+    window.removeEventListener('online', onOnline);
+    window.removeEventListener('offline', onOnline);
+    window.removeEventListener('storage', favorites.load);
+  });
+</script>
+<template>
+  <a
+    href="#main"
+    class="skip-link">
+    Skip to content
+  </a>
+  <header class="site-header">
+    <RouterLink
+      to="/"
+      class="brand"
+      aria-label="PresidentialFunFacts home">
+      <img
+        src="/mascot.svg"
+        alt="" /><span>
+        Presidential<span class="brand-red">FunFacts<span class="brand-star">✦</span></span></span
+      >
+    </RouterLink>
+    <nav
+      class="desktop-nav"
+      aria-label="Main navigation">
+      <RouterLink
+        v-for="link in links"
+        :key="link.to"
+        :to="link.to"
+        :class="{ active: route.path === link.to }">
+        {{ link.label }}
+        <span
+          v-if="
+            link.to === '/favorites' && favorites.saved.facts.length + favorites.saved.people.length
+          "
+          class="count">
+          {{ favorites.saved.facts.length + favorites.saved.people.length }}
+        </span>
+      </RouterLink>
+    </nav>
+    <button
+      v-if="installPrompt"
+      class="icon-button"
+      aria-label="Install app"
+      @click="install">
+      <Download :size="20" />
+    </button>
+    <button
+      class="mobile-menu icon-button"
+      :aria-expanded="menuOpen"
+      aria-controls="mobile-menu"
+      aria-label="Toggle menu"
+      @click="menuOpen = !menuOpen">
+      <X v-if="menuOpen" /><Menu v-else />
+    </button>
+  </header>
+  <nav
+    v-if="menuOpen"
+    id="mobile-menu"
+    class="menu-panel"
+    aria-label="More navigation">
+    <RouterLink
+      v-for="link in links"
+      :key="link.to"
+      :to="link.to"
+      @click="menuOpen = false">
+      <component
+        :is="link.icon"
+        :size="20" />
+      {{ link.label }}
+    </RouterLink>
+  </nav>
+  <div
+    v-if="!online"
+    class="status-message"
+    role="status">
+    <WifiOff :size="16" />
+    You’re offline. Your facts and portraits are still here; source websites need a connection.
+  </div>
+  <div
+    v-if="favorites.storageError"
+    class="status-message"
+    role="status">
+    {{ favorites.storageError }}
+  </div>
+  <div
+    v-if="needRefresh"
+    class="update-banner"
+    role="status">
+    <span>A fresh chapter is ready.</span>
+    <button @click="updateServiceWorker(true)">Update app</button>
+    <button
+      aria-label="Dismiss update"
+      @click="needRefresh = false">
+      <X :size="18" />
+    </button>
+  </div>
+  <main id="main"><RouterView /></main>
+  <footer class="site-footer">
+    <RouterLink
+      to="/"
+      class="footer-wordmark">
+      Presidential<span>FunFacts</span>
+    </RouterLink>
+    <p>Little-known facts. Big personalities.</p>
+    <span>Curiosity welcome. Sources included.</span>
+    <span
+      class="footer-stars"
+      aria-hidden="true">
+      ✦ ★ ✦
+    </span>
+  </footer>
+  <nav
+    class="bottom-nav"
+    aria-label="Mobile navigation">
+    <RouterLink
+      v-for="link in links.filter((l) => l.to !== '/first-ladies')"
+      :key="link.to"
+      :to="link.to"
+      :class="{ active: route.path === link.to }">
+      <component
+        :is="link.icon"
+        :size="21" />
+      <span>{{ link.label }}</span>
+    </RouterLink>
+  </nav>
+</template>
+
+<style scoped lang="less">
+  @import (reference) './styles/variables.less';
+
+  .site-header {
+    max-width: 1264px;
+    margin: auto;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    gap: 24px;
+    @media (max-width: @tablet) {
+      padding: 0 30px;
+      height: 95px;
+    }
+    @media (max-width: @mobile) {
+      padding: 0 20px;
+      height: 84px;
+    }
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.03;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    img {
+      width: 51px;
+      height: 64px;
+    }
+    @media (max-width: @tablet) {
+      font-size: 21px;
+    }
+    @media (max-width: @mobile) {
+      font-size: 20px;
+      gap: 6px;
+      img {
+        width: 42px;
+        height: 54px;
+      }
+    }
+  }
+  .brand-red {
+    display: block;
+    color: var(--red);
+    font-size: 27px;
+    @media (max-width: @tablet) {
+      font-size: 24px;
+    }
+    @media (max-width: @mobile) {
+      font-size: 24px;
+    }
+  }
+  .brand-star {
+    font-size: 17px;
+    color: var(--gold);
+    margin-left: 6px;
+  }
+  .desktop-nav {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    a {
+      position: relative;
+      padding: 13px 0;
+    }
+    a.active {
+      color: var(--red);
+    }
+    a.active:after {
+      content: '';
+      height: 3px;
+      width: 22px;
+      bottom: 2px;
+      left: 0;
+      position: absolute;
+      background: var(--red);
+      border-radius: 4px;
+    }
+    @media (max-width: @desktop) {
+      gap: 20px;
+    }
+    @media (max-width: @tablet) {
+      gap: 16px;
+      font-size: 11px;
+    }
+    @media (max-width: @mobile) {
+      display: none;
+    }
+  }
+  .count {
+    font-size: 10px;
+    border-radius: 20px;
+    background: var(--red);
+    color: white;
+    padding: 2px 6px;
+    margin-left: 4px;
+  }
+  .mobile-menu {
+    display: none;
+    &.icon-button {
+      display: none;
+    }
+    @media (max-width: @mobile) {
+      display: flex;
+      &.icon-button {
+        display: flex;
+      }
+    }
+  }
+  .bottom-nav {
+    display: none;
+    @media (max-width: @mobile) {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 40;
+      background: #fffaf0f7;
+      border-top: 1px solid var(--line);
+      justify-content: space-around;
+      padding: 10px 8px max(10px, env(safe-area-inset-bottom));
+      backdrop-filter: blur(12px);
+      a {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 9px;
+        color: #7a8276;
+        min-width: 50px;
+      }
+      a.active {
+        color: var(--navy);
+        font-weight: 800;
+      }
+      a.active svg {
+        fill: #12364a12;
+      }
+    }
+  }
+  main {
+    max-width: 1184px;
+    padding: 0 0 20px;
+    margin: 0 auto;
+    @media (max-width: @desktop) {
+      margin: 0 35px;
+    }
+    @media (max-width: @mobile) {
+      margin: 0 20px;
+    }
+    @media (max-width: @small-mobile) {
+      margin: 0 14px;
+    }
+  }
+  .site-footer {
+    max-width: 1184px;
+    border-top: 1px solid var(--line);
+    margin: 35px auto 0;
+    padding: 28px 0 35px;
+    position: relative;
+    text-align: center;
+    p {
+      font-size: 12px;
+      margin-top: 7px;
+    }
+    > span:not(.footer-stars) {
+      font-size: 10px;
+      color: #928575;
+    }
+    @media (max-width: @desktop) {
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+    @media (max-width: @mobile) {
+      padding-bottom: 110px;
+      margin: 30px 20px 0;
+    }
+  }
+  .footer-wordmark {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 20px;
+    font-weight: 800;
+    > span {
+      color: var(--red);
+    }
+  }
+  .footer-stars {
+    color: var(--gold);
+    display: block;
+    margin-top: 15px;
+    letter-spacing: 8px;
+    font-size: 12px;
+  }
+  .status-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: #e8e3ce;
+    padding: 12px 20px;
+    font-size: 12px;
+    @media (max-width: @mobile) {
+      font-size: 10px;
+      align-items: flex-start;
+      svg {
+        flex-shrink: 0;
+      }
+    }
+  }
+  .update-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px 20px;
+    font-size: 12px;
+    background: var(--navy);
+    color: var(--paper);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    button {
+      background: var(--paper);
+      color: var(--navy);
+      border: 0;
+      border-radius: 7px;
+      padding: 6px 13px;
+      font-size: 12px;
+    }
+    button:last-child {
+      display: flex;
+      padding: 5px;
+      background: transparent;
+      color: var(--paper);
+    }
+    @media (max-width: @mobile) {
+      font-size: 11px;
+    }
+  }
+  .menu-panel {
+    display: none;
+    @media (max-width: @mobile) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: absolute;
+      top: 76px;
+      right: 20px;
+      left: 20px;
+      background: var(--paper);
+      padding: 15px;
+      gap: 6px;
+      z-index: 30;
+      border: 1px solid var(--line);
+      border-radius: 17px;
+      box-shadow: 0 12px 30px #12364a22;
+      a {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        padding: 12px;
+        font-size: 12px;
+        border-radius: 9px;
+      }
+      a:hover {
+        background: #eee8d8;
+      }
+    }
+  }
+  .skip-link {
+    position: fixed;
+    top: -60px;
+    left: 10px;
+    background: var(--navy);
+    color: white;
+    padding: 10px 20px;
+    z-index: 100;
+    &:focus {
+      top: 10px;
+    }
+  }
+</style>
