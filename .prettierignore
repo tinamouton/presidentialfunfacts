@@ -1,0 +1,18 @@
+# Dependencies and generated files
+node_modules/
+dist/
+dist-ssr/
+coverage/
+playwright-report/
+test-results/
+package-lock.json
+*.tsbuildinfo
+.cache/
+
+# Local design references and production assets (including external portraits/licenses)
+design/
+public/
+src/assets/
+
+# Repository metadata
+.git/

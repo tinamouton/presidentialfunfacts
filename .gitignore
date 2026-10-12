@@ -1,1 +1,49 @@
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+
+# Local design references
 /design/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Browser test reports
+/test-results/
+/playwright-report/
+/blob-report/
+
+# Local credentials and agent configuration
+/.aws/
+/.codex/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*Zone.Identifier
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
