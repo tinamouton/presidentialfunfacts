@@ -1,0 +1,82 @@
+[
+  {
+    "id": "coconut",
+    "clue": "I carved a message into a coconut shell to help rescuers find my boat’s crew. Who am I?",
+    "answerPersonId": "kennedy",
+    "choicePersonIds": ["washington", "jefferson", "lincoln", "kennedy"],
+    "explanation": "John F. Kennedy used a coconut shell to send a rescue message after his patrol boat was wrecked. Islanders carried the message for help.",
+    "sourceFactId": "kennedy-08"
+  },
+  {
+    "id": "peace-corps",
+    "clue": "I created the Peace Corps, a program for volunteers to help communities around the world. Who am I?",
+    "answerPersonId": "kennedy",
+    "choicePersonIds": ["washington", "jefferson", "lincoln", "kennedy"],
+    "explanation": "John F. Kennedy started the Peace Corps. Volunteers could help with teaching, farming, health care, and building projects.",
+    "sourceFactId": "kennedy-15"
+  },
+  {
+    "id": "declaration",
+    "clue": "I was chosen to write the first draft of the Declaration of Independence. Who am I?",
+    "answerPersonId": "jefferson",
+    "choicePersonIds": ["washington", "jefferson", "lincoln", "kennedy"],
+    "explanation": "Thomas Jefferson drafted the Declaration of Independence in 1776. Other members of Congress also helped shape the final document.",
+    "sourceFactId": "jefferson-08"
+  },
+  {
+    "id": "monticello",
+    "clue": "I designed my home on a mountain and named it Monticello. Who am I?",
+    "answerPersonId": "jefferson",
+    "choicePersonIds": ["washington", "jefferson", "lincoln", "kennedy"],
+    "explanation": "Thomas Jefferson designed Monticello. Enslaved people did the work of clearing the mountaintop where it would stand.",
+    "sourceFactId": "jefferson-06"
+  },
+  {
+    "id": "hostess",
+    "clue": "I served as White House hostess during my father’s presidency in the winters of 1802–1803 and 1805–1806. Who am I?",
+    "answerPersonId": "randolph",
+    "choicePersonIds": ["martha-washington", "randolph", "edith-roosevelt", "jacqueline-kennedy"],
+    "explanation": "Martha Jefferson Randolph helped host White House gatherings for her father, Thomas Jefferson. She was his daughter, not his wife.",
+    "sourceFactId": "randolph-11"
+  },
+  {
+    "id": "papers",
+    "clue": "I helped my family gather and edit my father’s papers after his presidency. He was the third U.S. president. Who am I?",
+    "answerPersonId": "randolph",
+    "choicePersonIds": ["martha-washington", "randolph", "edith-roosevelt", "jacqueline-kennedy"],
+    "explanation": "Martha Jefferson Randolph worked with family members to compile and edit Thomas Jefferson’s papers, helping preserve his writings.",
+    "sourceFactId": "randolph-14"
+  },
+  {
+    "id": "china",
+    "clue": "I ordered two cabinets to display dishes used by different presidential families. Who am I?",
+    "answerPersonId": "edith-roosevelt",
+    "choicePersonIds": ["martha-washington", "randolph", "edith-roosevelt", "jacqueline-kennedy"],
+    "explanation": "Edith Roosevelt commissioned cabinets for presidential china. These special dishes helped tell the history of the White House.",
+    "sourceFactId": "edith-roosevelt-14"
+  },
+  {
+    "id": "secretary",
+    "clue": "I hired Isabella Hagner as the first White House social secretary. Who am I?",
+    "answerPersonId": "edith-roosevelt",
+    "choicePersonIds": ["martha-washington", "randolph", "edith-roosevelt", "jacqueline-kennedy"],
+    "explanation": "Edith Roosevelt hired Isabella Hagner to help organize letters, receptions, dinners, and other White House events.",
+    "sourceFactId": "edith-roosevelt-11"
+  },
+  {
+    "id": "kindergarten",
+    "clue": "I turned the White House sun porch into a kindergarten for my daughter and other children. Who am I?",
+    "answerPersonId": "jacqueline-kennedy",
+    "choicePersonIds": ["martha-washington", "randolph", "edith-roosevelt", "jacqueline-kennedy"],
+    "explanation": "Jacqueline Kennedy made a classroom on the third-floor sun porch. Caroline and a small group of children came there for kindergarten.",
+    "sourceFactId": "jacqueline-kennedy-08"
+  },
+  {
+    "id": "riding",
+    "clue": "By age eleven, I had already won national horseback-riding championships. Later I became a first lady. Who am I?",
+    "answerPersonId": "jacqueline-kennedy",
+    "choicePersonIds": ["martha-washington", "randolph", "edith-roosevelt", "jacqueline-kennedy"],
+    "explanation": "Jacqueline Kennedy learned to ride as a very young child and won several national riding championships by age eleven.",
+    "sourceFactId": "jacqueline-kennedy-02"
+  }
+]

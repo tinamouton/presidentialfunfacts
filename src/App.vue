@@ -11,6 +11,7 @@
     Download,
     WifiOff,
     Sparkles,
+    Gamepad2,
   } from 'lucide-vue-next';
   import { useRoute } from 'vue-router';
   import { useRegisterSW } from 'virtual:pwa-register/vue';
@@ -26,6 +27,7 @@
     { to: '/first-ladies', label: 'First Ladies', icon: Sparkles },
     { to: '/topics', label: 'Topics', icon: BookOpen },
     { to: '/random', label: 'Random', icon: Shuffle },
+    { to: '/games', label: 'Fun & Games', icon: Gamepad2 },
     { to: '/favorites', label: 'Favorites', icon: Heart },
   ];
   interface InstallPrompt extends Event {
@@ -86,8 +88,24 @@
         v-for="link in links"
         :key="link.to"
         :to="link.to"
-        :class="{ active: route.path === link.to }">
-        {{ link.label }}
+        :class="{
+          active:
+            route.path === link.to || (link.to === '/games' && route.path.startsWith('/games/')),
+        }"
+      >
+        <span :class="{ 'games-label': link.to === '/games' }">
+          {{ link.label }}
+          <span
+            v-if="link.to === '/games'"
+            class="nav-stars"
+            aria-hidden="true"
+          >
+            <span class="nav-star star-left">✦</span>
+            <span class="nav-star star-left-small">★</span>
+            <span class="nav-star star-right">★</span>
+            <span class="nav-star star-right-small">✦</span>
+          </span>
+        </span>
         <span
           v-if="
             link.to === '/favorites' && favorites.saved.facts.length + favorites.saved.people.length
@@ -130,8 +148,21 @@
     >
       <component
         :is="link.icon"
-        :size="20" />
-      {{ link.label }}
+        :size="20"
+      />
+      <span :class="{ 'games-label': link.to === '/games' }">
+        {{ link.label }}
+        <span
+          v-if="link.to === '/games'"
+          class="nav-stars"
+          aria-hidden="true"
+        >
+          <span class="nav-star star-left">✦</span>
+          <span class="nav-star star-left-small">★</span>
+          <span class="nav-star star-right">★</span>
+          <span class="nav-star star-right-small">✦</span>
+        </span>
+      </span>
     </RouterLink>
   </nav>
   <div
@@ -188,11 +219,28 @@
       v-for="link in links.filter((l) => l.to !== '/first-ladies')"
       :key="link.to"
       :to="link.to"
-      :class="{ active: route.path === link.to }">
+      :class="{
+        active:
+          route.path === link.to || (link.to === '/games' && route.path.startsWith('/games/')),
+      }"
+    >
       <component
         :is="link.icon"
-        :size="21" />
-      <span>{{ link.label }}</span>
+        :size="21"
+      />
+      <span :class="{ 'games-label': link.to === '/games' }">
+        {{ link.label }}
+        <span
+          v-if="link.to === '/games'"
+          class="nav-stars"
+          aria-hidden="true"
+        >
+          <span class="nav-star star-left">✦</span>
+          <span class="nav-star star-left-small">★</span>
+          <span class="nav-star star-right">★</span>
+          <span class="nav-star star-right-small">✦</span>
+        </span>
+      </span>
     </RouterLink>
   </nav>
 </template>
@@ -261,7 +309,7 @@
   }
   .desktop-nav {
     display: flex;
-    gap: 27px;
+    gap: 18px;
     align-items: center;
     font-size: 13px;
     font-weight: 700;
@@ -286,11 +334,79 @@
       gap: 20px;
     }
     @media (max-width: @tablet) {
-      gap: 16px;
+      gap: 10px;
       font-size: 11px;
     }
     @media (max-width: @mobile) {
       display: none;
+    }
+  }
+  .games-label {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .nav-stars {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .nav-star {
+    position: absolute;
+    color: var(--gold);
+    line-height: 1;
+    font-size: 11px;
+    transform: rotate(-12deg);
+  }
+  .star-left {
+    left: -7px;
+    top: -4px;
+  }
+  .star-right {
+    right: -7px;
+    top: -2px;
+    font-size: 8px;
+    transform: rotate(15deg);
+  }
+  .star-left-small {
+    left: -1px;
+    top: -7px;
+    font-size: 6px;
+    transform: rotate(12deg);
+  }
+  .star-right-small {
+    right: -1px;
+    top: -5px;
+    font-size: 6px;
+    transform: rotate(-8deg);
+  }
+  a:hover .nav-star,
+  a:focus-visible .nav-star {
+    animation: nav-twinkle 700ms ease-in-out;
+  }
+  a:hover .star-right,
+  a:focus-visible .star-right {
+    animation-delay: 100ms;
+  }
+  a:hover .star-left-small,
+  a:focus-visible .star-left-small,
+  a:hover .star-right-small,
+  a:focus-visible .star-right-small {
+    animation-delay: 150ms;
+  }
+  @keyframes nav-twinkle {
+    0%,
+    100% {
+      scale: 1;
+      translate: 0 0;
+    }
+    45% {
+      scale: 1.25;
+      translate: 0 -2px;
+    }
+    70% {
+      scale: 0.95;
+      translate: 0 0;
     }
   }
   .count {

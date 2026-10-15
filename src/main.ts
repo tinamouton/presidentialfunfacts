@@ -13,6 +13,8 @@ import Explore from './views/Explore.vue';
 import Home from './views/Home.vue';
 import Detail from './views/Detail.vue';
 import Random from './views/Random.vue';
+import FunAndGames from './views/FunAndGames.vue';
+import WhoAmI from './views/WhoAmI.vue';
 import './styles/index.less';
 const router = createRouter({
   history: createWebHistory(),
@@ -25,6 +27,8 @@ const router = createRouter({
     { path: '/favorites', component: Explore, props: { mode: 'favorites' } },
     { path: '/person/:id', component: Detail },
     { path: '/random', component: Random },
+    { path: '/games', component: FunAndGames },
+    { path: '/games/who-am-i', component: WhoAmI },
     { path: '/:pathMatch(.*)*', redirect: '/' },
   ],
 });

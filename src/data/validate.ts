@@ -92,3 +92,39 @@ export function validateData(data: Dataset): string[] {
     errors.push('Expected one term range per president');
   return errors;
 }
+
+export function validateQuestions(
+  questions: import('../models').WhoAmIQuestion[],
+  data: Pick<Dataset, 'people' | 'facts' | 'sources'>,
+): string[] {
+  const errors: string[] = [];
+  const ids = new Set(questions.map((question) => question.id));
+  if (ids.size !== questions.length) errors.push('Duplicate question IDs');
+  const personIds = new Set(data.people.map((person) => person.id));
+  for (const question of questions) {
+    const fail = (message: string) => errors.push(`${question.id}: ${message}`);
+    if (!question.id.trim() || !question.clue.trim() || !question.explanation.trim())
+      fail('missing question text');
+    if (
+      !personIds.has(question.answerPersonId) ||
+      question.choicePersonIds.some((id) => !personIds.has(id))
+    )
+      fail('unknown person');
+    if (question.choicePersonIds.length !== 4 || new Set(question.choicePersonIds).size !== 4)
+      fail('expected four distinct choices');
+    if (!question.choicePersonIds.includes(question.answerPersonId)) fail('missing correct answer');
+    const fact = data.facts.find((item) => item.id === question.sourceFactId);
+    const source = data.sources.find((item) => item.id === fact?.sourceId);
+    if (!fact || fact.verification !== 'verified' || fact.personId !== question.answerPersonId)
+      fail('invalid source fact');
+    try {
+      if (!source?.name.trim() || new URL(source.url).protocol !== 'https:')
+        fail('invalid source reference');
+    } catch {
+      fail('invalid source reference');
+    }
+  }
+  if (errors.length || ids.size < 5)
+    errors.push('Expected at least five valid questions and no invalid questions');
+  return errors;
+}

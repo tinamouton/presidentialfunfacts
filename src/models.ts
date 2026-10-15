@@ -48,3 +48,12 @@ export interface Fact {
   sourceId: string;
   verification: 'verified' | 'unverified';
 }
+
+export interface WhoAmIQuestion {
+  id: string;
+  clue: string;
+  answerPersonId: string;
+  choicePersonIds: string[];
+  explanation: string;
+  sourceFactId: string;
+}

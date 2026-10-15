@@ -44,6 +44,7 @@ The First Ladies screen labels Martha Jefferson Randolph as a daughter and occas
 - `src/stores/favorites.ts`: Pinia state with localStorage persistence and graceful storage errors.
 - `src/components/`: shared person and fact cards.
 - `src/views/`: Home, Explore (lists/topics/favorites), Detail, Random.
+- `src/views/`: Home, Explore (lists/topics/favorites), Detail, FunAndGames, WhoAmI; random discovery lives in Topics.
 - `src/styles/variables.less`: shared palette, CSS custom properties, and Less breakpoint variables.
 - `src/styles/base.less`: document defaults, typography, accessibility, and reduced-motion rules.
 - `src/styles/utilities.less`: shared buttons, layout grids, headings, and utility classes.
