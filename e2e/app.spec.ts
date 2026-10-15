@@ -39,7 +39,7 @@ test('desktop discovery, favorites persistence, relationships and sources', asyn
   await page.getByRole('textbox', { name: 'Search facts' }).fill('pulitzer');
   await expect(page.locator('.fact-card')).toHaveCount(1);
   await expect(page.locator('.source-row a')).toHaveAttribute('href', /jfklibrary.org/);
-  await page.goto('/random');
+  await page.goto('/topics?category=random');
   const first = await page.locator('.fact-card h3').textContent();
   await page.getByRole('button', { name: 'Another surprise!' }).click();
   expect(await page.locator('.fact-card h3').textContent()).not.toBe(first);
@@ -55,7 +55,7 @@ test('mobile pages have working navigation, loaded portraits and no page overflo
     '/first-ladies',
     '/topics',
     '/person/kennedy',
-    '/random',
+    '/topics?category=random',
     '/favorites',
   ]) {
     await page.goto(path);
@@ -118,8 +118,40 @@ test('production PWA caches all portraits and fonts and loads routes offline', a
       }),
     );
   });
-  await page.goto('/random');
+  await page.goto('/topics?category=random');
   await expect(page.locator('.fact-card')).toBeVisible();
   await page.getByRole('button', { name: 'Another surprise!' }).click();
   await context.setOffline(false);
+});
+
+test('Random lives in Topics and old links redirect there', async ({ page }) => {
+  await page.goto('/topics');
+  await expect(
+    page
+      .getByRole('navigation', { name: 'Main navigation' })
+      .getByRole('link', { name: 'Random', exact: true }),
+  ).toHaveCount(0);
+  const random = page.getByRole('button', { name: 'Random Let Captain Facts choose a surprise.' });
+  await random.click();
+  await expect(random).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.locator('.random-fact .fact-card')).toBeVisible();
+  await expect(page.getByRole('textbox', { name: 'Search facts' })).toHaveCount(0);
+  await page.getByLabel('Surprise me with').selectOption('arts');
+  await expect(page.locator('.random-fact .pill')).toContainText('Arts & ideas');
+  const initial = await page.locator('.random-fact h3').textContent();
+  await page.getByRole('button', { name: 'Another surprise!' }).click();
+  expect(await page.locator('.random-fact h3').textContent()).not.toBe(initial);
+  await page.getByRole('button', { name: /Arts & ideas .*stories to discover/ }).click();
+  await expect(random).toHaveAttribute('aria-pressed', 'false');
+  await expect(page.getByRole('textbox', { name: 'Search facts' })).toBeVisible();
+  await expect(page.locator('.random-stage')).toHaveCount(0);
+  await page.goto('/random');
+  await expect(page).toHaveURL(/\/topics\?category=random$/);
+  await expect(page.locator('.random-fact .fact-card')).toBeVisible();
+  await page.setViewportSize({ width: 390, height: 844 });
+  await expect(
+    page
+      .getByRole('navigation', { name: 'Mobile navigation' })
+      .getByRole('link', { name: 'Topics' }),
+  ).toBeVisible();
 });

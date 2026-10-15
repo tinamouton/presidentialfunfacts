@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ArrowRight, BookOpen, BadgeCheck, Heart, Sparkles } from 'lucide-vue-next';
-  import { facts, people, categories } from '../data';
+  import { facts, people, categories, randomTopic } from '../data';
   import TopicCard from '../components/TopicCard.vue';
   import WelcomeHero from '../components/WelcomeHero.vue';
   import PersonCard from '../components/PersonCard.vue';
@@ -91,6 +91,11 @@
         :key="category.id"
         :topic="category"
         :to="`/topics?category=${category.id}`"
+        show-arrow
+      />
+      <TopicCard
+        :topic="randomTopic"
+        to="/topics?category=random"
         show-arrow
       />
     </div>

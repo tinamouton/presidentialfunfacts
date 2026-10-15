@@ -55,3 +55,11 @@ export const relatedPeople = (id: string) =>
   relationships
     .filter((r) => r.from === id)
     .map((r) => ({ relationship: r, person: personById(r.to)! }));
+
+export const randomTopic = {
+  id: 'random' as const,
+  name: 'Random',
+  description: 'Let Captain Facts choose a surprise.',
+  symbol: '✦',
+  color: 'gold',
+};

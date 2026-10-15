@@ -27,7 +27,7 @@ Production preview is normally `http://localhost:4173`. The service worker is en
 - Home with original Captain Facts SVG artwork, featured discovery, president portraits, topic discovery, and first-lady navigation.
 - Searchable Presidents and First Ladies lists with terms/administrations and sorting.
 - Person biographies, relationship navigation, keyboard-accessible fact carousel, and portrait rights.
-- Random facts with topic selection and no immediate repeated fact when alternatives exist.
+- Random facts within Topics, with topic selection and no immediate repeated fact when alternatives exist.
 - Six topics, fact search, and persistent favorites for people and facts.
 - Responsive desktop navigation, mobile bottom navigation and expanded menu, reduced-motion support, labeled controls, skip link, and live results/status messages.
 - Installable PWA, 192/512px icons, locally bundled portraits/fonts/facts, offline application shell, and a user-controlled update prompt.
@@ -43,7 +43,6 @@ The First Ladies screen labels Martha Jefferson Randolph as a daughter and occas
 - `src/utils.ts`: discovery, randomization, and safe favorites parsing.
 - `src/stores/favorites.ts`: Pinia state with localStorage persistence and graceful storage errors.
 - `src/components/`: shared person and fact cards.
-- `src/views/`: Home, Explore (lists/topics/favorites), Detail, Random.
 - `src/views/`: Home, Explore (lists/topics/favorites), Detail, FunAndGames, WhoAmI; random discovery lives in Topics.
 - `src/styles/variables.less`: shared palette, CSS custom properties, and Less breakpoint variables.
 - `src/styles/base.less`: document defaults, typography, accessibility, and reduced-motion rules.

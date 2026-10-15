@@ -1,7 +1,9 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { people, facts, sources, categories, relationships, terms } from '../src/data';
-import { validateData } from '../src/data/validate';
+import { whoAmIQuestions } from '../src/data/whoAmI';
+import { validateQuestions, validateData } from '../src/data/validate';
 const errors = validateData({ people, facts, sources, categories, relationships, terms });
+errors.push(...validateQuestions(whoAmIQuestions, { people, facts, sources }));
 for (const person of people)
   if (!existsSync(`public${person.image.path}`)) errors.push(`Missing portrait for ${person.name}`);
 for (const size of [192, 512])

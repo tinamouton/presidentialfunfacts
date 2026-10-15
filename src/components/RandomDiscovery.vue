@@ -4,7 +4,7 @@
   import { facts, categories } from '../data';
   import type { CategoryId } from '../models';
   import { filterFacts, randomFact } from '../utils';
-  import FactCard from '../components/FactCard.vue';
+  import FactCard from './FactCard.vue';
   const category = ref<CategoryId | ''>(''),
     current = ref(randomFact(facts)!);
   const pool = computed(() => filterFacts(facts, { category: category.value }));
@@ -13,16 +13,12 @@
   }
 </script>
 <template>
-  <div class="page-head centered">
-    <span class="eyebrow">LET HISTORY SURPRISE YOU</span>
-    <h1>A little fact.<br /><span>A big “who knew?”</span></h1>
-    <p>You never know what you’ll discover next.</p>
-  </div>
   <section class="random-stage">
     <img
       src="/mascot.svg"
       class="random-mascot"
-      alt="Captain Facts" /><span
+      alt="Captain Facts"
+    /><span
       class="random-star"
       aria-hidden="true"
       >✦</span
@@ -30,27 +26,32 @@
     <div
       class="random-fact"
       aria-live="polite"
-      aria-atomic="true">
+      aria-atomic="true"
+    >
       <FactCard
         :key="current.id"
         :fact="current"
-        large />
+        large
+      />
     </div>
     <div class="random-actions">
       <button
         class="button red"
-        @click="shuffle">
+        @click="shuffle"
+      >
         <Shuffle :size="20" /> Another surprise!</button
       ><label class="random-filter"
         ><span>Surprise me with</span
         ><select
           v-model="category"
-          @change="shuffle">
+          @change="shuffle"
+        >
           <option value="">anything</option>
           <option
             v-for="topic in categories"
             :key="topic.id"
-            :value="topic.id">
+            :value="topic.id"
+          >
             {{ topic.name.toLowerCase() }}
           </option>
         </select></label
@@ -69,9 +70,9 @@
   .random-stage {
     position: relative;
     max-width: 650px;
-    margin: 115px auto 70px;
+    margin: 179px auto 70px;
     @media (max-width: @mobile) {
-      margin-top: 106px;
+      margin-top: 158px;
     }
   }
   .random-mascot {

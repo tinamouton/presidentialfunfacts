@@ -4,7 +4,6 @@
     Home,
     Users,
     Heart,
-    Shuffle,
     BookOpen,
     Menu,
     X,
@@ -26,7 +25,6 @@
     { to: '/presidents', label: 'Presidents', icon: Users },
     { to: '/first-ladies', label: 'First Ladies', icon: Sparkles },
     { to: '/topics', label: 'Topics', icon: BookOpen },
-    { to: '/random', label: 'Random', icon: Shuffle },
     { to: '/games', label: 'Fun & Games', icon: Gamepad2 },
     { to: '/favorites', label: 'Favorites', icon: Heart },
   ];

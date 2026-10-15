@@ -2,24 +2,27 @@
   import { computed, ref, watch } from 'vue';
   import { useRoute } from 'vue-router';
   import { Search, X, Heart, ArrowRight, SlidersHorizontal } from 'lucide-vue-next';
-  import { people, facts, categories } from '../data';
+  import { people, facts, categories, randomTopic } from '../data';
   import type { CategoryId } from '../models';
   import { filterFacts } from '../utils';
   import { useFavorites } from '../stores/favorites';
   import TopicCard from '../components/TopicCard.vue';
   import PersonCard from '../components/PersonCard.vue';
   import FactCard from '../components/FactCard.vue';
+  import RandomDiscovery from '../components/RandomDiscovery.vue';
   const props = defineProps<{ mode: 'presidents' | 'first-ladies' | 'topics' | 'favorites' }>();
   const route = useRoute(),
     favorites = useFavorites(),
     query = ref(''),
     category = ref<CategoryId | ''>(''),
+    randomSelected = ref(false),
     savedTab = ref<'facts' | 'people'>('facts'),
     sort = ref('chronological');
   watch(
     () => [props.mode, route.query.category],
     () => {
       query.value = '';
+      randomSelected.value = props.mode === 'topics' && route.query.category === 'random';
       category.value = categories.some((c) => c.id === route.query.category)
         ? (route.query.category as CategoryId)
         : '';
@@ -125,114 +128,144 @@
       :topic="topic"
       :selected="category === topic.id"
       :description="`${facts.filter((fact) => fact.category === topic.id).length} stories to discover`"
-      @click="category = category === topic.id ? '' : topic.id" />
+      @click="
+        randomSelected = false;
+        category = category === topic.id ? '' : topic.id;
+      "
+    />
+    <TopicCard
+      :topic="randomTopic"
+      :selected="randomSelected"
+      @click="
+        randomSelected = !randomSelected;
+        category = '';
+        query = '';
+      "
+    />
   </div>
-  <div class="filter-row">
-    <label class="search-field"
-      ><Search :size="20" /><span class="sr-only">Search {{ showPeople ? 'people' : 'facts' }}</span
-      ><input
-        v-model="query"
-        :placeholder="
-          showPeople
-            ? 'Search names, administrations, or years…'
-            : 'Search people, stories, or ideas…'
-        " /><button
-        v-if="query"
-        class="icon-button"
-        aria-label="Clear search"
-        @click="query = ''">
-        <X :size="17" /></button></label
-    ><label
-      v-if="showPeople"
-      class="sort-field"
-      ><SlidersHorizontal :size="17" /><span class="sr-only">Sort people</span
-      ><select v-model="sort">
-        <option value="chronological">Historical order</option>
-        <option value="name">Name A–Z</option>
-      </select></label
-    ><label
-      v-else
-      class="sort-field"
-      ><span class="sr-only">Filter by topic</span
-      ><select v-model="category">
-        <option value="">All topics</option>
-        <option
-          v-for="topic in categories"
-          :key="topic.id"
-          :value="topic.id">
-          {{ topic.name }}
-        </option>
-      </select></label
+  <RandomDiscovery v-if="randomSelected" />
+
+  <template v-else>
+    <div class="filter-row">
+      <label class="search-field"
+        ><Search :size="20" /><span class="sr-only"
+          >Search {{ showPeople ? 'people' : 'facts' }}</span
+        ><input
+          v-model="query"
+          :placeholder="
+            showPeople
+              ? 'Search names, administrations, or years…'
+              : 'Search people, stories, or ideas…'
+          " /><button
+          v-if="query"
+          class="icon-button"
+          aria-label="Clear search"
+          @click="query = ''"
+        >
+          <X :size="17" /></button></label
+      ><label
+        v-if="showPeople"
+        class="sort-field"
+        ><SlidersHorizontal :size="17" /><span class="sr-only">Sort people</span
+        ><select v-model="sort">
+          <option value="chronological">Historical order</option>
+          <option value="name">Name A–Z</option>
+        </select></label
+      ><label
+        v-else
+        class="sort-field"
+        ><span class="sr-only">Filter by topic</span
+        ><select v-model="category">
+          <option value="">All topics</option>
+          <option
+            v-for="topic in categories"
+            :key="topic.id"
+            :value="topic.id"
+          >
+            {{ topic.name }}
+          </option>
+        </select></label
+      >
+    </div>
+    <div
+      class="results-label"
+      role="status"
     >
-  </div>
-  <div
-    class="results-label"
-    role="status">
-    {{ showPeople ? listPeople.length : listFacts.length }} {{ showPeople ? 'people' : 'stories' }}
-    {{ query ? 'found' : 'to discover'
-    }}<button
-      v-if="query || category"
-      class="text-link"
-      @click="
-        query = '';
-        category = '';
-      ">
-      Clear filters <X :size="14" />
-    </button>
-  </div>
-  <div
-    v-if="showPeople && listPeople.length"
-    class="people-grid">
-    <PersonCard
-      v-for="person in listPeople"
-      :key="person.id"
-      :person="person" />
-  </div>
-  <div
-    v-else-if="!showPeople && listFacts.length"
-    class="facts-grid">
-    <FactCard
-      v-for="fact in listFacts"
-      :key="fact.id"
-      :fact="fact" />
-  </div>
-  <div
-    v-else
-    class="empty-state">
-    <Heart
-      v-if="mode === 'favorites'"
-      :size="42" /><Search
+      {{ showPeople ? listPeople.length : listFacts.length }}
+      {{ showPeople ? 'people' : 'stories' }} {{ query ? 'found' : 'to discover'
+      }}<button
+        v-if="query || category"
+        class="text-link"
+        @click="
+          query = '';
+          category = '';
+        "
+      >
+        Clear filters <X :size="14" />
+      </button>
+    </div>
+    <div
+      v-if="showPeople && listPeople.length"
+      class="people-grid"
+    >
+      <PersonCard
+        v-for="person in listPeople"
+        :key="person.id"
+        :person="person"
+      />
+    </div>
+    <div
+      v-else-if="!showPeople && listFacts.length"
+      class="facts-grid"
+    >
+      <FactCard
+        v-for="fact in listFacts"
+        :key="fact.id"
+        :fact="fact"
+      />
+    </div>
+    <div
       v-else
-      :size="42" />
-    <h2>
-      {{
-        mode === 'favorites' && !query && !category
-          ? 'Make room for a little history.'
-          : 'No stories found just yet.'
-      }}
-    </h2>
-    <p>
-      {{
-        mode === 'favorites'
-          ? 'Tap the heart on any person or fact to save it here.'
-          : 'Try another name or clear your filters to explore again.'
-      }}
-    </p>
-    <RouterLink
-      v-if="mode === 'favorites'"
-      to="/presidents"
-      class="button navy"
-      >Start exploring <ArrowRight :size="18" /></RouterLink
-    ><button
-      v-else
-      class="button navy"
-      @click="
-        query = '';
-        category = '';
-      ">
-      Clear filters
-    </button>
-  </div>
+      class="empty-state"
+    >
+      <Heart
+        v-if="mode === 'favorites'"
+        :size="42"
+      /><Search
+        v-else
+        :size="42"
+      />
+      <h2>
+        {{
+          mode === 'favorites' && !query && !category
+            ? 'Make room for a little history.'
+            : 'No stories found just yet.'
+        }}
+      </h2>
+      <p>
+        {{
+          mode === 'favorites'
+            ? 'Tap the heart on any person or fact to save it here.'
+            : 'Try another name or clear your filters to explore again.'
+        }}
+      </p>
+      <RouterLink
+        v-if="mode === 'favorites'"
+        to="/presidents"
+        class="button navy"
+        >Start exploring <ArrowRight :size="18" /></RouterLink
+      ><button
+        v-else
+        class="button navy"
+        @click="
+          query = '';
+          category = '';
+        "
+      >
+        Clear filters
+      </button>
+    </div>
+  </template>
 </template>
 
 <style scoped lang="less">
