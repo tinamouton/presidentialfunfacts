@@ -18,7 +18,7 @@
           class="button red"
           >Explore the presidents <ArrowRight :size="18" /></RouterLink
         ><RouterLink
-          to="/random"
+          to="/topics?category=random"
           class="button cream"
           ><Shuffle :size="18" /> Surprise me</RouterLink
         >
@@ -45,42 +45,51 @@
       <img
         class="captain"
         src="/mascot.svg"
-        alt="Captain Facts, a smiling Uncle Sam hat mascot" />
+        alt="Captain Facts, a smiling Uncle Sam hat mascot"
+      />
       <div class="hill hill-back"></div>
       <div class="hill hill-front"></div>
       <svg
         class="white-house"
         viewBox="0 0 280 140"
-        aria-hidden="true">
+        aria-hidden="true"
+      >
         <path
           d="M22 62h236v64H22z"
           fill="#f8eed8"
           stroke="#97aaa0"
-          stroke-width="3" />
+          stroke-width="3"
+        />
         <path
           d="M70 48h140v80H70z"
           fill="#fff9ec"
           stroke="#97aaa0"
-          stroke-width="3" />
+          stroke-width="3"
+        />
         <path
           d="m59 50 81-37 81 37z"
           fill="#fff9ec"
           stroke="#97aaa0"
-          stroke-width="3" />
+          stroke-width="3"
+        />
         <path
           d="M85 58v59m27-59v59m55-59v59m28-59v59"
           stroke="#cfceb8"
-          stroke-width="9" />
+          stroke-width="9"
+        />
         <path
           d="M130 123L130 83h18v40"
-          fill="#12364a" />
+          fill="#12364a"
+        />
         <path
           d="M10 129h260M140 12V0"
           stroke="#97aaa0"
-          stroke-width="3" />
+          stroke-width="3"
+        />
         <path
           d="M140 0h28v14h-28"
-          fill="#cb4a39" />
+          fill="#cb4a39"
+        />
         <g fill="#7699a5">
           <path d="M34 76h13v21H34zm20 0h13v21H54zm160 0h13v21h-13zm20 0h13v21h-13z" />
         </g>

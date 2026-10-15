@@ -16,5 +16,6 @@
     :is="icons[category]"
     :size="size"
     :stroke-width="1.6"
-    aria-hidden="true" />
+    aria-hidden="true"
+  />
 </template>

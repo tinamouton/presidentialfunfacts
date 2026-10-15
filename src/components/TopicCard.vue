@@ -1,12 +1,12 @@
 <script setup lang="ts">
   import { RouterLink } from 'vue-router';
   import { ArrowRight } from 'lucide-vue-next';
-  import type { Category } from '../models';
+  import type { Category, CategoryId } from '../models';
   import TopicIcon from './TopicIcon.vue';
 
   withDefaults(
     defineProps<{
-      topic: Category;
+      topic: Omit<Category, 'id'> & { id: CategoryId | 'random' };
       to?: string;
       selected?: boolean;
       description?: string;
@@ -23,7 +23,8 @@
     :type="to ? undefined : 'button'"
     class="topic-card"
     :class="{ chosen: selected }"
-    :aria-pressed="to ? undefined : selected">
+    :aria-pressed="to ? undefined : selected"
+  >
     <span
       class="topic-symbol"
       :class="topic.color"
@@ -33,7 +34,8 @@
     <p>{{ description ?? topic.description }}</p>
     <ArrowRight
       v-if="showArrow"
-      :size="17" />
+      :size="17"
+    />
   </component>
 </template>
 

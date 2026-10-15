@@ -40,7 +40,8 @@
       <div class="detail-portrait">
         <img
           :src="person.image.path"
-          :alt="`Portrait of ${person.name}`" /><span>{{ person.years }}</span>
+          :alt="`Portrait of ${person.name}`"
+        /><span>{{ person.years }}</span>
       </div>
       <div class="detail-copy">
         <span class="eyebrow">{{ person.subtitle }}</span>
@@ -49,10 +50,12 @@
         <button
           class="button cream"
           :aria-pressed="favorites.saved.people.includes(person.id)"
-          @click="favorites.toggle('people', person.id)">
+          @click="favorites.toggle('people', person.id)"
+        >
           <Heart
             :size="18"
-            :fill="favorites.saved.people.includes(person.id) ? 'currentColor' : 'none'" />{{
+            :fill="favorites.saved.people.includes(person.id) ? 'currentColor' : 'none'"
+          />{{
             favorites.saved.people.includes(person.id) ? 'Saved to favorites' : 'Save this person'
           }}
         </button>
@@ -90,26 +93,31 @@
         :aria-label="`${person.name} facts carousel`"
         tabindex="0"
         @keydown.left.prevent="next(-1)"
-        @keydown.right.prevent="next(1)">
+        @keydown.right.prevent="next(1)"
+      >
         <div
           aria-live="polite"
-          aria-atomic="true">
+          aria-atomic="true"
+        >
           <FactCard
             v-if="personFacts[index]"
             :key="personFacts[index].id"
             :fact="personFacts[index]"
-            large />
+            large
+          />
         </div>
         <div class="carousel-controls">
           <button
             class="icon-button"
             aria-label="Previous fact"
-            @click="next(-1)">
+            @click="next(-1)"
+          >
             <ChevronLeft /></button
           ><span>{{ index + 1 }} / {{ personFacts.length }}</span
           ><button
             class="button navy"
-            @click="next(1)">
+            @click="next(1)"
+          >
             Next discovery <ChevronRight :size="18" />
           </button>
         </div>
@@ -131,7 +139,8 @@
   >
   <div
     v-else
-    class="empty-state">
+    class="empty-state"
+  >
     <h1>This person isn’t in our collection.</h1>
     <RouterLink
       to="/presidents"

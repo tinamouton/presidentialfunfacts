@@ -52,7 +52,7 @@ Source code is written for human developers. Production minification is handled 
 
 - Put each attribute on its own line when an element has multiple attributes.
 - Keep single-attribute elements compact when readable.
-- Keep the closing `>` of a multiline opening tag on the final attribute line (`bracketSameLine: true`). Prettier handles self-closing tags separately.
+- Separate the closing `>` of a multiline opening tag on the final attribute line (`bracketSameLine: false`). Prettier handles self-closing tags separately.
 - Use blank lines to separate major logical UI sections.
 - Indent nested items inside tags (script, template, style)
 - Avoid deeply nested template structures where a reusable component would improve clarity.

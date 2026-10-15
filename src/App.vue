@@ -61,23 +61,27 @@
 <template>
   <a
     href="#main"
-    class="skip-link">
+    class="skip-link"
+  >
     Skip to content
   </a>
   <header class="site-header">
     <RouterLink
       to="/"
       class="brand"
-      aria-label="PresidentialFunFacts home">
+      aria-label="PresidentialFunFacts home"
+    >
       <img
         src="/mascot.svg"
-        alt="" /><span>
+        alt=""
+      /><span>
         Presidential<span class="brand-red">FunFacts<span class="brand-star">✦</span></span></span
       >
     </RouterLink>
     <nav
       class="desktop-nav"
-      aria-label="Main navigation">
+      aria-label="Main navigation"
+    >
       <RouterLink
         v-for="link in links"
         :key="link.to"
@@ -88,7 +92,8 @@
           v-if="
             link.to === '/favorites' && favorites.saved.facts.length + favorites.saved.people.length
           "
-          class="count">
+          class="count"
+        >
           {{ favorites.saved.facts.length + favorites.saved.people.length }}
         </span>
       </RouterLink>
@@ -97,7 +102,8 @@
       v-if="installPrompt"
       class="icon-button"
       aria-label="Install app"
-      @click="install">
+      @click="install"
+    >
       <Download :size="20" />
     </button>
     <button
@@ -105,7 +111,8 @@
       :aria-expanded="menuOpen"
       aria-controls="mobile-menu"
       aria-label="Toggle menu"
-      @click="menuOpen = !menuOpen">
+      @click="menuOpen = !menuOpen"
+    >
       <X v-if="menuOpen" /><Menu v-else />
     </button>
   </header>
@@ -113,12 +120,14 @@
     v-if="menuOpen"
     id="mobile-menu"
     class="menu-panel"
-    aria-label="More navigation">
+    aria-label="More navigation"
+  >
     <RouterLink
       v-for="link in links"
       :key="link.to"
       :to="link.to"
-      @click="menuOpen = false">
+      @click="menuOpen = false"
+    >
       <component
         :is="link.icon"
         :size="20" />
@@ -128,25 +137,29 @@
   <div
     v-if="!online"
     class="status-message"
-    role="status">
+    role="status"
+  >
     <WifiOff :size="16" />
     You’re offline. Your facts and portraits are still here; source websites need a connection.
   </div>
   <div
     v-if="favorites.storageError"
     class="status-message"
-    role="status">
+    role="status"
+  >
     {{ favorites.storageError }}
   </div>
   <div
     v-if="needRefresh"
     class="update-banner"
-    role="status">
+    role="status"
+  >
     <span>A fresh chapter is ready.</span>
     <button @click="updateServiceWorker(true)">Update app</button>
     <button
       aria-label="Dismiss update"
-      @click="needRefresh = false">
+      @click="needRefresh = false"
+    >
       <X :size="18" />
     </button>
   </div>
@@ -154,20 +167,23 @@
   <footer class="site-footer">
     <RouterLink
       to="/"
-      class="footer-wordmark">
+      class="footer-wordmark"
+    >
       Presidential<span>FunFacts</span>
     </RouterLink>
     <p>Little-known facts. Big personalities.</p>
     <span>Curiosity welcome. Sources included.</span>
     <span
       class="footer-stars"
-      aria-hidden="true">
+      aria-hidden="true"
+    >
       ✦ ★ ✦
     </span>
   </footer>
   <nav
     class="bottom-nav"
-    aria-label="Mobile navigation">
+    aria-label="Mobile navigation"
+  >
     <RouterLink
       v-for="link in links.filter((l) => l.to !== '/first-ladies')"
       :key="link.to"

@@ -14,7 +14,8 @@
       ><img
         :src="person.image.path"
         :alt="`Portrait of ${person.name}`"
-        loading="lazy" /><span class="portrait-tag">{{
+        loading="lazy"
+      /><span class="portrait-tag">{{
         person.kind === 'hostess'
           ? 'WHITE HOUSE HOSTESS'
           : person.kind === 'first-lady'
@@ -26,10 +27,12 @@
       class="save-person icon-button"
       :aria-label="`${favorites.saved.people.includes(person.id) ? 'Unsave' : 'Save'} ${person.name}`"
       :aria-pressed="favorites.saved.people.includes(person.id)"
-      @click="favorites.toggle('people', person.id)">
+      @click="favorites.toggle('people', person.id)"
+    >
       <Heart
         :size="19"
-        :fill="favorites.saved.people.includes(person.id) ? 'currentColor' : 'none'" />
+        :fill="favorites.saved.people.includes(person.id) ? 'currentColor' : 'none'"
+      />
     </button>
     <div class="person-card-body">
       <span class="eyebrow muted">{{ person.years }}</span

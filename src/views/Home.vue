@@ -23,7 +23,7 @@
         <h2>Well, did you know?</h2>
       </div>
       <RouterLink
-        to="/random"
+        to="/topics?category=random"
         class="text-link"
         >More surprises <ArrowRight :size="17"
       /></RouterLink>
@@ -49,7 +49,8 @@
       </div>
       <FactCard
         :fact="featured"
-        large />
+        large
+      />
     </div>
   </section>
   <section class="section">
@@ -68,7 +69,8 @@
       <PersonCard
         v-for="person in people.filter((p) => p.kind === 'president')"
         :key="person.id"
-        :person="person" />
+        :person="person"
+      />
     </div>
   </section>
   <section class="section">
@@ -89,16 +91,19 @@
         :key="category.id"
         :topic="category"
         :to="`/topics?category=${category.id}`"
-        show-arrow />
+        show-arrow
+      />
     </div>
   </section>
   <section class="first-ladies-banner">
     <div class="banner-portraits">
       <img
         src="/portraits/jacqueline-kennedy.jpg"
-        alt="Jacqueline Kennedy" /><img
+        alt="Jacqueline Kennedy"
+      /><img
         src="/portraits/martha-washington.jpg"
-        alt="Martha Washington" />
+        alt="Martha Washington"
+      />
     </div>
     <div>
       <span class="eyebrow"><Sparkles :size="15" /> ANOTHER SIDE OF THE STORY</span>

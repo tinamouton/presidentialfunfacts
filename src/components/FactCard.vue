@@ -10,21 +10,25 @@
 <template>
   <article
     class="fact-card"
-    :class="{ large }">
+    :class="{ large }"
+  >
     <div class="fact-top">
       <span class="pill"
         ><TopicIcon
           :category="fact.category"
-          :size="13" />
+          :size="13"
+        />
         {{ categories.find((c) => c.id === fact.category)?.name }}</span
       ><button
         class="icon-button"
         :aria-label="`${favorites.saved.facts.includes(fact.id) ? 'Unsave' : 'Save'} fact: ${fact.headline}`"
         :aria-pressed="favorites.saved.facts.includes(fact.id)"
-        @click="favorites.toggle('facts', fact.id)">
+        @click="favorites.toggle('facts', fact.id)"
+      >
         <Heart
           :size="21"
-          :fill="favorites.saved.facts.includes(fact.id) ? 'currentColor' : 'none'" />
+          :fill="favorites.saved.facts.includes(fact.id) ? 'currentColor' : 'none'"
+        />
       </button>
     </div>
     <h3>{{ fact.headline }}</h3>
@@ -35,7 +39,8 @@
       ><img
         :src="personById(fact.personId)?.image.path"
         alt=""
-        loading="lazy" /><span>{{ personById(fact.personId)?.name }}</span></RouterLink
+        loading="lazy"
+      /><span>{{ personById(fact.personId)?.name }}</span></RouterLink
     >
     <div class="source-row">
       <span

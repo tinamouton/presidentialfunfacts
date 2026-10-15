@@ -87,7 +87,8 @@
   </div>
   <div
     v-if="mode === 'first-ladies'"
-    class="info-note">
+    class="info-note"
+  >
     <span>✦</span>
     <p>
       <strong>First ladies & White House hostesses</strong><br />Martha Jefferson Randolph was
@@ -98,22 +99,26 @@
   <div
     v-if="mode === 'favorites'"
     class="segmented"
-    aria-label="Favorite types">
+    aria-label="Favorite types"
+  >
     <button
       :class="{ selected: savedTab === 'facts' }"
       :aria-pressed="savedTab === 'facts'"
-      @click="savedTab = 'facts'">
+      @click="savedTab = 'facts'"
+    >
       Facts <span>{{ favorites.saved.facts.length }}</span></button
     ><button
       :class="{ selected: savedTab === 'people' }"
       :aria-pressed="savedTab === 'people'"
-      @click="savedTab = 'people'">
+      @click="savedTab = 'people'"
+    >
       People <span>{{ favorites.saved.people.length }}</span>
     </button>
   </div>
   <div
     v-if="mode === 'topics'"
-    class="topic-grid browse-topics">
+    class="topic-grid browse-topics"
+  >
     <TopicCard
       v-for="topic in categories"
       :key="topic.id"
