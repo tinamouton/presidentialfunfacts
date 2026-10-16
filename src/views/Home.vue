@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ArrowRight, BookOpen, BadgeCheck, Heart, Sparkles } from 'lucide-vue-next';
-  import { facts, people, categories, randomTopic } from '../data';
+  import { facts, people, categories, randomTopic, chronologicalPeople } from '../data';
   import TopicCard from '../components/TopicCard.vue';
   import WelcomeHero from '../components/WelcomeHero.vue';
   import PersonCard from '../components/PersonCard.vue';
@@ -12,7 +12,7 @@
 <template>
   <WelcomeHero />
   <div class="trust-strip">
-    <span> <BookOpen :size="17" /> 150 stories worth discovering </span>
+    <span> <BookOpen :size="17" /> {{ facts.length }} stories worth discovering </span>
     <span> <BadgeCheck :size="17" /> Every fact has a source </span>
     <span> <Heart :size="17" /> Save your favorites </span>
   </div>
@@ -67,7 +67,7 @@
     </div>
     <div class="people-grid home-people">
       <PersonCard
-        v-for="person in people.filter((p) => p.kind === 'president')"
+        v-for="person in chronologicalPeople(people.filter((p) => p.kind === 'president'))"
         :key="person.id"
         :person="person"
       />

@@ -63,7 +63,7 @@
           <span class="eyebrow">PEOPLE IN THEIR STORY</span
           ><RouterLink
             v-for="connection in connections"
-            :key="connection.person.id"
+            :key="`${connection.person.id}:${connection.relationship.kind}`"
             :to="`/person/${connection.person.id}`"
             ><img
               :src="connection.person.image.path"

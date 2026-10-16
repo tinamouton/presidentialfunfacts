@@ -36,8 +36,9 @@ export interface Person {
 export interface Relationship {
   from: string;
   to: string;
-  kind: 'spouse' | 'daughter' | 'father';
+  kind: 'spouse' | 'daughter' | 'father' | 'administration-association';
   label: string;
+  sourceId?: string;
 }
 export interface Fact {
   id: string;
@@ -47,6 +48,10 @@ export interface Fact {
   category: CategoryId;
   sourceId: string;
   verification: 'verified' | 'unverified';
+  // Historical certainty is separate from whether the cited source was checked.
+  evidence?: 'documented' | 'disputed' | 'legend';
+  // Suitability for separately authored questions; see the legacy policy in editorial.ts.
+  gameEligible?: boolean;
 }
 
 export interface WhoAmIQuestion {

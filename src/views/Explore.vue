@@ -2,7 +2,7 @@
   import { computed, ref, watch } from 'vue';
   import { useRoute } from 'vue-router';
   import { Search, X, Heart, ArrowRight, SlidersHorizontal } from 'lucide-vue-next';
-  import { people, facts, categories, randomTopic } from '../data';
+  import { people, facts, categories, randomTopic, chronologicalPeople } from '../data';
   import type { CategoryId } from '../models';
   import { filterFacts } from '../utils';
   import { useFavorites } from '../stores/favorites';
@@ -59,7 +59,9 @@
           .toLowerCase()
           .includes(query.value.toLowerCase().trim()),
     );
-    return sort.value === 'name' ? [...list].sort((a, b) => a.name.localeCompare(b.name)) : list;
+    return sort.value === 'name'
+      ? [...list].sort((a, b) => a.name.localeCompare(b.name))
+      : chronologicalPeople(list);
   });
   const listFacts = computed(() =>
     filterFacts(
@@ -94,9 +96,10 @@
   >
     <span>✦</span>
     <p>
-      <strong>First ladies & White House hostesses</strong><br />Martha Jefferson Randolph was
-      Jefferson’s daughter and an occasional hostess. The other women in this collection were
-      presidential spouses.
+      <strong>First ladies & White House hostesses</strong><br />Presidential spouses and other
+      hostesses had distinct roles. Martha Jefferson Randolph hosted for her father, Thomas
+      Jefferson. Dolley Madison also occasionally hosted for Jefferson before serving as First Lady
+      during James Madison’s presidency.
     </p>
   </div>
   <div

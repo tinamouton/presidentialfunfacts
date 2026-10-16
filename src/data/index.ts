@@ -63,3 +63,21 @@ export const randomTopic = {
   symbol: '✦',
   color: 'gold',
 };
+
+// Presidents use structured service ranges, including future nonconsecutive service.
+// For spouses use their own administration, never an occasional hosting association.
+export function chronologicalPeople(items: readonly Person[]): Person[] {
+  const start = (person: Person) => {
+    const presidentId =
+      person.kind === 'president'
+        ? person.id
+        : relationships.find(
+            (relationship) => relationship.from === person.id && relationship.kind === 'spouse',
+          )?.to;
+    const service = terms.filter((term) => term.presidentId === presidentId);
+    return service.length
+      ? Math.min(...service.map((term) => term.start))
+      : Number(person.years.match(/\d{4}/)?.[0] ?? Infinity);
+  };
+  return [...items].sort((a, b) => start(a) - start(b) || a.name.localeCompare(b.name));
+}

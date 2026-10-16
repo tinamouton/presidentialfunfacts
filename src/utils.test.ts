@@ -44,9 +44,9 @@ describe('favorites', () => {
 describe('historical relationships', () => {
   it('distinguishes a daughter and hostess from a spouse', () => {
     const relation = relatedPeople('jefferson');
-    expect(relation).toHaveLength(1);
-    expect(relation[0].relationship.kind).toBe('daughter');
-    expect(relation[0].person.kind).toBe('hostess');
+    const daughter = relation.find((item) => item.person.id === 'randolph')!;
+    expect(daughter.relationship.kind).toBe('daughter');
+    expect(daughter.person.kind).toBe('hostess');
     expect(relatedPeople('randolph')[0].relationship.kind).toBe('father');
   });
   it('supports reciprocal spouse navigation', () => {
@@ -58,7 +58,7 @@ describe('historical relationships', () => {
   });
 });
 describe('data integrity', () => {
-  it('validates all 150 facts and portrait metadata', () =>
+  it('validates the historical collection and portrait metadata', () =>
     expect(validateData(dataset)).toEqual([]));
   it('rejects broken references and duplicate IDs', () => {
     const broken = {

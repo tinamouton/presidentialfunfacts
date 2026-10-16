@@ -65,6 +65,78 @@
       "name": "John F. Kennedy Presidential Library and Museum",
       "url": "https://www.jfklibrary.org/learn/about-jfk/life-of-jacqueline-b-kennedy",
       "checkedOn": "2026-10-09"
+    },
+    {
+      "id": "john-adams-bio",
+      "name": "National Park Service · John Adams biography",
+      "url": "https://home.nps.gov/adam/john-adams-biography.htm",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "john-adams-presidency",
+      "name": "National Park Service · Adams as president and retiree",
+      "url": "https://home.nps.gov/adam/ja-bio-page2.htm",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "alien-sedition",
+      "name": "National Archives · Alien and Sedition Acts",
+      "url": "https://www.archives.gov/milestone-documents/alien-and-sedition-acts",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "abigail-adams-bio",
+      "name": "National Park Service · Abigail Adams biography",
+      "url": "https://www.nps.gov/adam/abigailbio.htm",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "abigail-adams-public-life",
+      "name": "National Park Service · Abigail Adams in public life",
+      "url": "https://www.nps.gov/adam/abigailbio2.htm",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "remember-ladies",
+      "name": "National Park Service · Abigail Adams and women’s rights",
+      "url": "https://www.nps.gov/people/abigail-adams.htm",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "james-madison-bio",
+      "name": "White House Historical Association · James Madison",
+      "url": "https://www.whitehousehistory.org/bios/james-madison",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "madison-treasures",
+      "name": "Library of Congress · Madison’s Treasures",
+      "url": "https://loc.gov/exhibits/madison/objects.html",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "bill-rights-history",
+      "name": "National Archives · Making the Bill of Rights",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights/how-did-it-happen",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "dolley-madison-bio",
+      "name": "White House Historical Association · Dolley Madison",
+      "url": "https://www.whitehousehistory.org/bios/dolley-madison",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "dolley-social-politics",
+      "name": "Smithsonian · Dolley Madison’s silk dress",
+      "url": "https://avpreservation.si.edu/object/nmah_490927",
+      "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "portrait-rescue",
+      "name": "White House Historical Association · Workers and the Washington portrait",
+      "url": "https://www.whitehousehistory.org/galleries/enslaved-labor-in-the-white-house-white-house-collection",
+      "checkedOn": "2026-10-15"
     }
   ],
   "people": [
@@ -207,6 +279,62 @@
         "attribution": "Mark Shaw, Jacqueline Kennedy, 1961; originally in Look magazine; cropped reproduction via Wikimedia Commons.",
         "rights": "Public domain in the U.S. due to nonrenewal of copyright as recorded by Commons; other jurisdictions may differ."
       }
+    },
+    {
+      "id": "john-adams",
+      "name": "John Adams",
+      "kind": "president",
+      "years": "1797–1801",
+      "subtitle": "2nd President · A lawyer abroad",
+      "biography": "A lawyer and diplomat, John Adams argued for independence and became the second president. His presidency included both diplomacy and laws restricting dissent.",
+      "image": {
+        "path": "/portraits/john-adams.jpg",
+        "sourceUrl": "https://www.nga.gov/artworks/56913-john-adams",
+        "attribution": "Gilbert Stuart, John Adams, c. 1821. National Gallery of Art, Washington; Ailsa Mellon Bruce Fund; 1979.4.1.",
+        "rights": "Public-domain artwork; National Gallery of Art digital reproduction released under CC0. Resized to 250 pixels wide and JPEG compressed; no retouching. Display may crop and apply sepia."
+      }
+    },
+    {
+      "id": "abigail-adams",
+      "name": "Abigail Adams",
+      "kind": "first-lady",
+      "years": "1797–1801",
+      "subtitle": "First Lady · Adams administration",
+      "biography": "A reader, letter writer, and political adviser, Abigail Adams managed the family farm and challenged limits on women’s lives while also supporting restrictions on the press.",
+      "image": {
+        "path": "/portraits/abigail-adams.jpg",
+        "sourceUrl": "https://www.nga.gov/artworks/42934-abigail-smith-adams-mrs-john-adams",
+        "attribution": "Gilbert Stuart, Abigail Adams, 1800/1815. National Gallery of Art, Washington; Gift of Mrs. Robert Homans; 1954.7.2.",
+        "rights": "Public-domain artwork; National Gallery of Art digital reproduction released under CC0. Resized to 250 pixels wide and JPEG compressed; no retouching. Display may crop and apply sepia."
+      }
+    },
+    {
+      "id": "james-madison",
+      "name": "James Madison",
+      "kind": "president",
+      "years": "1809–1817",
+      "subtitle": "4th President · Debates and contradictions",
+      "biography": "James Madison helped shape the Constitution and Bill of Rights. He also enslaved people, a profound contradiction of the liberty he promoted.",
+      "image": {
+        "path": "/portraits/james-madison.jpg",
+        "sourceUrl": "https://www.nga.gov/artworks/56914-james-madison",
+        "attribution": "Gilbert Stuart, James Madison, c. 1821. National Gallery of Art, Washington; Ailsa Mellon Bruce Fund; 1979.4.2.",
+        "rights": "Public-domain artwork; National Gallery of Art digital reproduction released under CC0. Resized to 250 pixels wide and JPEG compressed; no retouching. Display may crop and apply sepia."
+      }
+    },
+    {
+      "id": "dolley-madison",
+      "name": "Dolley Madison",
+      "kind": "first-lady",
+      "years": "1809–1817",
+      "subtitle": "First Lady · Madison administration",
+      "biography": "Dolley Madison used hospitality to build political connections. She occasionally hosted for Jefferson before her husband’s presidency and managed a household that enslaved people.",
+      "image": {
+        "path": "/portraits/dolley-madison.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolley_Madison.jpg",
+        "attribution": "Gilbert Stuart, Dolley Madison, 1804. White House Collection, 994.1737.1; faithful reproduction via Wikimedia Commons.",
+        "rights": "Public-domain artwork (Stuart died in 1828); Commons identifies this faithful reproduction as public domain in the United States under PD-Art. Resized to 250 pixels wide and JPEG compressed; no retouching. Display may crop and apply sepia."
+      }
     }
   ],
   "terms": [
@@ -239,6 +367,18 @@
       "start": 1961,
       "end": 1963,
       "ordinal": 35
+    },
+    {
+      "presidentId": "john-adams",
+      "start": 1797,
+      "end": 1801,
+      "ordinal": 2
+    },
+    {
+      "presidentId": "james-madison",
+      "start": 1809,
+      "end": 1817,
+      "ordinal": 4
     }
   ],
   "relationships": [
@@ -301,6 +441,48 @@
       "kind": "father",
       "label": "Father · associated administration",
       "from": "randolph"
+    },
+    {
+      "to": "abigail-adams",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "abigail-adams-bio",
+      "from": "john-adams"
+    },
+    {
+      "to": "john-adams",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "abigail-adams-bio",
+      "from": "abigail-adams"
+    },
+    {
+      "to": "dolley-madison",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "dolley-madison-bio",
+      "from": "james-madison"
+    },
+    {
+      "to": "james-madison",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "dolley-madison-bio",
+      "from": "dolley-madison"
+    },
+    {
+      "to": "jefferson",
+      "kind": "administration-association",
+      "label": "Occasional hosting for Jefferson’s administration",
+      "sourceId": "dolley-madison-bio",
+      "from": "dolley-madison"
+    },
+    {
+      "to": "dolley-madison",
+      "kind": "administration-association",
+      "label": "Occasional hostess during this administration",
+      "sourceId": "dolley-madison-bio",
+      "from": "jefferson"
     }
   ],
   "facts": [
@@ -1653,6 +1835,446 @@
       "category": "legacy",
       "sourceId": "jacqueline-kennedy",
       "verification": "verified"
+    },
+    {
+      "id": "john-adams-01",
+      "personId": "john-adams",
+      "headline": "From classroom to courtroom",
+      "description": "After graduating from Harvard in 1755, John Adams taught school in Worcester before studying law.",
+      "category": "early-life",
+      "sourceId": "john-adams-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-adams-02",
+      "personId": "john-adams",
+      "headline": "A difficult defense",
+      "description": "John Adams defended British soldiers accused after the Boston Massacre, despite his opposition to British policies.",
+      "category": "legacy",
+      "sourceId": "john-adams-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "john-adams-03",
+      "personId": "john-adams",
+      "headline": "Choosing a commander",
+      "description": "John Adams proposed George Washington to lead the Continental Army.",
+      "category": "legacy",
+      "sourceId": "john-adams-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-adams-04",
+      "personId": "john-adams",
+      "headline": "A Dutch diplomatic success",
+      "description": "In 1782, John Adams helped secure Dutch recognition of American independence and a loan for the United States.",
+      "category": "adventures",
+      "sourceId": "john-adams-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-adams-05",
+      "personId": "john-adams",
+      "headline": "Signing for peace",
+      "description": "John Adams helped negotiate and signed the 1783 Treaty of Paris recognizing American independence.",
+      "category": "legacy",
+      "sourceId": "john-adams-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-adams-06",
+      "personId": "john-adams",
+      "headline": "First in a new office",
+      "description": "John Adams served as the first United States vice president before becoming the second president.",
+      "category": "firsts",
+      "sourceId": "john-adams-presidency",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-adams-07",
+      "personId": "john-adams",
+      "headline": "Moving into the new capital",
+      "description": "John and Abigail Adams became the first occupants of the presidential mansion in Washington in November 1800.",
+      "category": "firsts",
+      "sourceId": "john-adams-presidency",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-adams-08",
+      "personId": "john-adams",
+      "headline": "Limits on dissent",
+      "description": "John Adams signed the 1798 Alien and Sedition Acts. These laws restricted immigrants and punished certain writings against the government.",
+      "category": "legacy",
+      "sourceId": "alien-sedition",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "john-adams-09",
+      "personId": "john-adams",
+      "headline": "A friendship renewed by letters",
+      "description": "After a political falling-out, John Adams and Thomas Jefferson renewed their correspondence in 1812.",
+      "category": "family",
+      "sourceId": "john-adams-presidency",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-adams-10",
+      "personId": "john-adams",
+      "headline": "A farmer in retirement",
+      "description": "At Peacefield in Quincy, John Adams enjoyed farming as well as reading and writing in his study.",
+      "category": "family",
+      "sourceId": "john-adams-presidency",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "abigail-adams-01",
+      "personId": "abigail-adams",
+      "headline": "Learning from books",
+      "description": "Abigail Adams educated herself with books from her father’s library when formal educational opportunities for girls were limited.",
+      "category": "early-life",
+      "sourceId": "abigail-adams-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "abigail-adams-02",
+      "personId": "abigail-adams",
+      "headline": "An education in helping",
+      "description": "As a girl, Abigail Adams accompanied her mother on visits bringing supplies to families in need.",
+      "category": "early-life",
+      "sourceId": "abigail-adams-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "abigail-adams-03",
+      "personId": "abigail-adams",
+      "headline": "A wedding at home",
+      "description": "Abigail Smith married John Adams in 1764, with her father conducting the wedding.",
+      "category": "family",
+      "sourceId": "abigail-adams-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "abigail-adams-04",
+      "personId": "abigail-adams",
+      "headline": "The farm kept going",
+      "description": "While John Adams served in Congress, Abigail Adams managed the farm and taught their children.",
+      "category": "family",
+      "sourceId": "abigail-adams-public-life",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "abigail-adams-05",
+      "personId": "abigail-adams",
+      "headline": "News across the distance",
+      "description": "Abigail Adams’s letters kept John Adams informed about events around Boston during the Revolution.",
+      "category": "legacy",
+      "sourceId": "abigail-adams-public-life",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "abigail-adams-06",
+      "personId": "abigail-adams",
+      "headline": "Remembering women in the laws",
+      "description": "In her March 1776 letter, Abigail Adams asked John Adams to “Remember the Ladies” when making new laws.",
+      "category": "legacy",
+      "sourceId": "remember-ladies",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "abigail-adams-07",
+      "personId": "abigail-adams",
+      "headline": "Challenging a contradiction",
+      "description": "Abigail Adams criticized Americans who fought for their own freedom while denying freedom to enslaved Black people.",
+      "category": "legacy",
+      "sourceId": "abigail-adams-public-life",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "abigail-adams-08",
+      "personId": "abigail-adams",
+      "headline": "Across the Atlantic",
+      "description": "Abigail Adams sailed to Europe in 1784, joining John Adams and meeting people in Paris and London.",
+      "category": "adventures",
+      "sourceId": "abigail-adams-public-life",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "abigail-adams-09",
+      "personId": "abigail-adams",
+      "headline": "Advice the president valued",
+      "description": "John Adams sought Abigail Adams’s advice during his presidency, including when political divisions made governing difficult.",
+      "category": "legacy",
+      "sourceId": "abigail-adams-public-life",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "abigail-adams-10",
+      "personId": "abigail-adams",
+      "headline": "A troubling position on the press",
+      "description": "Abigail Adams supported the Alien and Sedition Acts, believing restrictions on the opposition press would protect her husband’s government.",
+      "category": "legacy",
+      "sourceId": "abigail-adams-public-life",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "james-madison-01",
+      "personId": "james-madison",
+      "headline": "A college with a different name",
+      "description": "James Madison graduated in 1771 from the College of New Jersey, now Princeton University.",
+      "category": "early-life",
+      "sourceId": "james-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "james-madison-02",
+      "personId": "james-madison",
+      "headline": "Ideas for a new government",
+      "description": "James Madison’s ideas helped form the Virginia Plan, introduced at the 1787 Constitutional Convention by Edmund Randolph.",
+      "category": "legacy",
+      "sourceId": "madison-treasures",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "james-madison-03",
+      "personId": "james-madison",
+      "headline": "Notes from a great debate",
+      "description": "James Madison recorded debates at the Constitutional Convention. His notes help historians study how the Constitution took shape.",
+      "category": "legacy",
+      "sourceId": "madison-treasures",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "james-madison-04",
+      "personId": "james-madison",
+      "headline": "A team of essay writers",
+      "description": "James Madison joined Alexander Hamilton and John Jay in writing The Federalist essays to support the Constitution.",
+      "category": "arts",
+      "sourceId": "james-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "james-madison-05",
+      "personId": "james-madison",
+      "headline": "A change of mind on rights",
+      "description": "James Madison initially argued a bill of rights was unnecessary, then helped guide amendments through the first Congress.",
+      "category": "legacy",
+      "sourceId": "bill-rights-history",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "james-madison-06",
+      "personId": "james-madison",
+      "headline": "A diplomatic partnership",
+      "description": "Before becoming president, James Madison served as secretary of state under Thomas Jefferson.",
+      "category": "legacy",
+      "sourceId": "james-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "james-madison-07",
+      "personId": "james-madison",
+      "headline": "War during his presidency",
+      "description": "The United States declared war on Great Britain in 1812 during James Madison’s presidency. British troops burned the White House in 1814.",
+      "category": "legacy",
+      "sourceId": "james-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "james-madison-08",
+      "personId": "james-madison",
+      "headline": "Liberty denied at home",
+      "description": "James Madison enslaved people at Montpelier and brought enslaved workers to the White House, denying them the freedom he promoted in politics.",
+      "category": "legacy",
+      "sourceId": "james-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "james-madison-09",
+      "personId": "james-madison",
+      "headline": "A library proposal before its time",
+      "description": "In 1783, James Madison’s congressional committee proposed about 1,300 books for Congress. The proposal was turned down over the cost.",
+      "category": "arts",
+      "sourceId": "madison-treasures",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "james-madison-10",
+      "personId": "james-madison",
+      "headline": "A wedding anniversary shared",
+      "description": "James Madison married Dolley in 1794 on September 15, the same calendar date as his parents’ wedding.",
+      "category": "family",
+      "sourceId": "madison-treasures",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "dolley-madison-01",
+      "personId": "dolley-madison",
+      "headline": "A North Carolina beginning",
+      "description": "Dolley Madison was born in North Carolina in 1768, while her parents were helping establish a Quaker community.",
+      "category": "early-life",
+      "sourceId": "dolley-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "dolley-madison-02",
+      "personId": "dolley-madison",
+      "headline": "A family changed by illness",
+      "description": "Before marrying James Madison, Dolley lost her first husband, John Todd, and their youngest son to Philadelphia’s 1793 yellow fever epidemic.",
+      "category": "family",
+      "sourceId": "dolley-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "dolley-madison-03",
+      "personId": "dolley-madison",
+      "headline": "An introduction by Aaron Burr",
+      "description": "Aaron Burr introduced Dolley to James Madison in 1794. The couple married that September.",
+      "category": "family",
+      "sourceId": "dolley-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "dolley-madison-04",
+      "personId": "dolley-madison",
+      "headline": "Hosting for another administration",
+      "description": "Dolley Madison occasionally hosted events for the widowed Thomas Jefferson when his daughters were unavailable. She was James Madison’s spouse.",
+      "category": "legacy",
+      "sourceId": "dolley-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "dolley-madison-05",
+      "personId": "dolley-madison",
+      "headline": "Rooms with an architect",
+      "description": "Dolley Madison worked with architect Benjamin Henry Latrobe on White House interiors, including American-made furnishings and artwork.",
+      "category": "arts",
+      "sourceId": "dolley-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "dolley-madison-06",
+      "personId": "dolley-madison",
+      "headline": "Wednesday conversations",
+      "description": "Dolley Madison’s weekly White House receptions brought political opponents together for conversation and cooperation.",
+      "category": "legacy",
+      "sourceId": "dolley-social-politics",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "dolley-madison-07",
+      "personId": "dolley-madison",
+      "headline": "Politics through a social network",
+      "description": "Dolley Madison exchanged letters and visits to gather political news and help friends and family seek jobs.",
+      "category": "legacy",
+      "sourceId": "dolley-social-politics",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "dolley-madison-08",
+      "personId": "dolley-madison",
+      "headline": "Saving a portrait took many hands",
+      "description": "Before fleeing the White House in 1814, Dolley Madison ordered the Washington portrait saved. Paul Jennings’s memoir credits staff with removing it.",
+      "category": "legacy",
+      "sourceId": "portrait-rescue",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "dolley-madison-09",
+      "personId": "dolley-madison",
+      "headline": "Enslavement at Montpelier",
+      "description": "Dolley Madison managed enslaved workers at Montpelier. Later, financial troubles led her to sell enslaved people, treating human beings as property.",
+      "category": "legacy",
+      "sourceId": "dolley-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "dolley-madison-10",
+      "personId": "dolley-madison",
+      "headline": "A return to Washington",
+      "description": "After James Madison died, Dolley returned to Washington in 1837 and lived on Lafayette Square.",
+      "category": "family",
+      "sourceId": "dolley-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
     }
   ]
 }

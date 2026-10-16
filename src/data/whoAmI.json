@@ -78,5 +78,21 @@
     "choicePersonIds": ["martha-washington", "randolph", "edith-roosevelt", "jacqueline-kennedy"],
     "explanation": "Jacqueline Kennedy learned to ride as a very young child and won several national riding championships by age eleven.",
     "sourceFactId": "jacqueline-kennedy-02"
+  },
+  {
+    "id": "first-vice-president",
+    "clue": "I was the first U.S. vice president and then the second president. Who am I?",
+    "answerPersonId": "john-adams",
+    "choicePersonIds": ["john-adams", "washington", "jefferson", "james-madison"],
+    "explanation": "John Adams served as vice president for eight years under George Washington before succeeding him as president.",
+    "sourceFactId": "john-adams-06"
+  },
+  {
+    "id": "remember-the-ladies",
+    "clue": "In a 1776 letter to my husband John, I asked him to “Remember the Ladies” in new laws. Who am I?",
+    "answerPersonId": "abigail-adams",
+    "choicePersonIds": ["abigail-adams", "dolley-madison", "martha-washington", "randolph"],
+    "explanation": "Abigail Adams urged John Adams to consider women when making new laws. Her letter challenged husbands’ power over wives.",
+    "sourceFactId": "abigail-adams-06"
   }
 ]

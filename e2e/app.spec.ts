@@ -1,4 +1,10 @@
 import { test, expect } from '@playwright/test';
+import { readFileSync } from 'node:fs';
+import type { Person, Fact } from '../src/models';
+
+const { people, facts }: { people: Person[]; facts: Fact[] } = JSON.parse(
+  readFileSync('src/data/history.json', 'utf8'),
+);
 test('desktop discovery, favorites persistence, relationships and sources', async ({ page }) => {
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
@@ -8,7 +14,9 @@ test('desktop discovery, favorites persistence, relationships and sources', asyn
   ).toBeVisible();
   await page.screenshot({ path: '/tmp/presidentialfunfacts-desktop.png', fullPage: true });
   await page.getByRole('link', { name: 'Explore the presidents', exact: true }).click();
-  await expect(page.locator('.person-card')).toHaveCount(5);
+  await expect(page.locator('.person-card')).toHaveCount(
+    people.filter((person) => person.kind === 'president').length,
+  );
   await page.getByRole('textbox', { name: 'Search people' }).fill('lincoln');
   await expect(page.locator('.person-card')).toHaveCount(1);
   await page.getByRole('button', { name: 'Save Abraham Lincoln', exact: true }).click();
@@ -55,6 +63,10 @@ test('mobile pages have working navigation, loaded portraits and no page overflo
     '/first-ladies',
     '/topics',
     '/person/kennedy',
+    '/person/john-adams',
+    '/person/abigail-adams',
+    '/person/james-madison',
+    '/person/dolley-madison',
     '/topics?category=random',
     '/favorites',
   ]) {
@@ -80,7 +92,9 @@ test('mobile pages have working navigation, loaded portraits and no page overflo
     .getByRole('navigation', { name: 'More navigation' })
     .getByRole('link', { name: 'First Ladies' })
     .click();
-  await expect(page.locator('.person-card')).toHaveCount(5);
+  await expect(page.locator('.person-card')).toHaveCount(
+    people.filter((person) => person.kind !== 'president').length,
+  );
   await expect(page.getByRole('navigation', { name: 'More navigation' })).toHaveCount(0);
 });
 test('production PWA caches all portraits and fonts and loads routes offline', async ({
@@ -102,7 +116,7 @@ test('production PWA caches all portraits and fonts and loads routes offline', a
     );
     return all.flat();
   });
-  expect(cached.filter((url) => url.includes('/portraits/'))).toHaveLength(10);
+  expect(cached.filter((url) => url.includes('/portraits/'))).toHaveLength(people.length);
   expect(cached.some((url) => url.endsWith('.woff2'))).toBe(true);
   await context.setOffline(true);
   await page.goto('/first-ladies');
@@ -118,6 +132,18 @@ test('production PWA caches all portraits and fonts and loads routes offline', a
       }),
     );
   });
+  for (const person of people.filter((person) =>
+    ['john-adams', 'abigail-adams', 'james-madison', 'dolley-madison'].includes(person.id),
+  )) {
+    await page.goto(`/person/${person.id}`);
+    await expect(page.locator('h1')).toHaveText(person.name);
+    await page
+      .locator('.detail-portrait img')
+      .evaluate((image) => (image as HTMLImageElement).decode());
+    await expect(page.locator('.fact-card')).toBeVisible();
+  }
+  await page.goto('/games/who-am-i');
+  await expect(page.locator('.choice')).toHaveCount(4);
   await page.goto('/topics?category=random');
   await expect(page.locator('.fact-card')).toBeVisible();
   await page.getByRole('button', { name: 'Another surprise!' }).click();
@@ -154,4 +180,45 @@ test('Random lives in Topics and old links redirect there', async ({ page }) => 
       .getByRole('navigation', { name: 'Mobile navigation' })
       .getByRole('link', { name: 'Topics' }),
   ).toBeVisible();
+});
+
+test('expanded profiles follow chronology, search, relationships and favorites', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await expect(page.locator('.trust-strip')).toContainText(`${facts.length} stories`);
+  await page.goto('/presidents');
+  const names = await page.locator('.person-card h3').allTextContents();
+  expect(names.slice(0, 4)).toEqual([
+    'George Washington',
+    'John Adams',
+    'Thomas Jefferson',
+    'James Madison',
+  ]);
+  await page.getByRole('textbox', { name: 'Search people' }).fill('madison');
+  await expect(page.locator('.person-card h3')).toHaveText(['James Madison']);
+  await page.goto('/person/dolley-madison');
+  await expect(page.locator('.connections')).toContainText('James MadisonSpouse');
+  await page.getByRole('link', { name: /Thomas Jefferson Occasional hosting/ }).click();
+  await expect(page.locator('.connections')).toContainText(
+    'Occasional hostess during this administration',
+  );
+  await page.getByRole('link', { name: /Dolley Madison Occasional hostess/ }).click();
+  await page.getByRole('button', { name: 'Save this person' }).click();
+  await page.locator('.fact-card button').click();
+  await page.reload();
+  await expect(page.getByRole('button', { name: 'Saved to favorites' })).toBeVisible();
+  await page.goto('/favorites');
+  await expect(page.locator('.fact-card h3')).toHaveText('A North Carolina beginning');
+  await page.getByRole('button', { name: /People 1/ }).click();
+  await expect(page.locator('.person-card h3')).toHaveText('Dolley Madison');
+  await page.goto('/topics');
+  await page.getByRole('textbox', { name: 'Search facts' }).fill('abigail adams');
+  await expect(page.locator('.fact-card')).toHaveCount(
+    facts.filter(
+      (fact) =>
+        fact.personId === 'abigail-adams' ||
+        fact.description.toLowerCase().includes('abigail adams'),
+    ).length,
+  );
 });

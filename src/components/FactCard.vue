@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import { Heart, ExternalLink, BadgeCheck } from 'lucide-vue-next';
+  import { evidenceNotice } from '../editorial';
   import type { Fact } from '../models';
   import TopicIcon from './TopicIcon.vue';
   import { categories, personById, sourceById } from '../data';
@@ -31,6 +32,12 @@
         />
       </button>
     </div>
+    <p
+      v-if="evidenceNotice(fact)"
+      class="evidence-notice"
+    >
+      {{ evidenceNotice(fact) }}
+    </p>
     <h3>{{ fact.headline }}</h3>
     <p>{{ fact.description }}</p>
     <RouterLink
@@ -104,6 +111,15 @@
         font-size: 14px;
       }
     }
+  }
+  .fact-card > .evidence-notice {
+    flex-grow: 0;
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 13px;
+    border-left: 3px solid var(--gold);
+    padding-left: 12px;
+    margin: 16px 0 0;
   }
   .fact-top {
     display: flex;
