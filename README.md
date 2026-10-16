@@ -1,6 +1,6 @@
 # PresidentialFunFacts
 
-**Little-known facts. Big personalities.** A mobile-first Vue 3 Progressive Web App exploring five presidents and five associated women, with 150 source-checked historical facts.
+**Little-known facts. Big personalities.** A mobile-first Vue 3 Progressive Web App exploring seven presidents and seven associated women, with 190 source-checked historical facts.
 
 ## Launch locally
 
@@ -32,7 +32,7 @@ Production preview is normally `http://localhost:4173`. The service worker is en
 - Responsive desktop navigation, mobile bottom navigation and expanded menu, reduced-motion support, labeled controls, skip link, and live results/status messages.
 - Installable PWA, 192/512px icons, locally bundled portraits/fonts/facts, offline application shell, and a user-controlled update prompt.
 
-The First Ladies screen labels Martha Jefferson Randolph as a daughter and occasional White House hostess. It does not identify her as Jefferson's spouse. Difficult history, including slavery, is included with contextual source links.
+The First Ladies screen labels Martha Jefferson Randolph as a daughter and occasional White House hostess. It does not identify her as Jefferson's spouse. Dolley Madison remains a First Lady and James Madison’s spouse; her occasional hosting for Jefferson is labeled as a separate administration association. Difficult history, including slavery, is included with contextual source links.
 
 ## Structure
 
@@ -40,6 +40,7 @@ The First Ladies screen labels Martha Jefferson Randolph as a daughter and occas
 - `src/data/history.json`: all historical content, sources, rights, relationships, and term ranges.
 - `src/data/index.ts`: typed data access and topic definitions.
 - `src/data/validate.ts`: referential integrity and completeness validation.
+- `src/editorial.ts`: evidence notices and explicit eligibility for curated gameplay, including the legacy clue allowlist.
 - `src/utils.ts`: discovery, randomization, and safe favorites parsing.
 - `src/stores/favorites.ts`: Pinia state with localStorage persistence and graceful storage errors.
 - `src/components/`: shared person and fact cards.
@@ -59,7 +60,7 @@ See [RESEARCH.md](RESEARCH.md) for fact counts, source mappings, verification me
 
 Browser smoke tests are in `e2e/app.spec.ts`. After installing Chromium with `npx playwright install chromium`, run `npm run test:e2e`. The suite builds and serves production locally, checks mobile/desktop interactions, persistence, navigation, source links, image loading, overflow, and offline service-worker behavior. It does not contact external source websites.
 
-Verified during implementation: **12 Vitest tests passed**, **3 Chromium browser tests passed**, **150 facts validated**, and the strict TypeScript production build passed. Browser checks confirmed that all ten portraits and bundled fonts are cached and that screens reopen offline. Mobile and desktop screenshots were also reviewed.
+Phase 3.2 implements the Adams and Madison families, scalable historical validation, evidence notices, explicit gameplay eligibility, and chronological browsing. Verification passed with 42 unit tests, 7 Chromium browser tests, data and asset validation, the strict TypeScript production build, and formatting checks. Tests cover the expanded collection, evidence rendering, game eligibility, chronological service order, mixed legacy/new favorites, and offline portraits and routes. Historical truth and reuse rights still require editorial review; validation checks structure and references.
 
 ## Offline and deployment
 
@@ -69,6 +70,10 @@ Deploy `dist/` to a static HTTPS host that rewrites application routes to `index
 
 ## POC scope and future work
 
-All requested screens and local interactions are implemented. This collection is intentionally limited to the requested ten people and 150 short, unique facts. Facts are concise discovery prompts, not full essays; some are essential biographical context. Future editorial work can expand descriptions, add deeper primary-record citations, and extend the collection. No backend, accounts, analytics, or cloud synchronization are included. Physical-device installation and cross-browser accessibility audits remain release checks; automated Chromium checks do not replace them.
+All requested screens and local interactions are implemented. Phase 3.2 adds only the Adams and Madison families: four profiles and 40 facts. The remaining eleven profiles in the approved expansion are deferred without placeholders. Facts are concise discovery prompts, not full essays; some are essential biographical context. Future editorial work can expand descriptions, add deeper primary-record citations, and extend the collection. No backend, accounts, analytics, or cloud synchronization are included. Physical-device installation and cross-browser accessibility audits remain release checks; automated Chromium checks do not replace them.
 
 No changes are automatically committed, pushed, or deployed. Existing Git configuration and `.gitignore` are preserved. Git excludes dependencies, production builds, local environment files, caches, and exploratory design references. Commit application source, the npm lockfile, production assets, and attribution records.
+
+## Historical expansion policies
+
+Facts remain in consolidated local JSON; game questions remain separately curated. New profiles target 8–12 well-supported facts without a validation quota. Optional `evidence` (`documented`, `disputed`, `legend`) is separate from source verification; uncertainty appears on fact cards. Every new fact has an explicit `gameEligible` decision, and disputed, legendary, or unverified sources cannot supply established-fact clues. Only the ten original curated clue sources inherit eligibility when the new field is absent; other legacy facts need editorial review before new game use. Eligibility never generates a question. See [RESEARCH.md](RESEARCH.md#phase-32-editorial-policies) for the policy, exceptions, exact source mappings, and portrait permissions.

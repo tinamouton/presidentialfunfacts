@@ -1,6 +1,6 @@
 # Historical research and image rights
 
-Research review: **October 9, 2026**. Dataset: **150 verified facts, 0 unverified facts**.
+Research review: **October 15, 2026** for the Phase 3.2 additions; original collection reviewed October 9. Dataset: **190 source-checked facts, 0 awaiting review**. The original 150 facts have not been reclassified or rewritten.
 
 ## Verification method
 
@@ -22,7 +22,11 @@ Facts favor short discovery prompts. Essential biographical facts sit beside une
 | Mary Todd Lincoln         | first-lady |       15 |          0 |
 | Edith Roosevelt           | first-lady |       15 |          0 |
 | Jacqueline Kennedy        | first-lady |       15 |          0 |
-| **Total**                 |            |  **150** |      **0** |
+| John Adams                | president  |       10 |          0 |
+| Abigail Adams             | first-lady |       10 |          0 |
+| James Madison             | president  |       10 |          0 |
+| Dolley Madison            | first-lady |       10 |          0 |
+| **Total**                 |            |  **190** |      **0** |
 
 ## Sources and fact mapping
 
@@ -216,6 +220,156 @@ Public domain in the U.S. due to nonrenewal of copyright as recorded by Commons;
 
 ## Research backlog and limits
 
-No bundled fact is currently waiting for verification. All ten requested people meet the minimum count of fifteen unique facts. Further editorial work should add richer descriptions, more specific primary-record links, and facts from subjects such as food, animals, and hobbies before expanding beyond this collection. Some biographies support multiple distinct facts; those claims share a source intentionally. Source pages can change, so periodically recheck the claims and record a new review date.
+No bundled fact is currently waiting for source review. The original ten profiles retain their fifteen facts each. Each of the four Phase 3.2 profiles has ten facts; there are no editorial-target shortfalls. Eight to twelve is an editorial target for new profiles, not a validation quota. Further editorial work should add richer descriptions, more specific primary-record links, and facts from subjects such as food, animals, and hobbies in later approved batches. Some biographies support multiple distinct facts; those claims share a source intentionally. Source pages can change, so periodically recheck the claims and record a new review date.
 
-The data validator verifies IDs, relationships, counts, source syntax, metadata, and asset presence; it cannot establish historical truth or guarantee a remote website remains reachable. There is no automated claim-verification system.
+The data validator verifies IDs, relationships, service coverage, source syntax, metadata, question eligibility, and asset presence; it cannot establish historical truth or guarantee a remote website remains reachable. There is no automated claim-verification system.
+
+## Phase 3.2 editorial policies
+
+Only John Adams, Abigail Adams, James Madison, and Dolley Madison are added. The other eleven approved profiles remain future work; no placeholders are bundled. This batch adds 40 facts, 12 source records, four portraits, six directed relationships, two service ranges, and two curated questions. Existing historical and question records and IDs are preserved.
+
+### Evidence and source verification
+
+`verification` continues to mean that the source supports the wording of the claim. Optional `evidence` describes the nature of the claim: `documented` for supported history, `disputed` for competing historical accounts, and `legend` for folklore whose existence can be sourced without proving the event happened. A checked source can document a legend; the two fields answer different questions. Absence of `evidence` preserves legacy records without retroactively declaring a new certainty assessment.
+
+Every new fact is explicitly `documented`. No legend or disputed anecdote was needed to fill this batch. FactCard displays a plain-language uncertainty notice for disputed and legendary material, independently of the source-check label and citation. Rendering tests use fictional fixtures, never new historical claims.
+
+### Gameplay eligibility
+
+`gameEligible: true` records an editorial suitability review, not a generated question or a promise of an unambiguous clue. Each of the 40 new facts has an explicit boolean. Unverified, disputed, and legendary claims cannot qualify, even if marked eligible. For new content, omit the field only while editing: the default is informational only.
+
+Legacy policy: the ten existing source facts already selected by the original curated questions are grandfathered through an explicit ID allowlist in `src/editorial.ts`. Other old facts without a decision are ineligible for new questions until reviewed. Explicit false overrides the allowlist; disputed/legendary evidence or unverified status also overrides it. This preserves old gameplay without treating all 150 legacy facts as ready-made quiz content. The existing rescue and Monticello questions are retained compatibility exceptions, not templates for new sensitive-topic clues; future editorial review may revisit them. No existing fact has been silently reclassified.
+
+New informational-only facts: `john-adams-02` (fatal violence), `john-adams-08` (repression), `abigail-adams-05` (wartime reporting), `abigail-adams-07` (slavery), `abigail-adams-10` (repression), `james-madison-07` (war and destruction), `james-madison-08` (enslavement), `dolley-madison-02` (family deaths), `dolley-madison-08` (wartime flight and enslaved workers), and `dolley-madison-09` (enslavement and sale of people). All other new facts passed a non-sensitive subject review; they remain informational unless a separate question is authored.
+
+The two new questions are `first-vice-president` → `john-adams-06` and `remember-the-ladies` → `abigail-adams-06`. Their stated offices and named correspondent distinguish the answers from all three distractors. Existing clues were reviewed against the expanded roster: Adams’s committee work is distinct from Jefferson’s first draft; Dolley’s hosting is distinct from Randolph’s specified daughter/season clue. No questions were automatically generated, and the Madisons need not receive questions in this batch.
+
+### Relationships, service, and responsible wording
+
+Dolley remains `first-lady` with James Madison as spouse. Two separately labeled, source-linked `administration-association` edges describe occasional hosting for Jefferson. These edges confer no formal title and never imply marriage. The original Jefferson–Randolph daughter/father graph remains intact. The Adams and Madison marriage sources also support their profile biographies and service context; presidential years are service ranges, not lifespans.
+
+Presidents sort by their earliest structured service range, independent of JSON order. Spouses sort by the spouse administration; occasional administration associations do not move Dolley into Jefferson’s chronological position. Hostesses without spouse service metadata fall back to the first displayed service year. Multiple nonoverlapping service ranges for one president are allowed. Subtitles and service years still require editorial review; there is no comprehensive role system.
+
+Slavery, illness, warfare, and restrictions on dissent are presented plainly and excluded from new quizzes. The portrait rescue wording credits staff through Paul Jennings’s memoir rather than claiming Dolley personally took down the painting. Institutional accounts differ on Jennings’s physical role; this batch does not resolve that detail or repeat attributed dialogue. The White House Historical Association’s collection entry identifies staff removal; its Dolley biography and the [NPS rescue article](https://www.nps.gov/articles/dolley-madison-washingtons-portrait.htm) corroborate her direction but differ in detail. No ice-cream invention, diminutive-height joke, or unsupported anecdote is included.
+
+## Phase 3.2 source-to-fact mapping
+
+All following records were reviewed October 15, 2026. URLs below are the cited records, not institutional homepages. Headline and description are original concise paraphrases. IDs are the precise crosswalk; some sources intentionally support several independent facts. Original-source records and mappings above remain unchanged.
+
+### john-adams-bio
+
+[National Park Service · John Adams biography](https://home.nps.gov/adam/john-adams-biography.htm)
+
+Supports: `john-adams-01`, `john-adams-02`, `john-adams-03`, `john-adams-04`, `john-adams-05`.
+
+Locator/review: Early Life; Young Lawyer; Patriot; Diplomat.
+
+### john-adams-presidency
+
+[National Park Service · Adams as president and retiree](https://home.nps.gov/adam/ja-bio-page2.htm)
+
+Supports: `john-adams-06`, `john-adams-07`, `john-adams-09`, `john-adams-10`.
+
+Locator/review: Vice President; Senior Statesman, including the November 1800 move, 1812 correspondence, and retirement.
+
+### alien-sedition
+
+[National Archives · Alien and Sedition Acts](https://www.archives.gov/milestone-documents/alien-and-sedition-acts)
+
+Supports: `john-adams-08`.
+
+Locator/review: Introductory explanation and the four acts; read alongside the NPS account for Adams’s signing. The NPS claim that Adams took no enforcement steps is not repeated.
+
+### abigail-adams-bio
+
+[National Park Service · Abigail Adams biography](https://www.nps.gov/adam/abigailbio.htm)
+
+Supports: `abigail-adams-01`, `abigail-adams-02`, `abigail-adams-03`.
+
+Locator/review: Early Life; Marriage and Pre-Revolutionary Years.
+
+### abigail-adams-public-life
+
+[National Park Service · Abigail Adams in public life](https://www.nps.gov/adam/abigailbio2.htm)
+
+Supports: `abigail-adams-04`, `abigail-adams-05`, `abigail-adams-07`, `abigail-adams-08`, `abigail-adams-09`, `abigail-adams-10`.
+
+Locator/review: Securing Liberty at Home and Abroad; Abigail Adams as First Lady. The NPS’s overly broad assertions about universal equality are not reproduced.
+
+### remember-ladies
+
+[National Park Service · Abigail Adams and women’s rights](https://www.nps.gov/people/abigail-adams.htm)
+
+Supports: `abigail-adams-06`.
+
+Locator/review: Transcribed passage from the March 1776 letter; context on education and women’s status. The MHS letter endpoint returned 502; its curriculum PDF downloaded, but the citation uses the fully readable NPS page rather than claiming a complete primary-letter review.
+
+### james-madison-bio
+
+[White House Historical Association · James Madison](https://www.whitehousehistory.org/bios/james-madison)
+
+Supports: `james-madison-01`, `james-madison-04`, `james-madison-06`, `james-madison-07`, `james-madison-08`.
+
+Locator/review: College, Federalist essays, secretary of state, presidential household, War of 1812. Biography and service context: election as fourth president, two terms, retirement in 1817.
+
+### madison-treasures
+
+[Library of Congress · Madison’s Treasures](https://loc.gov/exhibits/madison/objects.html)
+
+Supports: `james-madison-02`, `james-madison-03`, `james-madison-09`, `james-madison-10`.
+
+Locator/review: Family Tree (#obj0); congressional library proposal (#obj3); Virginia Plan (#obj6); Federal Convention (#obj9–11). Includes primary manuscript images and catalog explanations; notes are historical evidence, not a verbatim transcript of every speech.
+
+### bill-rights-history
+
+[National Archives · Making the Bill of Rights](https://www.archives.gov/founding-docs/bill-of-rights/how-did-it-happen)
+
+Supports: `james-madison-05`.
+
+Locator/review: Opposition to the Constitution; Introducing the Bill of Rights in the First Congress.
+
+### dolley-madison-bio
+
+[White House Historical Association · Dolley Madison](https://www.whitehousehistory.org/bios/dolley-madison)
+
+Supports: `dolley-madison-01`, `dolley-madison-02`, `dolley-madison-03`, `dolley-madison-04`, `dolley-madison-05`, `dolley-madison-09`, `dolley-madison-10`.
+
+Locator/review: Chronological biography; footnotes 3–7 and 10. Footnote 6 supports the distinct Jefferson association. Later life and sale of enslaved people are informational only.
+
+### dolley-social-politics
+
+[Smithsonian · Dolley Madison’s silk dress](https://avpreservation.si.edu/object/nmah_490927)
+
+Supports: `dolley-madison-06`, `dolley-madison-07`.
+
+Locator/review: Object description, paragraphs on receptions, letters, visits, and political networks. Used as a textual source only: the dress image has reuse restrictions and is not bundled.
+
+### portrait-rescue
+
+[White House Historical Association · Workers and the Washington portrait](https://www.whitehousehistory.org/galleries/enslaved-labor-in-the-white-house-white-house-collection)
+
+Supports: `dolley-madison-08`.
+
+Locator/review: George Washington, 1797 collection entry: Paul Jennings’s memoir distinguishes Dolley’s order from staff removal. Do not infer that she personally carried or cut out the painting.
+
+## Phase 3.2 portrait provenance
+
+The following four assets were visually checked against their institutional records. Each is a 250-pixel-wide RGB JPEG, proportionally resized with Lanczos and saved at quality 85 with optimization using already-installed Pillow. No retouching, restoration, or generative processing was performed. Existing CSS may crop or apply sepia. Original art and digital reproduction permissions are distinguished below. No dependencies or design-reference artwork were added.
+
+| Person / local asset                             | Work and holding institution                                                                                                                              | Rights evidence                                                                                                                                                                                                                                                                  |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| John Adams — `/portraits/john-adams.jpg`         | Gilbert Stuart, c. 1821; National Gallery of Art, Washington; Ailsa Mellon Bruce Fund; 1979.4.1                                                           | [Object record](https://www.nga.gov/artworks/56913-john-adams) identifies the media as public domain.                                                                                                                                                                            |
+| Abigail Adams — `/portraits/abigail-adams.jpg`   | Gilbert Stuart, 1800/1815; National Gallery of Art, Washington; Gift of Mrs. Robert Homans; 1954.7.2                                                      | [Object record](https://www.nga.gov/artworks/42934-abigail-smith-adams-mrs-john-adams) identifies the media as public domain.                                                                                                                                                    |
+| James Madison — `/portraits/james-madison.jpg`   | Gilbert Stuart, c. 1821; National Gallery of Art, Washington; Ailsa Mellon Bruce Fund; 1979.4.2                                                           | [Object record](https://www.nga.gov/artworks/56914-james-madison) identifies the media as public domain.                                                                                                                                                                         |
+| Dolley Madison — `/portraits/dolley-madison.jpg` | Gilbert Stuart, 1804; White House Collection, 994.1737.1; gift of the Walter H. and Phyllis J. Shorenstein Foundation in memory of Phyllis J. Shorenstein | [Commons file and rights record](https://commons.wikimedia.org/wiki/File:Dolley_Madison.jpg): public-domain painting and faithful reproduction (PD-Art, scoped to the United States). [Institutional identification](https://www.whitehousehistory.org/photos/dolley-madison-1). |
+
+For the three NGA works, Stuart’s public-domain original and the digital files are separately covered: each object page explicitly permits its media, and the [NGA Open Access policy](https://www.nga.gov/terms-and-notices#open-access-policy) releases covered reproductions under CC0 for any use. This does not license all text or images on the institution’s site. For Dolley, the Commons file page separately explains the original’s expired copyright and faithful-reproduction status; its current file history credits Adam Cuerden’s 2019 upload of an unaltered reproduction, not a restoration. No broader claim about all WHHA photographs or international reproduction rights is made.
+
+Direct downloaded image URLs:
+
+- [John Adams](https://api.nga.gov/iiif/46052f6d-93b8-455c-987f-3817781b6c49/full/%21800%2C800/0/default.jpg)
+- [Abigail Adams](https://api.nga.gov/iiif/3c07a617-32b9-4527-be7c-1cef37ca41ef/full/%21800%2C800/0/default.jpg)
+- [James Madison](https://api.nga.gov/iiif/ab7f71b8-00f6-408f-847a-1ae2986be106/full/%21800%2C800/0/default.jpg)
+- [Dolley Madison](https://upload.wikimedia.org/wikipedia/commons/8/8b/Dolley_Madison.jpg)
+
+There are no unresolved portrait-license blockers in this batch. This is a scoped review of these four assets, not a renewed certification of the original ten portraits. All remote citations may change; offline access covers local facts, portraits, and gameplay, not external sources.
