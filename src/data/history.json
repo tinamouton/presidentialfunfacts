@@ -137,6 +137,162 @@
       "name": "White House Historical Association · Workers and the Washington portrait",
       "url": "https://www.whitehousehistory.org/galleries/enslaved-labor-in-the-white-house-white-house-collection",
       "checkedOn": "2026-10-15"
+    },
+    {
+      "id": "jqa-bio",
+      "name": "White House Historical Association · John Quincy Adams",
+      "url": "https://www.whitehousehistory.org/bios/john-quincy-adams",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "jqa-nps",
+      "name": "National Park Service · John Quincy Adams",
+      "url": "https://www.nps.gov/adam/learn/historyculture/john-quincy-adams-1767-1848.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "potomac-presidents",
+      "name": "White House Historical Association · Presidents and the Potomac",
+      "url": "https://www.whitehousehistory.org/presidents-and-the-potomac",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "louisa-bio",
+      "name": "White House Historical Association · Louisa Adams",
+      "url": "https://www.whitehousehistory.org/bios/louisa-adams",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "louisa-nps",
+      "name": "National Park Service · Louisa Catherine Adams",
+      "url": "https://www.nps.gov/adam/learn/historyculture/louisa-catherine-adams-1775-1852.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "grant-nps",
+      "name": "National Park Service · Ulysses S. Grant",
+      "url": "https://www.nps.gov/people/ulysses-s-grant.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "grant-horses",
+      "name": "National Park Service · Ulysses S. Grant’s Horsemanship",
+      "url": "https://www.nps.gov/articles/000/ulysses-s-grant-s-horsemanship.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "william-jones",
+      "name": "National Park Service · William Jones",
+      "url": "https://www.nps.gov/people/william-jones.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "grant-enforcement",
+      "name": "National Park Service · President Grant Takes on the Ku Klux Klan",
+      "url": "https://www.nps.gov/articles/000/president-grant-takes-on-the-ku-klux-klan.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "grant-memoirs",
+      "name": "National Park Service · The Personal Memoirs of Ulysses S. Grant",
+      "url": "https://www.nps.gov/articles/the-personal-memoirs-of-ulysses-s-grant.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "grant-bio",
+      "name": "White House Historical Association · Ulysses S. Grant",
+      "url": "https://www.whitehousehistory.org/bios/ulysses-s-grant",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "julia-bio",
+      "name": "National Park Service · Julia Dent Grant",
+      "url": "https://www.nps.gov/people/julia-dent-grant.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "julia-memoirs",
+      "name": "National Park Service · The Personal Memoirs of Julia Dent Grant",
+      "url": "https://www.nps.gov/articles/the-personal-memoirs-of-julia-dent-grant.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "jule",
+      "name": "National Park Service · Jule",
+      "url": "https://www.nps.gov/people/jule.htm",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "calvin-bio",
+      "name": "White House Historical Association · Calvin Coolidge",
+      "url": "https://www.whitehousehistory.org/bios/calvin-coolidge",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "coolidge-electric-horse",
+      "name": "White House Historical Association · Coolidge’s electric exercise horse",
+      "url": "https://www.whitehousehistory.org/photos/photo-6-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "coolidge-folklore",
+      "name": "Calvin Coolidge Presidential Foundation · 2021 Annual Report, reprinted book review",
+      "url": "https://coolidgefoundation.org/wp-content/uploads/2012/08/2021-Annual-Report-Digital.pdf",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "immigration-1924",
+      "name": "U.S. Department of State, Office of the Historian · The Immigration Act of 1924",
+      "url": "https://history.state.gov/milestones/1921-1936/immigration-act",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "coolidge-raccoons",
+      "name": "White House Historical Association · Raccoons at the White House",
+      "url": "https://www.whitehousehistory.org/raccoons-at-the-white-house",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "grace-bio",
+      "name": "White House Historical Association · Grace Coolidge",
+      "url": "https://www.whitehousehistory.org/bios/grace-coolidge",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "jimmy-center-bio",
+      "name": "The Carter Center · Jimmy Carter",
+      "url": "https://www.cartercenter.org/people/jimmy-carter/",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "jimmy-bio",
+      "name": "White House Historical Association · Jimmy Carter",
+      "url": "https://www.whitehousehistory.org/bios/jimmy-carter",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "carter-poetics",
+      "name": "The Carter Center · From Politics to Poetics, by Jimmy Carter",
+      "url": "https://www.cartercenter.org/news/from-politics-to-poetics/",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "rosalynn-bio",
+      "name": "White House Historical Association · Rosalynn Carter",
+      "url": "https://www.whitehousehistory.org/bios/rosalynn-carter",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "rosalynn-center-bio",
+      "name": "The Carter Center · Rosalynn Carter",
+      "url": "https://www.cartercenter.org/people/rosalynn-carter/",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "rosalynn-interests",
+      "name": "The Carter Center · 24 Fun Facts about First Lady Rosalynn Carter",
+      "url": "https://www.cartercenter.org/stories/her-secret-service-code-name-and-other-lesser-known-facts-about-first-lady-rosalynn-carter/",
+      "checkedOn": "2026-10-17"
     }
   ],
   "people": [
@@ -335,6 +491,118 @@
         "attribution": "Gilbert Stuart, Dolley Madison, 1804. White House Collection, 994.1737.1; faithful reproduction via Wikimedia Commons.",
         "rights": "Public-domain artwork (Stuart died in 1828); Commons identifies this faithful reproduction as public domain in the United States under PD-Art. Resized to 250 pixels wide and JPEG compressed; no retouching. Display may crop and apply sepia."
       }
+    },
+    {
+      "id": "john-quincy-adams",
+      "name": "John Quincy Adams",
+      "kind": "president",
+      "years": "1825–1829",
+      "subtitle": "6th President · A swimmer with a notebook",
+      "biography": "A diplomat from childhood, John Quincy Adams became president and then a congressman. He loved learning and exercise; his later antislavery work also challenges us to examine his household’s reliance on enslaved labor.",
+      "image": {
+        "path": "/portraits/john-quincy-adams.jpg",
+        "sourceUrl": "https://npg.si.edu/object/npg_S_NPG.85.265",
+        "attribution": "Meade Brothers Studio, after an unidentified photographer, John Quincy Adams, c. 1860 photographic copy. National Portrait Gallery, Smithsonian Institution; gift of Mr. and Mrs. Dudley Emerson Lyons, S/NPG.85.265. CC0; detail, cropped and resized.",
+        "rights": "CC0 — Smithsonian Open Access; exact object and media both CC0."
+      }
+    },
+    {
+      "id": "louisa-catherine-adams",
+      "name": "Louisa Catherine Adams",
+      "kind": "first-lady",
+      "years": "1825–1829",
+      "subtitle": "First Lady · Music, words, and a world of travel",
+      "biography": "Born in London and educated partly in France, Louisa was a musician, writer, and experienced traveler. She helped shape diplomatic and political life and later organized antislavery petitions.",
+      "image": {
+        "path": "/portraits/louisa-catherine-adams.jpg",
+        "sourceUrl": "https://www.loc.gov/item/96525380/",
+        "attribution": "G. F. Storm, after Charles Robert Leslie, Louisa Catherine Adams, 1834–1860(?). Library of Congress, Prints and Photographs Division, LC-USZ62-14438. Cropped and resized.",
+        "rights": "Public domain in the United States: nineteenth-century publication; LOC advisory: No known restrictions on publication."
+      }
+    },
+    {
+      "id": "ulysses-s-grant",
+      "name": "Ulysses S. Grant",
+      "kind": "president",
+      "years": "1869–1877",
+      "subtitle": "18th President · Horses, history, and hard choices",
+      "biography": "Grant’s life stretched from horse training to Union command, the presidency, and memoir writing. He had enslaved William Jones before the war; as president, he enforced civil rights during Reconstruction.",
+      "image": {
+        "path": "/portraits/ulysses-s-grant.jpg",
+        "sourceUrl": "https://npg.si.edu/object/npg_NPG.80.183",
+        "attribution": "Unidentified photographer, Ulysses S. Grant, c. 1876. National Portrait Gallery, Smithsonian Institution, NPG.80.183. CC0; cropped and resized.",
+        "rights": "CC0 — Smithsonian Open Access; object and exact media both CC0."
+      }
+    },
+    {
+      "id": "julia-dent-grant",
+      "name": "Julia Dent Grant",
+      "kind": "first-lady",
+      "years": "1869–1877",
+      "subtitle": "First Lady · A traveler with stories to tell",
+      "biography": "Julia managed farm business, took an interest in politics, and wrote about her travels and family. Her memories also require care: she benefited from enslaved labor and described that unequal world from her own perspective.",
+      "image": {
+        "path": "/portraits/julia-dent-grant.jpg",
+        "sourceUrl": "https://www.loc.gov/pictures/item/96525595/",
+        "attribution": "Julia Dent Grant, photographed 1876, printed later; photographer unidentified. Library of Congress, Prints and Photographs Division, LC-USZ62-25791. Cropped and resized.",
+        "rights": "Library of Congress rights advisory: No known restrictions on publication."
+      }
+    },
+    {
+      "id": "calvin-coolidge",
+      "name": "Calvin Coolidge",
+      "kind": "president",
+      "years": "1923–1929",
+      "subtitle": "30th President · Quiet words and an electric horse",
+      "biography": "A Vermont-born lawyer, Calvin Coolidge entered the presidency after Warren Harding’s death. Behind his reserved image were pets and unusual exercise equipment, alongside controversial choices about government spending and immigration.",
+      "image": {
+        "path": "/portraits/calvin-coolidge.jpg",
+        "sourceUrl": "https://www.loc.gov/pictures/item/2003652523/",
+        "attribution": "Notman Photo Co., Calvin Coolidge as governor, 1919. Library of Congress, Prints and Photographs Division, LC-DIG-ppmsc-03670. Cropped and resized.",
+        "rights": "Public domain in the United States: copyright nonrenewal recorded by LOC."
+      }
+    },
+    {
+      "id": "grace-coolidge",
+      "name": "Grace Coolidge",
+      "kind": "first-lady",
+      "years": "1923–1929",
+      "subtitle": "First Lady · Classrooms, baseball, and Rebecca",
+      "biography": "Grace began as a teacher of deaf children and remained committed to education. At the White House she welcomed guests, enjoyed baseball, cared for animals, and helped preserve historic furnishings.",
+      "image": {
+        "path": "/portraits/grace-coolidge.jpg",
+        "sourceUrl": "https://npg.si.edu/object/npg_S_NPG.82.16",
+        "attribution": "Harris & Ewing Studio, Grace Anna Goodhue Coolidge, 1931. National Portrait Gallery, Smithsonian Institution; gift of the University Women's Club, Inc. S/NPG.82.16. CC0; cropped and resized.",
+        "rights": "CC0 — Smithsonian Open Access; object and exact media both CC0."
+      }
+    },
+    {
+      "id": "jimmy-carter",
+      "name": "Jimmy Carter",
+      "kind": "president",
+      "years": "1977–1981",
+      "subtitle": "39th President · A submariner with a woodshop",
+      "biography": "A naval officer and Georgia farmer, Jimmy Carter brought interests in science and practical work to public life. After a presidency marked by diplomacy and difficult crises, he continued humanitarian work, writing, and making furniture.",
+      "image": {
+        "path": "/portraits/jimmy-carter.jpg",
+        "sourceUrl": "https://catalog.archives.gov/id/558522",
+        "attribution": "Naval Photographic Center, James Earl “Jimmy” Carter, exposure date unidentified. National Archives at College Park, Still Pictures, 428-KN-26854, NAID 558522. U.S. federal government work; detail, cropped and resized.",
+        "rights": "Public domain in the United States: U.S. federal agency work, Naval Photographic Center, 428-KN-26854."
+      }
+    },
+    {
+      "id": "rosalynn-carter",
+      "name": "Rosalynn Carter",
+      "kind": "first-lady",
+      "years": "1977–1981",
+      "subtitle": "First Lady · Advocacy, accounting, and butterflies",
+      "biography": "Rosalynn was a business partner, diplomatic envoy, and advocate for mental health and family caregivers. Her interests also included sewing, fly-fishing, and creating places where butterflies could thrive.",
+      "image": {
+        "path": "/portraits/rosalynn-carter.jpg",
+        "sourceUrl": "https://catalog.archives.gov/id/173749",
+        "attribution": "White House Staff Photographers, Official portrait of Rosalynn Carter, February 18, 1977. Jimmy Carter Library, National Archives, NAID 173749, NLC-WHSP-C-00383-08. Public domain; cropped and resized.",
+        "rights": "Public domain in the United States: White House Staff Photographers Collection, Jimmy Carter Library / National Archives."
+      }
     }
   ],
   "terms": [
@@ -379,6 +647,30 @@
       "start": 1809,
       "end": 1817,
       "ordinal": 4
+    },
+    {
+      "presidentId": "john-quincy-adams",
+      "start": 1825,
+      "end": 1829,
+      "ordinal": 6
+    },
+    {
+      "presidentId": "ulysses-s-grant",
+      "start": 1869,
+      "end": 1877,
+      "ordinal": 18
+    },
+    {
+      "presidentId": "calvin-coolidge",
+      "start": 1923,
+      "end": 1929,
+      "ordinal": 30
+    },
+    {
+      "presidentId": "jimmy-carter",
+      "start": 1977,
+      "end": 1981,
+      "ordinal": 39
     }
   ],
   "relationships": [
@@ -483,6 +775,62 @@
       "label": "Occasional hostess during this administration",
       "sourceId": "dolley-madison-bio",
       "from": "jefferson"
+    },
+    {
+      "from": "john-quincy-adams",
+      "to": "louisa-catherine-adams",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "louisa-bio"
+    },
+    {
+      "from": "louisa-catherine-adams",
+      "to": "john-quincy-adams",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "louisa-bio"
+    },
+    {
+      "from": "ulysses-s-grant",
+      "to": "julia-dent-grant",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "julia-bio"
+    },
+    {
+      "from": "julia-dent-grant",
+      "to": "ulysses-s-grant",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "julia-bio"
+    },
+    {
+      "from": "calvin-coolidge",
+      "to": "grace-coolidge",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "grace-bio"
+    },
+    {
+      "from": "grace-coolidge",
+      "to": "calvin-coolidge",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "grace-bio"
+    },
+    {
+      "from": "jimmy-carter",
+      "to": "rosalynn-carter",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "rosalynn-bio"
+    },
+    {
+      "from": "rosalynn-carter",
+      "to": "jimmy-carter",
+      "kind": "spouse",
+      "label": "Spouse",
+      "sourceId": "rosalynn-bio"
     }
   ],
   "facts": [
@@ -2272,6 +2620,820 @@
       "description": "After James Madison died, Dolley returned to Washington in 1837 and lived on Lafayette Square.",
       "category": "family",
       "sourceId": "dolley-madison-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-quincy-adams-01",
+      "personId": "john-quincy-adams",
+      "headline": "A child on a diplomatic voyage",
+      "description": "At ten, John Quincy crossed the Atlantic with his father on a diplomatic mission to France. His education stretched far beyond a classroom.",
+      "category": "early-life",
+      "sourceId": "jqa-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-quincy-adams-02",
+      "personId": "john-quincy-adams",
+      "headline": "A teenage interpreter",
+      "description": "In 1781, fourteen-year-old John Quincy went to Russia with diplomat Francis Dana. He worked as a secretary and French interpreter.",
+      "category": "early-life",
+      "sourceId": "jqa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-quincy-adams-03",
+      "personId": "john-quincy-adams",
+      "headline": "A diary across decades",
+      "description": "John Quincy kept a diary for decades, recording public events alongside his own daily life. Those pages help historians look beyond his serious portraits.",
+      "category": "arts",
+      "sourceId": "jqa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-quincy-adams-04",
+      "personId": "john-quincy-adams",
+      "headline": "An early-morning swimmer",
+      "description": "As president, John Quincy sometimes rose at five in the morning to swim in the Potomac River. Exercise was part of his daily routine.",
+      "category": "adventures",
+      "sourceId": "potomac-presidents",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-quincy-adams-05",
+      "personId": "john-quincy-adams",
+      "headline": "An eye on the stars",
+      "description": "President Adams wanted the nation to build an astronomical observatory. Studying the sky belonged in his plans for the country’s future.",
+      "category": "arts",
+      "sourceId": "jqa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-quincy-adams-06",
+      "personId": "john-quincy-adams",
+      "headline": "Back to Congress",
+      "description": "Leaving the presidency did not end Adams’s public career. He won a seat in the House of Representatives and returned to Washington as a lawmaker.",
+      "category": "legacy",
+      "sourceId": "jqa-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-quincy-adams-07",
+      "personId": "john-quincy-adams",
+      "headline": "A complicated antislavery record",
+      "description": "Adams later fought slavery in Congress, but enslaved people also worked in his White House household. They had been brought there by relatives of Louisa.",
+      "category": "legacy",
+      "sourceId": "jqa-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "john-quincy-adams-08",
+      "personId": "john-quincy-adams",
+      "headline": "The Amistad case",
+      "description": "In 1841, long after his presidency, Adams argued for the African captives from the Amistad before the Supreme Court. He helped win their freedom.",
+      "category": "legacy",
+      "sourceId": "jqa-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "john-quincy-adams-09",
+      "personId": "john-quincy-adams",
+      "headline": "A canal’s first day",
+      "description": "On July 4, 1828, President Adams helped begin construction of the Chesapeake and Ohio Canal. Canals were part of his vision for connecting the country.",
+      "category": "adventures",
+      "sourceId": "potomac-presidents",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "john-quincy-adams-10",
+      "personId": "john-quincy-adams",
+      "headline": "The swimmer and the reporter",
+      "description": "According to a popular story, reporter Anne Royall sat on Adams’s clothes until he agreed to an interview after swimming. Scholars consider this tale apocryphal: a story, not an established event.",
+      "category": "adventures",
+      "sourceId": "potomac-presidents",
+      "verification": "verified",
+      "evidence": "legend",
+      "gameEligible": false
+    },
+    {
+      "id": "louisa-catherine-adams-01",
+      "personId": "louisa-catherine-adams",
+      "headline": "A London beginning",
+      "description": "Louisa was born in London in 1775. She became the first U.S. first lady born outside the United States.",
+      "category": "firsts",
+      "sourceId": "louisa-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "louisa-catherine-adams-02",
+      "personId": "louisa-catherine-adams",
+      "headline": "A childhood in French",
+      "description": "During the American Revolution, Louisa’s family moved to France. She learned French at school, a language that would help her throughout a traveling life.",
+      "category": "early-life",
+      "sourceId": "louisa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "louisa-catherine-adams-03",
+      "personId": "louisa-catherine-adams",
+      "headline": "Music for her guests",
+      "description": "Louisa played both harp and piano. At the White House, she sometimes performed for visitors herself.",
+      "category": "arts",
+      "sourceId": "louisa-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "louisa-catherine-adams-04",
+      "personId": "louisa-catherine-adams",
+      "headline": "Silkworms at the White House",
+      "description": "Louisa raised silkworms on the White House grounds and collected their silk for her own projects. These tiny creatures were part of her busy household.",
+      "category": "adventures",
+      "sourceId": "louisa-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "louisa-catherine-adams-05",
+      "personId": "louisa-catherine-adams",
+      "headline": "Her own words",
+      "description": "Louisa wrote letters, stories, poems, and plays. Writing gave her a voice beyond the public role of a president’s wife.",
+      "category": "arts",
+      "sourceId": "louisa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "louisa-catherine-adams-06",
+      "personId": "louisa-catherine-adams",
+      "headline": "Six weeks on the road",
+      "description": "After arranging the family’s affairs in Russia, Louisa traveled to Paris with her young son Charles. Their difficult winter journey took six weeks.",
+      "category": "adventures",
+      "sourceId": "louisa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "louisa-catherine-adams-07",
+      "personId": "louisa-catherine-adams",
+      "headline": "Work at the State Department",
+      "description": "When John Quincy became secretary of state in 1817, Louisa helped him as a secretary. Together they worked long hours to organize the department.",
+      "category": "legacy",
+      "sourceId": "louisa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "louisa-catherine-adams-08",
+      "personId": "louisa-catherine-adams",
+      "headline": "Politics over dinner",
+      "description": "Before the 1824 election, Louisa hosted Tuesday-evening dinners and dancing for political guests. She used those gatherings to build support for John Quincy.",
+      "category": "legacy",
+      "sourceId": "louisa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "louisa-catherine-adams-09",
+      "personId": "louisa-catherine-adams",
+      "headline": "Petitions needed a reader",
+      "description": "Louisa sorted, listed, and summarized antislavery petitions sent to her husband in Congress. Her work helped the campaign against rules that silenced them.",
+      "category": "legacy",
+      "sourceId": "louisa-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "louisa-catherine-adams-10",
+      "personId": "louisa-catherine-adams",
+      "headline": "A family wedding indoors",
+      "description": "In 1828, Louisa hosted the White House wedding of her son John Adams II and her niece Mary Catherine Hellen.",
+      "category": "family",
+      "sourceId": "louisa-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "ulysses-s-grant-01",
+      "personId": "ulysses-s-grant",
+      "headline": "A name that stuck",
+      "description": "Grant was born Hiram Ulysses Grant. A mistaken West Point roster called him Ulysses S. Grant, and that became the name he used.",
+      "category": "early-life",
+      "sourceId": "grant-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "ulysses-s-grant-02",
+      "personId": "ulysses-s-grant",
+      "headline": "The neighborhood horse expert",
+      "description": "Even as a boy in Ohio, Grant trained horses for neighbors. His skill with animals appeared long before his fame as a general.",
+      "category": "early-life",
+      "sourceId": "grant-horses",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "ulysses-s-grant-03",
+      "personId": "ulysses-s-grant",
+      "headline": "Letters about horse care",
+      "description": "In an 1866 letter, Grant discussed treatment for horses’ feet and reported trying it on four of his own horses. He paid close attention to their health.",
+      "category": "adventures",
+      "sourceId": "grant-horses",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "ulysses-s-grant-04",
+      "personId": "ulysses-s-grant",
+      "headline": "A different classroom dream",
+      "description": "As a young man, Grant considered becoming a mathematics teacher. His future did not always point toward an army uniform.",
+      "category": "early-life",
+      "sourceId": "grant-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "ulysses-s-grant-05",
+      "personId": "ulysses-s-grant",
+      "headline": "Leading the Union armies",
+      "description": "In March 1864, Grant became commanding general of all Union armies. In April 1865, he accepted Robert E. Lee’s surrender of the Army of Northern Virginia.",
+      "category": "legacy",
+      "sourceId": "grant-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "ulysses-s-grant-06",
+      "personId": "ulysses-s-grant",
+      "headline": "William Jones’s freedom",
+      "description": "Grant once enslaved a man named William Jones. On March 29, 1859, he signed a legal document freeing Jones instead of selling him.",
+      "category": "legacy",
+      "sourceId": "william-jones",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "ulysses-s-grant-07",
+      "personId": "ulysses-s-grant",
+      "headline": "Enforcing civil rights",
+      "description": "As president during Reconstruction, Grant used federal troops and prosecutions against Ku Klux Klan violence. These efforts protected Black communities, though they did not end racist violence.",
+      "category": "legacy",
+      "sourceId": "grant-enforcement",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "ulysses-s-grant-08",
+      "personId": "ulysses-s-grant",
+      "headline": "A park protected by law",
+      "description": "In 1872, President Grant signed the law establishing Yellowstone National Park. A remarkable landscape gained federal protection.",
+      "category": "legacy",
+      "sourceId": "grant-nps",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "ulysses-s-grant-09",
+      "personId": "ulysses-s-grant",
+      "headline": "A writer with a famous publisher",
+      "description": "After losing his fortune, Grant wrote his memoirs to help support his family. Mark Twain helped arrange their publication, and the books became bestsellers.",
+      "category": "arts",
+      "sourceId": "grant-memoirs",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "ulysses-s-grant-10",
+      "personId": "ulysses-s-grant",
+      "headline": "A scandal in his administration",
+      "description": "The Whiskey Ring cheated the government out of taxes during Grant’s presidency. Officials were involved; Grant’s private secretary was accused but acquitted.",
+      "category": "legacy",
+      "sourceId": "grant-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "julia-dent-grant-01",
+      "personId": "julia-dent-grant",
+      "headline": "An outdoors childhood",
+      "description": "Growing up at White Haven in Missouri, Julia fished, rode horses, and played in the woods. She liked a world bigger than the parlor.",
+      "category": "early-life",
+      "sourceId": "julia-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "julia-dent-grant-02",
+      "personId": "julia-dent-grant",
+      "headline": "An engagement that waited",
+      "description": "Julia and Ulysses became engaged in 1844, but his service in the Mexican-American War delayed their wedding until 1848.",
+      "category": "family",
+      "sourceId": "julia-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "julia-dent-grant-03",
+      "personId": "julia-dent-grant",
+      "headline": "Chickens, butter, and unequal work",
+      "description": "Julia raised chickens and churned butter at White Haven. Much of the household cooking was done by enslaved people, whose labor supported the family.",
+      "category": "family",
+      "sourceId": "julia-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "julia-dent-grant-04",
+      "personId": "julia-dent-grant",
+      "headline": "Managing the farm’s business",
+      "description": "During the Civil War, Julia managed White Haven’s finances. She collected rent, leased land, and handled property paperwork while her husband was away.",
+      "category": "legacy",
+      "sourceId": "julia-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "julia-dent-grant-05",
+      "personId": "julia-dent-grant",
+      "headline": "More than a hostess",
+      "description": "As first lady, Julia attended Senate hearings, read presidential mail, and met officials and diplomats. She took an active interest in government.",
+      "category": "legacy",
+      "sourceId": "julia-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "julia-dent-grant-06",
+      "personId": "julia-dent-grant",
+      "headline": "Nellie’s East Room wedding",
+      "description": "Julia’s daughter Nellie married in the White House East Room in 1874. Family celebrations were part of Julia’s life as first lady.",
+      "category": "family",
+      "sourceId": "julia-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "julia-dent-grant-07",
+      "personId": "julia-dent-grant",
+      "headline": "Around the world afterward",
+      "description": "After the presidency ended in 1877, Julia and Ulysses took a world tour lasting about two and a half years. She later devoted a large part of her memoirs to it.",
+      "category": "adventures",
+      "sourceId": "julia-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "julia-dent-grant-08",
+      "personId": "julia-dent-grant",
+      "headline": "A book that waited decades",
+      "description": "Julia wrote the first memoir by a U.S. first lady, but it was not published during her lifetime. Readers finally received the full book in 1975.",
+      "category": "arts",
+      "sourceId": "julia-memoirs",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "julia-dent-grant-09",
+      "personId": "julia-dent-grant",
+      "headline": "Jule chose freedom",
+      "description": "Jule, enslaved by Julia’s father, worked as Julia’s nurse and maid during the Civil War. In early 1864, she escaped in Louisville and began a life beyond the Grants’ control.",
+      "category": "legacy",
+      "sourceId": "jule",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "calvin-coolidge-01",
+      "personId": "calvin-coolidge",
+      "headline": "A Fourth of July birthday",
+      "description": "Calvin Coolidge was born in Vermont on July 4, 1872. His birthday fell on the same day Americans celebrate Independence Day.",
+      "category": "early-life",
+      "sourceId": "calvin-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "calvin-coolidge-02",
+      "personId": "calvin-coolidge",
+      "headline": "An oath by lamplight",
+      "description": "After President Harding died in 1923, Coolidge took the presidential oath at his father’s home in Vermont. His father administered it by the light of a kerosene lamp.",
+      "category": "firsts",
+      "sourceId": "calvin-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "calvin-coolidge-03",
+      "personId": "calvin-coolidge",
+      "headline": "A horse that stayed indoors",
+      "description": "Coolidge exercised on an electric horse in the White House. The machine could imitate a trot or a gallop without going anywhere.",
+      "category": "adventures",
+      "sourceId": "coolidge-electric-horse",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "calvin-coolidge-04",
+      "personId": "calvin-coolidge",
+      "headline": "Two traveling collies",
+      "description": "The Coolidge family took their collies Rob Roy and Prudence Prim on their summer trip to South Dakota. Presidential travel could include paws.",
+      "category": "family",
+      "sourceId": "coolidge-raccoons",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "calvin-coolidge-05",
+      "personId": "calvin-coolidge",
+      "headline": "Small government, big arguments",
+      "description": "Coolidge favored lower taxes and limited federal spending. He twice vetoed farm-relief bills, even as many farmers struggled.",
+      "category": "legacy",
+      "sourceId": "calvin-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "calvin-coolidge-06",
+      "personId": "calvin-coolidge",
+      "headline": "A law that shut people out",
+      "description": "Coolidge signed the Immigration Act of 1924. Its quotas favored some national origins over others, and its racial restrictions barred many Asian immigrants.",
+      "category": "legacy",
+      "sourceId": "immigration-1924",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "calvin-coolidge-07",
+      "personId": "calvin-coolidge",
+      "headline": "Quiet, but often photographed",
+      "description": "Although people nicknamed him Silent Cal, Coolidge frequently posed for photographs. He understood that public images mattered.",
+      "category": "legacy",
+      "sourceId": "calvin-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "calvin-coolidge-08",
+      "personId": "calvin-coolidge",
+      "headline": "The famous two-word story",
+      "description": "Legend has it that a dinner guest bet she could make Coolidge say more than two words. He supposedly answered, “You lose.” A later review calls this famous tale a likely invention.",
+      "category": "family",
+      "sourceId": "coolidge-folklore",
+      "verification": "verified",
+      "evidence": "legend",
+      "gameEligible": false
+    },
+    {
+      "id": "grace-coolidge-01",
+      "personId": "grace-coolidge",
+      "headline": "A teacher before the White House",
+      "description": "Before becoming first lady, Grace trained and taught at the Clarke School for the Deaf in Massachusetts. Education remained important throughout her life.",
+      "category": "legacy",
+      "sourceId": "grace-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "grace-coolidge-02",
+      "personId": "grace-coolidge",
+      "headline": "A baseball-loving first lady",
+      "description": "Grace attended baseball games and welcomed celebrities to the White House. Sports and popular culture were part of her public life.",
+      "category": "adventures",
+      "sourceId": "grace-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "grace-coolidge-03",
+      "personId": "grace-coolidge",
+      "headline": "A raccoon at the Egg Roll",
+      "description": "Grace brought the family’s raccoon, Rebecca, to the 1927 White House Easter Egg Roll. Children met a very unusual presidential pet.",
+      "category": "family",
+      "sourceId": "coolidge-raccoons",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "grace-coolidge-04",
+      "personId": "grace-coolidge",
+      "headline": "Rebecca’s bathtub games",
+      "description": "Grace later remembered Rebecca playing in a partly filled bathtub with a bar of soap. Her recollection gives a lively glimpse of the family’s pet.",
+      "category": "family",
+      "sourceId": "coolidge-raccoons",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "grace-coolidge-05",
+      "personId": "grace-coolidge",
+      "headline": "Five canaries on vacation",
+      "description": "Grace’s five canaries joined the Coolidges’ planned pet travelers for their South Dakota vacation. The family’s animals were quite a traveling group.",
+      "category": "family",
+      "sourceId": "coolidge-raccoons",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "grace-coolidge-06",
+      "personId": "grace-coolidge",
+      "headline": "Bringing history back indoors",
+      "description": "Grace worked to bring historic furnishings back to the White House. A 1925 congressional resolution allowed gifts of art and furniture to help the effort.",
+      "category": "arts",
+      "sourceId": "grace-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "grace-coolidge-07",
+      "personId": "grace-coolidge",
+      "headline": "Service beyond her title",
+      "description": "After leaving the White House, Grace continued supporting deaf education. She served on the Clarke School’s board and later became its president.",
+      "category": "legacy",
+      "sourceId": "grace-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "grace-coolidge-08",
+      "personId": "grace-coolidge",
+      "headline": "A family’s painful loss",
+      "description": "Grace and Calvin’s younger son, Calvin Jr., died in 1924 after an infected tennis blister. Their White House years included deep grief as well as celebrations.",
+      "category": "family",
+      "sourceId": "grace-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "jimmy-carter-01",
+      "personId": "jimmy-carter",
+      "headline": "Science beneath the waves",
+      "description": "Before politics, Carter served as a Navy submariner. He studied reactor technology and nuclear physics while preparing for work in the nuclear submarine program.",
+      "category": "early-life",
+      "sourceId": "jimmy-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "jimmy-carter-02",
+      "personId": "jimmy-carter",
+      "headline": "Back to the family business",
+      "description": "After leaving the Navy in 1953, Jimmy returned to Georgia. He and Rosalynn ran a farm-supply and seed business alongside the Carter farms.",
+      "category": "early-life",
+      "sourceId": "jimmy-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "jimmy-carter-03",
+      "personId": "jimmy-carter",
+      "headline": "A workshop break",
+      "description": "After his presidency, Carter took breaks from writing his memoirs by making furniture. He recalled building more than thirty pieces while working on the book.",
+      "category": "arts",
+      "sourceId": "carter-poetics",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "jimmy-carter-04",
+      "personId": "jimmy-carter",
+      "headline": "A book with Amy’s pictures",
+      "description": "Carter wrote a children’s book called The Little Baby Snoogle-Fleejer. His daughter Amy illustrated it.",
+      "category": "arts",
+      "sourceId": "jimmy-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "jimmy-carter-05",
+      "personId": "jimmy-carter",
+      "headline": "Talks at Camp David",
+      "description": "In 1978, President Carter helped leaders of Egypt and Israel reach the Camp David Accords. Those talks helped prepare the way for a peace treaty.",
+      "category": "legacy",
+      "sourceId": "jimmy-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "jimmy-carter-06",
+      "personId": "jimmy-carter",
+      "headline": "Energy gets a department",
+      "description": "During Carter’s presidency, the government created the Department of Energy. Finding ways to meet the country’s energy needs became a major challenge.",
+      "category": "legacy",
+      "sourceId": "jimmy-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "jimmy-carter-07",
+      "personId": "jimmy-carter",
+      "headline": "Hostages and a difficult final year",
+      "description": "During Carter’s last year in office, 52 Americans remained hostage in Iran. They were released on the day he left the presidency in January 1981.",
+      "category": "legacy",
+      "sourceId": "jimmy-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "jimmy-carter-08",
+      "personId": "jimmy-carter",
+      "headline": "A Nobel after the presidency",
+      "description": "Carter received the Nobel Peace Prize in 2002, more than twenty years after leaving office. The award recognized decades of work for peace and human rights.",
+      "category": "legacy",
+      "sourceId": "jimmy-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "jimmy-carter-09",
+      "personId": "jimmy-carter",
+      "headline": "Building alongside volunteers",
+      "description": "Long after the White House, Jimmy and Rosalynn volunteered with Habitat for Humanity. They helped people renovate and build homes.",
+      "category": "legacy",
+      "sourceId": "jimmy-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "rosalynn-carter-01",
+      "personId": "rosalynn-carter",
+      "headline": "The numbers behind the peanuts",
+      "description": "Back in Georgia, Rosalynn handled accounting for the family’s peanut farm and warehouse. Her partnership with Jimmy included balancing the books.",
+      "category": "early-life",
+      "sourceId": "rosalynn-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "rosalynn-carter-02",
+      "personId": "rosalynn-carter",
+      "headline": "Mental health belonged in public life",
+      "description": "As honorary chair of the President’s Commission on Mental Health, Rosalynn pressed for better care. She helped make mental health a national policy concern.",
+      "category": "legacy",
+      "sourceId": "rosalynn-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "rosalynn-carter-03",
+      "personId": "rosalynn-carter",
+      "headline": "Supporting the people who care",
+      "description": "An institute established in Rosalynn’s honor in 1987 supported family caregivers. She served as president of its board, helping draw attention to people caring for loved ones.",
+      "category": "legacy",
+      "sourceId": "rosalynn-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": false
+    },
+    {
+      "id": "rosalynn-carter-04",
+      "personId": "rosalynn-carter",
+      "headline": "An envoy with her own mission",
+      "description": "In 1977, Rosalynn led a U.S. delegation to seven Latin American and Caribbean countries. She traveled as a diplomatic envoy, not simply as a guest.",
+      "category": "legacy",
+      "sourceId": "rosalynn-interests",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "rosalynn-carter-05",
+      "personId": "rosalynn-carter",
+      "headline": "The same gown, another celebration",
+      "description": "Rosalynn wore a gown from Jimmy’s Georgia governor inauguration again at the presidential inaugural ball. A special dress could have more than one big night.",
+      "category": "family",
+      "sourceId": "rosalynn-interests",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "rosalynn-carter-06",
+      "personId": "rosalynn-carter",
+      "headline": "Clothes made at home",
+      "description": "Rosalynn sewed clothes for her daughter Amy. She stopped when the demands of life in the Georgia Governor’s Mansion left too little time.",
+      "category": "arts",
+      "sourceId": "rosalynn-interests",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "rosalynn-carter-07",
+      "personId": "rosalynn-carter",
+      "headline": "A quiet stream",
+      "description": "Rosalynn enjoyed fly-fishing, birdwatching, and gardening. Outdoor interests were part of her life alongside public service.",
+      "category": "adventures",
+      "sourceId": "rosalynn-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "rosalynn-carter-08",
+      "personId": "rosalynn-carter",
+      "headline": "Gardens for butterflies",
+      "description": "Rosalynn championed monarch butterflies and inspired the Rosalynn Carter Butterfly Trail. Its gardens provide habitat for butterflies and other pollinators.",
+      "category": "legacy",
+      "sourceId": "rosalynn-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "rosalynn-carter-09",
+      "personId": "rosalynn-carter",
+      "headline": "A new center after Washington",
+      "description": "In 1982, after leaving the White House, Rosalynn and Jimmy founded The Carter Center. Its work connected peace, human rights, and better health.",
+      "category": "legacy",
+      "sourceId": "jimmy-center-bio",
+      "verification": "verified",
+      "evidence": "documented",
+      "gameEligible": true
+    },
+    {
+      "id": "rosalynn-carter-10",
+      "personId": "rosalynn-carter",
+      "headline": "First in her class",
+      "description": "Rosalynn graduated from Plains High School as valedictorian in 1944. The future first lady had been the student chosen to lead her graduating class academically.",
+      "category": "early-life",
+      "sourceId": "rosalynn-bio",
       "verification": "verified",
       "evidence": "documented",
       "gameEligible": true

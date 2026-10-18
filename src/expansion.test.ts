@@ -20,7 +20,20 @@ import FactCard from './components/FactCard.vue';
 import type { Fact, Person, Relationship } from './models';
 
 const dataset = { people, facts, sources, categories, relationships, terms };
-const newIds = ['john-adams', 'abigail-adams', 'james-madison', 'dolley-madison'];
+const newIds = [
+  'john-adams',
+  'abigail-adams',
+  'james-madison',
+  'dolley-madison',
+  'john-quincy-adams',
+  'louisa-catherine-adams',
+  'ulysses-s-grant',
+  'julia-dent-grant',
+  'calvin-coolidge',
+  'grace-coolidge',
+  'jimmy-carter',
+  'rosalynn-carter',
+];
 
 describe('expansion foundations', () => {
   it('supports small collections, few facts per person and large collections without ceilings', () => {
@@ -203,11 +216,10 @@ describe('expansion foundations', () => {
     for (const id of newIds) {
       const items = facts.filter((fact) => fact.personId === id);
       expect(items.length).toBeGreaterThan(0);
-      expect(
-        items.every(
-          (fact) => fact.evidence === 'documented' && typeof fact.gameEligible === 'boolean',
-        ),
-      ).toBe(true);
+      for (const fact of items) {
+        expect(['documented', 'disputed', 'legend']).toContain(fact.evidence);
+        expect(typeof fact.gameEligible).toBe('boolean');
+      }
       expect(randomFact(items, undefined, () => 0)?.personId).toBe(id);
     }
     const saved = {
