@@ -94,5 +94,68 @@
     "choicePersonIds": ["abigail-adams", "dolley-madison", "martha-washington", "randolph"],
     "explanation": "Abigail Adams urged John Adams to consider women when making new laws. Her letter challenged husbands’ power over wives.",
     "sourceFactId": "abigail-adams-06"
+  },
+  {
+    "id": "louisa-silkworms",
+    "clue": "I played harp and piano and raised silkworms on the White House grounds while serving as first lady. Who am I?",
+    "answerPersonId": "louisa-catherine-adams",
+    "choicePersonIds": [
+      "louisa-catherine-adams",
+      "julia-dent-grant",
+      "grace-coolidge",
+      "rosalynn-carter"
+    ],
+    "explanation": "Louisa Catherine Adams raised silkworms and collected silk for her own projects.",
+    "sourceFactId": "louisa-catherine-adams-04"
+  },
+  {
+    "id": "grant-roster-name",
+    "clue": "I was born Hiram Ulysses, but a mistaken military-school roster gave me the name I later used as president. Who am I?",
+    "answerPersonId": "ulysses-s-grant",
+    "choicePersonIds": ["john-quincy-adams", "ulysses-s-grant", "calvin-coolidge", "jimmy-carter"],
+    "explanation": "Ulysses S. Grant accepted the name recorded for him at West Point, although he had been born Hiram Ulysses Grant.",
+    "sourceFactId": "ulysses-s-grant-01"
+  },
+  {
+    "id": "coolidge-electric-horse",
+    "clue": "My White House exercise horse ran on electricity. It could trot or gallop without taking me anywhere. Who am I?",
+    "answerPersonId": "calvin-coolidge",
+    "choicePersonIds": ["john-quincy-adams", "ulysses-s-grant", "calvin-coolidge", "jimmy-carter"],
+    "explanation": "Calvin Coolidge used an electric exercise horse with two gaits: trot and gallop.",
+    "sourceFactId": "calvin-coolidge-03"
+  },
+  {
+    "id": "grace-rebecca-egg-roll",
+    "clue": "At the 1927 White House Easter Egg Roll, I introduced children to our pet raccoon, Rebecca. I was the first lady. Who am I?",
+    "answerPersonId": "grace-coolidge",
+    "choicePersonIds": [
+      "louisa-catherine-adams",
+      "julia-dent-grant",
+      "grace-coolidge",
+      "rosalynn-carter"
+    ],
+    "explanation": "Grace Coolidge brought Rebecca the raccoon to the 1927 Easter Egg Roll.",
+    "sourceFactId": "grace-coolidge-03"
+  },
+  {
+    "id": "carter-nobel-2002",
+    "clue": "I served as president from 1977 to 1981, then kept working for peace. I received the Nobel Peace Prize in 2002. Who am I?",
+    "answerPersonId": "jimmy-carter",
+    "choicePersonIds": ["roosevelt", "john-quincy-adams", "ulysses-s-grant", "jimmy-carter"],
+    "explanation": "Jimmy Carter’s Nobel Peace Prize recognized decades of peace and human-rights work, well after his presidency.",
+    "sourceFactId": "jimmy-carter-08"
+  },
+  {
+    "id": "rosalynn-butterfly-trail",
+    "clue": "My public work included mental health advocacy, and I inspired a Butterfly Trail of gardens for monarchs and other pollinators. Who am I?",
+    "answerPersonId": "rosalynn-carter",
+    "choicePersonIds": [
+      "louisa-catherine-adams",
+      "julia-dent-grant",
+      "grace-coolidge",
+      "rosalynn-carter"
+    ],
+    "explanation": "Rosalynn Carter supported monarch conservation and inspired a network of gardens that provide pollinator habitat.",
+    "sourceFactId": "rosalynn-carter-08"
   }
 ]
