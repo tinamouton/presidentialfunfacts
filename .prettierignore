@@ -14,5 +14,8 @@ design/
 public/
 src/assets/
 
+# local notes and research
+project-notes/
+
 # Repository metadata
 .git/
