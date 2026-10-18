@@ -1,10 +1,13 @@
 <script setup lang="ts">
-  import { computed, nextTick, ref } from 'vue';
+  import { publicAsset } from '../assets';
+  import { computed, nextTick, ref, watch, onUnmounted } from 'vue';
   import { ArrowLeft, ArrowRight, ExternalLink } from 'lucide-vue-next';
   import { facts, personById, sourceById } from '../data';
   import { whoAmIQuestions } from '../data/whoAmI';
   import { createRound, isCorrectAnswer } from '../games';
+  import { useGameActivity } from '../stores/gameActivity';
 
+  const activity = useGameActivity();
   const round = ref(createRound(whoAmIQuestions));
   const index = ref(0);
   const selected = ref<string | null>(null);
@@ -21,6 +24,18 @@
     return isCorrectAnswer(question.value, selected.value)
       ? 'You got it! Excellent detective work!'
       : `Good guess! It was ${answer.value?.name}!`;
+  });
+
+  watch(
+    complete,
+    (value) => {
+      activity.active = !value;
+    },
+    { immediate: true, flush: 'sync' },
+  );
+
+  onUnmounted(() => {
+    activity.active = false;
   });
 
   function selectAnswer(personId: string) {
@@ -60,7 +75,7 @@
       class="completion"
     >
       <img
-        src="/mascot.svg"
+        :src="publicAsset('/mascot.svg')"
         alt="Captain Facts celebrates your adventure"
       />
       <h1
@@ -95,7 +110,7 @@
           </h1>
         </div>
         <img
-          src="/mascot.svg"
+          :src="publicAsset('/mascot.svg')"
           alt="Captain Facts"
         />
       </header>
@@ -123,7 +138,7 @@
           @click="selectAnswer(personId)"
         >
           <img
-            :src="personById(personId)!.image.path"
+            :src="publicAsset(personById(personId)!.image.path)"
             alt=""
           />
           <span

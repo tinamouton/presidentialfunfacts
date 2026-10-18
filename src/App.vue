@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { publicAsset } from './assets';
   import { ref, onMounted, onUnmounted } from 'vue';
   import {
     Home,
@@ -14,12 +15,46 @@
   } from 'lucide-vue-next';
   import { useRoute } from 'vue-router';
   import { useRegisterSW } from 'virtual:pwa-register/vue';
+  import { storeToRefs } from 'pinia';
+  import { createUpdatePrompt } from './pwaUpdates';
+  import { useGameActivity } from './stores/gameActivity';
   import { useFavorites } from './stores/favorites';
   const route = useRoute(),
     favorites = useFavorites(),
     menuOpen = ref(false),
     online = ref(navigator.onLine);
-  const { needRefresh, updateServiceWorker } = useRegisterSW();
+  const { active } = storeToRefs(useGameActivity());
+  let registration: ServiceWorkerRegistration | undefined;
+  let lastCheck = 0;
+  const { needRefresh, updateServiceWorker } = useRegisterSW({
+    onNeedReload: () => updates.onNeedReload(),
+    onRegisteredSW: (_url, value) => {
+      registration = value;
+      lastCheck = Date.now();
+    },
+  });
+  const updates = createUpdatePrompt(needRefresh, active, updateServiceWorker, () => {
+    window.location.reload();
+  });
+  const { visible: showUpdate, applying, error: updateError } = updates;
+
+  async function checkForUpdate() {
+    // Registration already checks on launch; throttle foreground checks to once an hour.
+    if (!registration || !navigator.onLine || Date.now() - lastCheck < 60 * 60 * 1000) return;
+    lastCheck = Date.now();
+    try {
+      await registration.update();
+    } catch {
+      // Offline and transient failures can retry on a later foreground visit.
+    }
+  }
+
+  function onForeground() {
+    if (document.visibilityState !== 'visible') return;
+    updates.remind();
+    void checkForUpdate();
+  }
+
   const links = [
     { to: '/', label: 'Home', icon: Home },
     { to: '/presidents', label: 'Presidents', icon: Users },
@@ -40,18 +75,26 @@
   const onOnline = () => {
     online.value = navigator.onLine;
   };
+  function skipToContent() {
+    const main = document.getElementById('main');
+    main?.focus();
+    main?.scrollIntoView();
+  }
+
   async function install() {
     await installPrompt.value?.prompt();
     await installPrompt.value?.userChoice;
     installPrompt.value = null;
   }
   onMounted(() => {
+    document.addEventListener('visibilitychange', onForeground);
     window.addEventListener('beforeinstallprompt', onInstall);
     window.addEventListener('online', onOnline);
     window.addEventListener('offline', onOnline);
     window.addEventListener('storage', favorites.load);
   });
   onUnmounted(() => {
+    document.removeEventListener('visibilitychange', onForeground);
     window.removeEventListener('beforeinstallprompt', onInstall);
     window.removeEventListener('online', onOnline);
     window.removeEventListener('offline', onOnline);
@@ -62,6 +105,7 @@
   <a
     href="#main"
     class="skip-link"
+    @click.prevent="skipToContent"
   >
     Skip to content
   </a>
@@ -72,7 +116,7 @@
       aria-label="PresidentialFunFacts home"
     >
       <img
-        src="/mascot.svg"
+        :src="publicAsset('/mascot.svg')"
         alt=""
       /><span>
         Presidential<span class="brand-red">FunFacts<span class="brand-star">✦</span></span></span
@@ -178,21 +222,30 @@
   >
     {{ favorites.storageError }}
   </div>
-  <div
-    v-if="needRefresh"
+  <section
+    v-if="showUpdate"
     class="update-banner"
-    role="status"
+    aria-label="Application update"
   >
-    <span>A fresh chapter is ready.</span>
-    <button @click="updateServiceWorker(true)">Update app</button>
+    <div role="status">
+      <strong>A fresh version is ready!</strong>
+      <p>PresidentialFunFacts has a little update. You can install it whenever you're ready!</p>
+      <p v-if="updateError">{{ updateError }}</p>
+    </div>
     <button
-      aria-label="Dismiss update"
-      @click="needRefresh = false"
+      :disabled="applying"
+      @click="updates.updateNow"
     >
-      <X :size="18" />
+      {{ applying ? 'Updating…' : 'Update now' }}
     </button>
-  </div>
-  <main id="main"><RouterView /></main>
+    <button @click="updates.later">Later</button>
+  </section>
+  <main
+    id="main"
+    tabindex="-1"
+  >
+    <RouterView />
+  </main>
   <footer class="site-footer">
     <RouterLink
       to="/"
@@ -534,7 +587,8 @@
     justify-content: center;
     gap: 12px;
     padding: 12px 20px;
-    font-size: 12px;
+    flex-wrap: wrap;
+    font-size: 14px;
     background: var(--navy);
     color: var(--paper);
     position: sticky;
@@ -545,12 +599,13 @@
       color: var(--navy);
       border: 0;
       border-radius: 7px;
-      padding: 6px 13px;
+      padding: 10px 16px;
+      min-height: 44px;
       font-size: 12px;
     }
     button:last-child {
       display: flex;
-      padding: 5px;
+      padding: 10px 16px;
       background: transparent;
       color: var(--paper);
     }

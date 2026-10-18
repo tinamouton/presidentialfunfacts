@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { publicAsset } from '../assets';
   import { computed, ref, watch } from 'vue';
   import { useRoute } from 'vue-router';
   import {
@@ -39,7 +40,7 @@
     <section class="person-detail">
       <div class="detail-portrait">
         <img
-          :src="person.image.path"
+          :src="publicAsset(person.image.path)"
           :alt="`Portrait of ${person.name}`"
         /><span>{{ person.years }}</span>
       </div>
@@ -66,7 +67,7 @@
             :key="`${connection.person.id}:${connection.relationship.kind}`"
             :to="`/person/${connection.person.id}`"
             ><img
-              :src="connection.person.image.path"
+              :src="publicAsset(connection.person.image.path)"
               alt="" />
             <div>
               <strong>{{ connection.person.name }}</strong

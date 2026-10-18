@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { publicAsset } from '../assets';
   import { ArrowRight, BookOpen, BadgeCheck, Heart, Sparkles } from 'lucide-vue-next';
   import { facts, people, categories, randomTopic, chronologicalPeople } from '../data';
   import TopicCard from '../components/TopicCard.vue';
@@ -103,10 +104,10 @@
   <section class="first-ladies-banner">
     <div class="banner-portraits">
       <img
-        src="/portraits/jacqueline-kennedy.jpg"
+        :src="publicAsset('/portraits/jacqueline-kennedy.jpg')"
         alt="Jacqueline Kennedy"
       /><img
-        src="/portraits/martha-washington.jpg"
+        :src="publicAsset('/portraits/martha-washington.jpg')"
         alt="Martha Washington"
       />
     </div>

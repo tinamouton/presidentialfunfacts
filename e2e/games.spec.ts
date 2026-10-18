@@ -11,7 +11,7 @@ const personById = (id: string) => history.people.find((person) => person.id ===
 const sourceById = (id: string) => history.sources.find((source) => source.id === id)!;
 
 test('keyboard answers lock, reveal sources, progress, complete and restart', async ({ page }) => {
-  await page.goto('/games');
+  await page.goto('./#/games');
   await page.getByRole('link', { name: 'Play Who Am I?' }).click();
   const seen = new Set<string>();
   for (let index = 0; index < 5; index++) {
@@ -47,7 +47,7 @@ test('keyboard answers lock, reveal sources, progress, complete and restart', as
     await expect(page.locator('.source')).toHaveAttribute('href', sourceById(fact.sourceId).url);
     await expect(page.locator('.profile-link')).toHaveAttribute(
       'href',
-      `/person/${question.answerPersonId}`,
+      `#/person/${question.answerPersonId}`,
     );
     await page
       .getByRole('button', { name: index === 4 ? 'Finish adventure' : 'Next Question' })
@@ -67,7 +67,7 @@ test('Fun & Games navigation and layouts fit phone, tablet and desktop', async (
   for (const width of [320, 390, 768, 980, 1280]) {
     await page.setViewportSize({ width, height: 900 });
     for (const path of ['/games', '/games/who-am-i']) {
-      await page.goto(path);
+      await page.goto(`./#${path}`);
       await expect(page.locator('h1')).toBeVisible();
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
         true,

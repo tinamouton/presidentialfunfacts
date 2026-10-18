@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { publicAsset } from '../assets';
   import { ref, computed } from 'vue';
   import { Shuffle, ArrowRight } from 'lucide-vue-next';
   import { facts, categories } from '../data';
@@ -15,7 +16,7 @@
 <template>
   <section class="random-stage">
     <img
-      src="/mascot.svg"
+      :src="publicAsset('/mascot.svg')"
       class="random-mascot"
       alt="Captain Facts"
     /><span

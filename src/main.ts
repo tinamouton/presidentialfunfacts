@@ -7,7 +7,7 @@ import '@fontsource/fraunces/latin-700.css';
 import '@fontsource/fraunces/latin-800.css';
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router';
 import App from './App.vue';
 import Explore from './views/Explore.vue';
 import Home from './views/Home.vue';
@@ -16,7 +16,9 @@ import FunAndGames from './views/FunAndGames.vue';
 import WhoAmI from './views/WhoAmI.vue';
 import './styles/index.less';
 const router = createRouter({
-  history: createWebHistory(),
+  history: import.meta.env.PROD
+    ? createWebHashHistory(import.meta.env.BASE_URL)
+    : createWebHistory(import.meta.env.BASE_URL),
   scrollBehavior: () => ({ top: 0 }),
   routes: [
     { path: '/', component: Home },

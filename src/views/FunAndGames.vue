@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { publicAsset } from '../assets';
   import { ArrowRight } from 'lucide-vue-next';
 </script>
 
@@ -14,7 +15,7 @@
     aria-labelledby="game-title"
   >
     <img
-      src="/mascot.svg"
+      :src="publicAsset('/mascot.svg')"
       alt="Captain Facts, your smiling history guide"
     />
     <div>

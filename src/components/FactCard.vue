@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { publicAsset } from '../assets';
   import { Heart, ExternalLink, BadgeCheck } from 'lucide-vue-next';
   import { evidenceNotice } from '../editorial';
   import type { Fact } from '../models';
@@ -44,7 +45,7 @@
       class="fact-person"
       :to="`/person/${fact.personId}`"
       ><img
-        :src="personById(fact.personId)?.image.path"
+        :src="publicAsset(personById(fact.personId)?.image.path ?? '')"
         alt=""
         loading="lazy"
       /><span>{{ personById(fact.personId)?.name }}</span></RouterLink

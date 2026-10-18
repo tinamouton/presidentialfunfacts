@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { publicAsset } from '../assets';
   import { Heart, ArrowUpRight } from 'lucide-vue-next';
   import type { Person } from '../models';
   import { useFavorites } from '../stores/favorites';
@@ -12,7 +13,7 @@
       :to="`/person/${person.id}`"
       class="person-image-link"
       ><img
-        :src="person.image.path"
+        :src="publicAsset(person.image.path)"
         :alt="`Portrait of ${person.name}`"
         loading="lazy"
       /><span class="portrait-tag">{{

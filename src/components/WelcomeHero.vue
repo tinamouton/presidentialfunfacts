@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { publicAsset } from '../assets';
   import { ArrowRight, Shuffle, BadgeCheck } from 'lucide-vue-next';
 </script>
 
@@ -44,7 +45,7 @@
       <div class="speech">History doesn’t<br />have to be boring!</div>
       <img
         class="captain"
-        src="/mascot.svg"
+        :src="publicAsset('/mascot.svg')"
         alt="Captain Facts, a smiling Uncle Sam hat mascot"
       />
       <div class="hill hill-back"></div>
