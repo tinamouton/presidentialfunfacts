@@ -1,6 +1,6 @@
 # Historical research and image rights
 
-Research review: **October 15, 2026** for the Phase 3.2 additions; original collection reviewed October 9. Dataset: **190 source-checked facts, 0 awaiting review**. The original 150 facts have not been reclassified or rewritten.
+Research review: **October 17, 2026** for the Phase 3.3 additions; Phase 3.2 reviewed October 15 and the original collection October 9. Dataset: **264 source-checked facts, 0 awaiting source review**, covering **11 presidents and 11 First Ladies/White House hostesses (22 people overall), with 49 sources**. The original 150 facts have not been reclassified or rewritten.
 
 ## Verification method
 
@@ -26,7 +26,15 @@ Facts favor short discovery prompts. Essential biographical facts sit beside une
 | Abigail Adams             | first-lady |       10 |          0 |
 | James Madison             | president  |       10 |          0 |
 | Dolley Madison            | first-lady |       10 |          0 |
-| **Total**                 |            |  **190** |      **0** |
+| John Quincy Adams         | president  |       10 |          0 |
+| Louisa Catherine Adams    | first-lady |       10 |          0 |
+| Ulysses S. Grant          | president  |       10 |          0 |
+| Julia Dent Grant          | first-lady |        9 |          0 |
+| Calvin Coolidge           | president  |        8 |          0 |
+| Grace Coolidge            | first-lady |        8 |          0 |
+| Jimmy Carter              | president  |        9 |          0 |
+| Rosalynn Carter           | first-lady |       10 |          0 |
+| **Total**                 |            |  **264** |      **0** |
 
 ## Sources and fact mapping
 
@@ -220,13 +228,13 @@ Public domain in the U.S. due to nonrenewal of copyright as recorded by Commons;
 
 ## Research backlog and limits
 
-No bundled fact is currently waiting for source review. The original ten profiles retain their fifteen facts each. Each of the four Phase 3.2 profiles has ten facts; there are no editorial-target shortfalls. Eight to twelve is an editorial target for new profiles, not a validation quota. Further editorial work should add richer descriptions, more specific primary-record links, and facts from subjects such as food, animals, and hobbies in later approved batches. Some biographies support multiple distinct facts; those claims share a source intentionally. Source pages can change, so periodically recheck the claims and record a new review date.
+No bundled fact is currently waiting for source review. The original ten profiles retain their fifteen facts each. Each of the four Phase 3.2 profiles has ten facts; the eight Phase 3.3 profiles have eight to ten facts each. There are no editorial-target shortfalls. Eight to twelve is an editorial target for new profiles, not a validation quota. Some biographies support multiple distinct facts; those claims share a source intentionally. Source pages can change, so periodically recheck the claims and record a new review date.
 
 The data validator verifies IDs, relationships, service coverage, source syntax, metadata, question eligibility, and asset presence; it cannot establish historical truth or guarantee a remote website remains reachable. There is no automated claim-verification system.
 
 ## Phase 3.2 editorial policies
 
-Only John Adams, Abigail Adams, James Madison, and Dolley Madison are added. The other eleven approved profiles remain future work; no placeholders are bundled. This batch adds 40 facts, 12 source records, four portraits, six directed relationships, two service ranges, and two curated questions. Existing historical and question records and IDs are preserved.
+Phase 3.2 added John Adams, Abigail Adams, James Madison, and Dolley Madison. The following policies and mappings describe that completed batch, which added 40 facts, 12 source records, four portraits, six directed relationships, two service ranges, and two curated questions. Existing historical and question records and IDs are preserved.
 
 ### Evidence and source verification
 
@@ -373,3 +381,13 @@ Direct downloaded image URLs:
 - [Dolley Madison](https://upload.wikimedia.org/wikipedia/commons/8/8b/Dolley_Madison.jpg)
 
 There are no unresolved portrait-license blockers in this batch. This is a scoped review of these four assets, not a renewed certification of the original ten portraits. All remote citations may change; offline access covers local facts, portraits, and gameplay, not external sources.
+
+## Phase 3.3 editorial review
+
+Phase 3.3 adds John Quincy Adams, Louisa Catherine Adams, Ulysses S. Grant, Julia Dent Grant, Calvin Coolidge, Grace Coolidge, Jimmy Carter, and Rosalynn Carter. These eight profiles add 74 facts, 26 source records, four presidential service ranges, eight reciprocal spouse relationships, and six curated questions. The collection now contains 264 facts, 49 sources, and 18 Who Am I? questions. Existing profiles, facts, questions, and IDs are preserved. No other historical figures are included in this batch.
+
+All 74 additions have explicit evidence classifications and gameplay decisions: 72 are `documented` and two are `legend`; 50 are game-eligible and 24 are informational only. `john-quincy-adams-10` presents the apocryphal Anne Royall swimming interview story, and `calvin-coolidge-08` presents the likely invented “You lose” exchange. Their citations establish the stories and their uncertainty, not the truth of the alleged events. Neither supplies a game clue. Sensitive history is informational only; source verification does not replace human editorial judgment.
+
+The source records in [history.json](src/data/history.json) retain the exact institutional URLs and October 17, 2026 access dates; each fact's `sourceId` provides its source mapping. The new sources include National Park Service biographies and historical articles, White House Historical Association accounts, Carter Center biographies and recollections, the State Department's historical account of the 1924 Immigration Act, and a skeptical book review reprinted by the Coolidge Foundation. First-person memories and later retellings are distinguished in the fact wording.
+
+All eight profiles use their approved local portraits, with item-level `sourceUrl`, `attribution`, and `rights` in `Person.image`. John Quincy Adams uses the Meade Brothers photographic copy (Smithsonian S/NPG.85.265, CC0); Jimmy Carter uses NARA 558522 with documented Naval Photographic Center provenance; Rosalynn Carter uses NARA 173749 with its public-domain staff-collection basis. The original exposure date and photographer remain unidentified where the records do not establish them. No portrait or historical claim was changed during this documentation update.

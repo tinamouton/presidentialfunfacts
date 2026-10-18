@@ -1,6 +1,6 @@
 # PresidentialFunFacts
 
-**Little-known facts. Big personalities.** A mobile-first Vue 3 Progressive Web App exploring seven presidents and seven associated women, with 190 source-checked historical facts.
+**Little-known facts. Big personalities.** A mobile-first Vue 3 Progressive Web App exploring 11 presidents and 11 First Ladies and White House hostesses: 22 people overall, with 264 source-checked historical facts and 49 sources.
 
 ## Launch locally
 
@@ -60,7 +60,7 @@ See [RESEARCH.md](RESEARCH.md) for fact counts, source mappings, verification me
 
 Browser smoke tests are in `e2e/app.spec.ts`. After installing Chromium with `npx playwright install chromium`, run `npm run test:e2e`. The suite builds and serves production locally, checks mobile/desktop interactions, persistence, navigation, source links, image loading, overflow, and offline service-worker behavior. It does not contact external source websites.
 
-Phase 3.2 implements the Adams and Madison families, scalable historical validation, evidence notices, explicit gameplay eligibility, and chronological browsing. Verification passed with 42 unit tests, 7 Chromium browser tests, data and asset validation, the strict TypeScript production build, and formatting checks. Tests cover the expanded collection, evidence rendering, game eligibility, chronological service order, mixed legacy/new favorites, and offline portraits and routes. Historical truth and reuse rights still require editorial review; validation checks structure and references.
+Phase 3.2 introduced the Adams and Madison families, scalable historical validation, evidence notices, explicit gameplay eligibility, and chronological browsing. Phase 3.3 adds the John Quincy Adams, Grant, Coolidge, and Carter couples, with 74 facts and six curated questions. Checks cover unit tests, Chromium browser tests, data and asset validation, the strict TypeScript production build, and formatting. Tests cover the expanded collection, evidence rendering, game eligibility, chronological service order, mixed legacy/new favorites, and offline portraits and routes. Historical truth and reuse rights still require editorial review; validation checks structure and references.
 
 ## Offline and deployment
 
@@ -70,7 +70,7 @@ Deploy `dist/` to a static HTTPS host that rewrites application routes to `index
 
 ## POC scope and future work
 
-All requested screens and local interactions are implemented. Phase 3.2 adds only the Adams and Madison families: four profiles and 40 facts. The remaining eleven profiles in the approved expansion are deferred without placeholders. Facts are concise discovery prompts, not full essays; some are essential biographical context. Future editorial work can expand descriptions, add deeper primary-record citations, and extend the collection. No backend, accounts, analytics, or cloud synchronization are included. Physical-device installation and cross-browser accessibility audits remain release checks; automated Chromium checks do not replace them.
+All requested screens and local interactions are implemented. Phase 3.2 added four Adams and Madison profiles and 40 facts. Phase 3.3 adds eight profiles and 74 facts, bringing the collection to 22 people and 264 facts. Facts are concise discovery prompts, not full essays; some are essential biographical context. No backend, accounts, analytics, or cloud synchronization are included. Physical-device installation and cross-browser accessibility audits remain release checks; automated Chromium checks do not replace them.
 
 No changes are automatically committed, pushed, or deployed. Existing Git configuration and `.gitignore` are preserved. Git excludes dependencies, production builds, local environment files, caches, and exploratory design references. Commit application source, the npm lockfile, production assets, and attribution records.
 
