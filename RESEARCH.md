@@ -1,6 +1,14 @@
 # Historical research and image rights
 
-Research review: **October 17, 2026** for the Phase 3.3 additions; Phase 3.2 reviewed October 15 and the original collection October 9. Dataset: **264 source-checked facts, 0 awaiting source review**, covering **11 presidents and 11 First Ladies/White House hostesses (22 people overall), with 49 sources**. The original 150 facts have not been reclassified or rewritten.
+Phase 4.1 review: **October 18, 2026**. Current scope, classification rules, roster inclusion decisions,
+source-access limitations, and future research are documented in [research/README.md](research/README.md).
+Run `npm run coverage` for generated totals. The per-entry [audit](research/audit.json) distinguishes
+inspected supporting text from prior source checks. Both Dolley sourcing issues are resolved using
+inspected WHHA and University of Virginia Press text. No existing claims remain awaiting sourcing
+review; earlier Smithsonian access limitations are preserved in the audit history.
+
+The source mappings and batch notes below preserve the earlier October 9, 15, and 17 reviews. Their
+“verified” labels describe those reviews, not a claim that every citation was freshly accessible.
 
 ## Verification method
 
@@ -8,7 +16,7 @@ Each headline and short description is an original, concise paraphrase of a clai
 
 Facts favor short discovery prompts. Essential biographical facts sit beside unexpected stories; no invented anecdotes, quotations, or placeholder citations are included. No wholesale biographies or reference artwork were copied.
 
-## Verified counts
+## Earlier source-check counts (historical batch record)
 
 | Person                    | Role       | Verified | Unverified |
 | ------------------------- | ---------- | -------: | ---------: |
@@ -228,7 +236,7 @@ Public domain in the U.S. due to nonrenewal of copyright as recorded by Commons;
 
 ## Research backlog and limits
 
-No bundled fact is currently waiting for source review. The original ten profiles retain their fifteen facts each. Each of the four Phase 3.2 profiles has ten facts; the eight Phase 3.3 profiles have eight to ten facts each. There are no editorial-target shortfalls. Eight to twelve is an editorial target for new profiles, not a validation quota. Some biographies support multiple distinct facts; those claims share a source intentionally. Source pages can change, so periodically recheck the claims and record a new review date.
+The Phase 4.1 follow-up resolves `dolley-madison-06` using inspected WHHA text. `dolley-madison-07` is now a verified fact using an inspected University of Virginia Press scholarly biography; its earlier Smithsonian limitation remains in the audit history. The original ten profiles retain their fifteen facts each. Each of the four Phase 3.2 profiles has ten facts; the eight Phase 3.3 profiles have eight to ten facts each. There are no editorial-target shortfalls. The current minimum is one sourced fact per published profile, with two or three interesting facts as the later research aim; the earlier eight-to-twelve target is superseded. Some biographies support multiple distinct facts; those claims share a source intentionally. Source pages can change, so periodically recheck the claims and record a new review date.
 
 The data validator verifies IDs, relationships, service coverage, source syntax, metadata, question eligibility, and asset presence; it cannot establish historical truth or guarantee a remote website remains reachable. There is no automated claim-verification system.
 
@@ -348,9 +356,44 @@ Locator/review: Chronological biography; footnotes 3–7 and 10. Footnote 6 supp
 
 [Smithsonian · Dolley Madison’s silk dress](https://avpreservation.si.edu/object/nmah_490927)
 
-Supports: `dolley-madison-06`, `dolley-madison-07`.
+Earlier mapping: `dolley-madison-06`, `dolley-madison-07`. This source and its original check date are retained as review history; neither entry currently cites it. The Phase 4.1 retrieval failed. No image from this record is bundled.
 
-Locator/review: Object description, paragraphs on receptions, letters, visits, and political networks. Used as a textual source only: the dress image has reuse restrictions and is not bundled.
+### Phase 4.1 Dolley sourcing follow-up — October 18, 2026
+
+`dolley-madison-06` now cites `dolley-weekly-receptions`:
+[WHHA · An Essay on “The Splendid Mrs. Madison”](https://www.whitehousehistory.org/the-splendid-mrs-madison-in-the-elliptical-saloon-1810-1814-by-peter-waddell).
+Full article text was retrieved and the paragraph about the purpose of the weekly receptions was
+inspected. It supports opportunities for the parties to meet and talk, rather than guaranteeing
+cooperation. The headline's Wednesday detail is corroborated by the inspected
+[WHHA James Madison biography](https://www.whitehousehistory.org/bios/james-madison), paragraph on
+Wednesday Drawing Rooms. Classification is `fact`; verification is `verified`.
+
+The [State Department alternative](https://www.diplomaticrooms.state.gov/discover-the-rooms/dolley-madison-namesake/)
+returned HTTP 403 on direct retrieval. Its indexed Life & Contributions text corroborates Wednesday
+receptions and conversation across political views; the full page was not inspected and is not needed
+for the resolved claim.
+
+Earlier review of `dolley-madison-07` cited `dolley-embroidered-gown`:
+[Smithsonian · Dolley Madison's embroidered gown](https://www.americanhistory.si.edu/collections/object/nmah_515208).
+The revised description removes the job-favor claim and uses the proposed child-friendly account of
+letters, visits, political events, and shared news. Search-index Description text supports that reading.
+The www page returned HTTP 500 and the non-www URL timed out. This is **partial, index-only review**,
+not fresh inspection of the full page. `checkedOn` records the limited review date; verification is
+`unverified`, classification remains absent, and the earlier `evidence: documented` value is retained
+as legacy metadata, not a fresh verification. Both entries remain informational (`gameEligible: false`).
+That review did not resolve entry 07. The focused replacement-source pass below supersedes its pending status.
+
+The focused pass retrieved [Holly C. Shulman’s scholarly biography](https://rotunda.upress.virginia.edu/dmde/bio-intro.xqy)
+in the University of Virginia Press’s Dolley Madison Digital Edition. Its Early Years, Secretary of
+State Years, and First Lady Years sections support the revised entry’s political conversations, social
+visits, and letters. Entry 07 now cites `dolley-correspondence`, is classified `fact`, and is verified.
+The wording avoids inferring why she exchanged information. Individual manuscripts were not separately
+inspected. The old Smithsonian source and partial inspection record are preserved; its URL was not
+retried. The pass also inspected WHHA’s “An American Icon,” Montpelier’s “Becoming America’s First Lady,”
+the Library of Congress Dolley research guide, the National Archives Selected Letters project page,
+Virginia Magazine’s interview with Shulman, and the Digital Edition introduction. They provided context;
+the scholarly biography is the claim’s cited evidence. WHHA’s “Unraveling the Dolley Myths” redirected
+to an Issuu issue shell without relevant article text and was not used as evidence.
 
 ### portrait-rescue
 
@@ -384,7 +427,7 @@ There are no unresolved portrait-license blockers in this batch. This is a scope
 
 ## Phase 3.3 editorial review
 
-Phase 3.3 adds John Quincy Adams, Louisa Catherine Adams, Ulysses S. Grant, Julia Dent Grant, Calvin Coolidge, Grace Coolidge, Jimmy Carter, and Rosalynn Carter. These eight profiles add 74 facts, 26 source records, four presidential service ranges, eight reciprocal spouse relationships, and six curated questions. The collection now contains 264 facts, 49 sources, and 18 Who Am I? questions. Existing profiles, facts, questions, and IDs are preserved. No other historical figures are included in this batch.
+Phase 3.3 adds John Quincy Adams, Louisa Catherine Adams, Ulysses S. Grant, Julia Dent Grant, Calvin Coolidge, Grace Coolidge, Jimmy Carter, and Rosalynn Carter. These eight profiles add 74 facts, 26 source records, four presidential service ranges, eight reciprocal spouse relationships, and six curated questions. At the end of Phase 3.3, the collection contained 264 historical entries, 49 sources, and 18 Who Am I? questions. Existing profiles, facts, questions, and IDs are preserved. No other historical figures are included in this batch.
 
 All 74 additions have explicit evidence classifications and gameplay decisions: 72 are `documented` and two are `legend`; 50 are game-eligible and 24 are informational only. `john-quincy-adams-10` presents the apocryphal Anne Royall swimming interview story, and `calvin-coolidge-08` presents the likely invented “You lose” exchange. Their citations establish the stories and their uncertainty, not the truth of the alleged events. Neither supplies a game clue. Sensitive history is informational only; source verification does not replace human editorial judgment.
 

@@ -222,3 +222,30 @@ test('expanded profiles follow chronology, search, relationships and favorites',
     ).length,
   );
 });
+
+test('legend labels and uncertainty remain readable and saved IDs survive reload', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 320, height: 740 });
+  await page.goto('./#/topics');
+  await page.getByRole('textbox', { name: 'Search facts' }).fill('The swimmer and the reporter');
+  await expect(page.locator('.fact-card')).toHaveCount(1);
+  await expect(page.locator('.evidence-notice')).toContainText('Legend');
+  await expect(page.locator('.evidence-notice')).toContainText(
+    'not consider it an established event',
+  );
+  await expect(page.locator('.source-row')).toContainText('Source checked');
+  await page
+    .getByRole('button', { name: 'Save fact: The swimmer and the reporter', exact: true })
+    .click();
+  await page.goto('./#/favorites');
+  await page.reload();
+  await expect(page.locator('.fact-card h3')).toHaveText('The swimmer and the reporter');
+  await expect(page.locator('.evidence-notice')).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
+    true,
+  );
+  await page.goto('./#/topics');
+  await page.getByRole('textbox', { name: 'Search facts' }).fill('The famous two-word story');
+  await expect(page.locator('.evidence-notice')).toContainText('may have been invented');
+});

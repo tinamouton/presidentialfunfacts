@@ -60,6 +60,18 @@ export function validateData(data: Dataset): string[] {
       errors.push(`${f.id}: invalid verification`);
     if (f.evidence !== undefined && !['documented', 'disputed', 'legend'].includes(f.evidence))
       errors.push(`${f.id}: invalid evidence classification`);
+    if (f.classification !== undefined && !['fact', 'legend', 'mystery'].includes(f.classification))
+      errors.push(`${f.id}: invalid historical classification`);
+    if (['legend', 'mystery'].includes(f.classification ?? '') && !hasText(f.uncertainty))
+      errors.push(`${f.id}: missing uncertainty explanation`);
+    if (
+      (f.classification === 'fact' && ['legend', 'disputed'].includes(f.evidence ?? '')) ||
+      (f.classification !== undefined &&
+        f.classification !== 'legend' &&
+        f.evidence === 'legend') ||
+      (['legend', 'mystery'].includes(f.classification ?? '') && f.evidence === 'documented')
+    )
+      errors.push(`${f.id}: conflicting historical classifications`);
     if (f.gameEligible !== undefined && typeof f.gameEligible !== 'boolean')
       errors.push(`${f.id}: invalid game eligibility`);
     if (f.gameEligible === true && !isGameEligible(f))
@@ -72,6 +84,7 @@ export function validateData(data: Dataset): string[] {
     if (!['president', 'first-lady', 'hostess'].includes(p.kind))
       errors.push(`${p.id}: invalid person kind`);
     if (!hasText(p.name)) errors.push(`${p.id}: missing person name`);
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.id)) errors.push(`${p.id}: invalid stable person ID`);
     if (
       !/^\/portraits\/[a-z0-9-]+\.(jpg|png|webp)$/.test(p.image?.path) ||
       !isHttpsUrl(p.image?.sourceUrl) ||
@@ -81,6 +94,16 @@ export function validateData(data: Dataset): string[] {
       errors.push(`${p.id}: missing image provenance`);
     if (![p.biography, p.years, p.subtitle].every(hasText))
       errors.push(`${p.id}: missing biography metadata`);
+    if (
+      !data.facts.some(
+        (fact) =>
+          fact.personId === p.id &&
+          fact.classification === 'fact' &&
+          sources.has(fact.sourceId) &&
+          hasText(fact.description),
+      )
+    )
+      errors.push(`${p.id}: published profile needs at least one sourced historical entry`);
   }
   for (const category of data.categories) {
     if (![category.name, category.description, category.symbol, category.color].every(hasText))
@@ -147,7 +170,7 @@ export function validateData(data: Dataset): string[] {
       people.get(term.presidentId)?.kind !== 'president' ||
       !Number.isInteger(term.start) ||
       !Number.isInteger(term.end) ||
-      term.start >= term.end ||
+      term.start > term.end ||
       !Number.isInteger(term.ordinal) ||
       term.ordinal < 1
     )

@@ -2,7 +2,13 @@ import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { people, facts, sources, categories, relationships, terms } from '../src/data';
 import { whoAmIQuestions } from '../src/data/whoAmI';
 import { validateQuestions, validateData } from '../src/data/validate';
+import rosterJson from '../research/roster.json';
+import auditJson from '../research/audit.json';
+import { validateRoster, validateAudit, type Roster, type ClaimAudit } from './collection';
 const errors = validateData({ people, facts, sources, categories, relationships, terms });
+const dataset = { people, facts, sources, categories, relationships, terms };
+errors.push(...validateRoster(rosterJson as Roster, dataset));
+errors.push(...validateAudit(auditJson.claims as ClaimAudit[], dataset));
 errors.push(...validateQuestions(whoAmIQuestions, { people, facts, sources }));
 for (const person of people)
   if (!existsSync(`public${person.image.path}`)) errors.push(`Missing portrait for ${person.name}`);

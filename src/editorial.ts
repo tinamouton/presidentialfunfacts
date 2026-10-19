@@ -18,6 +18,8 @@ const legacyClueFactIds = new Set([
 export function isGameEligible(fact: Fact): boolean {
   return (
     fact.verification === 'verified' &&
+    (fact.classification === 'fact' ||
+      (fact.classification === undefined && legacyClueFactIds.has(fact.id))) &&
     (fact.evidence === undefined || fact.evidence === 'documented') &&
     (fact.gameEligible === true ||
       (fact.gameEligible === undefined && legacyClueFactIds.has(fact.id)))
@@ -25,6 +27,10 @@ export function isGameEligible(fact: Fact): boolean {
 }
 
 export function evidenceNotice(fact: Fact): string | undefined {
+  if (fact.classification === 'legend' || fact.classification === 'mystery') {
+    const label = fact.classification === 'legend' ? 'Legend' : 'Mystery';
+    return `${label} — ${fact.uncertainty}`;
+  }
   if (fact.evidence === 'disputed') {
     return 'Disputed account — historians disagree about this claim.';
   }

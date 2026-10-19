@@ -1,0 +1,2594 @@
+{
+  "asOf": "2026-10-18",
+  "sources": [
+    {
+      "id": "whha-presidents",
+      "name": "WHHA presidential biographies",
+      "url": "https://www.whitehousehistory.org/collections/president-biographies",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-first-ladies",
+      "name": "WHHA First Lady biographies",
+      "url": "https://www.whitehousehistory.org/collections/first-lady-biographies",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-hostesses",
+      "name": "WHHA: White House Hostesses: The Forgotten First Ladies",
+      "url": "https://www.whitehousehistory.org/white-house-hostesses-the-forgotten-first-ladies",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "nfll-first-ladies",
+      "name": "National First Ladies Library and Museum biographies index",
+      "url": "https://firstladies.org/home/first-ladies",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "nps-first-ladies",
+      "name": "NPS First Ladies National Historic Site roster",
+      "url": "https://home.nps.gov/fila/learn/historyculture/first-ladies.htm",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-taft",
+      "name": "WHHA Helen Taft biography",
+      "url": "https://www.whitehousehistory.org/bios/helen-taft",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "miller-taft",
+      "name": "University of Virginia Miller Center: Helen Taft",
+      "url": "https://millercenter.org/president/taft/essays/taft-1909-firstlady",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-pierce",
+      "name": "WHHA Jane Pierce biography",
+      "url": "https://www.whitehousehistory.org/bios/jane-pierce",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-dolley",
+      "name": "WHHA Dolley Madison biography",
+      "url": "https://www.whitehousehistory.org/bios/dolley-madison",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "loc-mckee",
+      "name": "Library of Congress: Mary Scott Harrison McKee, White House hostess",
+      "url": "https://www.loc.gov/item/2014648342/",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "loc-manning",
+      "name": "Library of Congress: Helen Herron Taft Manning, daughter and hostess",
+      "url": "https://www.loc.gov/pictures/resource/cph.3a53354/",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "house-presidents",
+      "name": "U.S. House Historian: Presidents, Vice Presidents, and Coinciding Sessions of Congress",
+      "url": "https://history.house.gov/Institution/Presidents-Coinciding/Presidents-Coinciding//?mobilizer=b96fc63268e1322498efdbb382dcd446",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "umw-eliza",
+      "name": "University of Mary Washington, Papers of James Monroe: Eliza Monroe Hay",
+      "url": "https://academics.umw.edu/jamesmonroepapers/biography/eliza-monroe-hay/",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-elizabeth",
+      "name": "WHHA Elizabeth Monroe biography",
+      "url": "https://www.whitehousehistory.org/bios/elizabeth-monroe",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "miller-jefferson",
+      "name": "Miller Center: Martha Jefferson Randolph, Maria Jefferson Eppes, Dolley Madison",
+      "url": "https://millercenter.org/president/jefferson/essays/madison-1801-firstlady",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-margaret",
+      "name": "WHHA Margaret Woodrow Wilson collection record",
+      "url": "https://www.whitehousehistory.org/photos/fotoware?id=53C269D7DCF846E4+8EBB45E2AD28ED87",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-sarah",
+      "name": "WHHA Sarah Yorke Jackson biography",
+      "url": "https://www.whitehousehistory.org/bios/sarah-yorke-jackson",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-anna",
+      "name": "WHHA Anna Harrison biography",
+      "url": "https://www.whitehousehistory.org/bios/anna-harrison",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "loc-bones",
+      "name": "Library of Congress: Helen Woodrow Bones, cousin and White House hostess",
+      "url": "https://www.loc.gov/pictures/item/2014648344/",
+      "inspectedOn": "2026-10-18"
+    },
+    {
+      "id": "whha-wilson-women",
+      "name": "WHHA Pioneering Women of the Woodrow Wilson White House, 1913–1921",
+      "url": "https://www.whitehousehistory.org/pioneering-women-of-the-woodrow-wilson-white-house-1913-1921",
+      "inspectedOn": "2026-10-18"
+    }
+  ],
+  "people": [
+    {
+      "id": "washington",
+      "name": "George Washington",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "washington",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1789",
+              "end": "1797",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 1
+        }
+      ]
+    },
+    {
+      "id": "john-adams",
+      "name": "John Adams",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "john-adams",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1797",
+              "end": "1801",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 2
+        }
+      ]
+    },
+    {
+      "id": "jefferson",
+      "name": "Thomas Jefferson",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "jefferson",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1801",
+              "end": "1809",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 3
+        }
+      ]
+    },
+    {
+      "id": "james-madison",
+      "name": "James Madison",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "james-madison",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1809",
+              "end": "1817",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 4
+        }
+      ]
+    },
+    {
+      "id": "james-monroe",
+      "name": "James Monroe",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "james-monroe",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1817",
+              "end": "1825",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 5
+        }
+      ]
+    },
+    {
+      "id": "john-quincy-adams",
+      "name": "John Quincy Adams",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "john-quincy-adams",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1825",
+              "end": "1829",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 6
+        }
+      ]
+    },
+    {
+      "id": "andrew-jackson",
+      "name": "Andrew Jackson",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "andrew-jackson",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1829",
+              "end": "1837",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 7
+        }
+      ]
+    },
+    {
+      "id": "martin-van-buren",
+      "name": "Martin Van Buren",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "martin-van-buren",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1837",
+              "end": "1841",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 8
+        }
+      ]
+    },
+    {
+      "id": "william-henry-harrison",
+      "name": "William Henry Harrison",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "william-henry-harrison",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1841",
+              "end": "1841",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 9
+        }
+      ]
+    },
+    {
+      "id": "john-tyler",
+      "name": "John Tyler",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "john-tyler",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1841",
+              "end": "1845",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 10
+        }
+      ]
+    },
+    {
+      "id": "james-k-polk",
+      "name": "James K. Polk",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "james-k-polk",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1845",
+              "end": "1849",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 11
+        }
+      ]
+    },
+    {
+      "id": "zachary-taylor",
+      "name": "Zachary Taylor",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "zachary-taylor",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1849",
+              "end": "1850",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 12
+        }
+      ]
+    },
+    {
+      "id": "millard-fillmore",
+      "name": "Millard Fillmore",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "millard-fillmore",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1850",
+              "end": "1853",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 13
+        }
+      ]
+    },
+    {
+      "id": "franklin-pierce",
+      "name": "Franklin Pierce",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "franklin-pierce",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1853",
+              "end": "1857",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 14
+        }
+      ]
+    },
+    {
+      "id": "james-buchanan",
+      "name": "James Buchanan",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "james-buchanan",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1857",
+              "end": "1861",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 15
+        }
+      ]
+    },
+    {
+      "id": "lincoln",
+      "name": "Abraham Lincoln",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "lincoln",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1861",
+              "end": "1865",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 16
+        }
+      ]
+    },
+    {
+      "id": "andrew-johnson",
+      "name": "Andrew Johnson",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "andrew-johnson",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1865",
+              "end": "1869",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 17
+        }
+      ]
+    },
+    {
+      "id": "ulysses-s-grant",
+      "name": "Ulysses S. Grant",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "ulysses-s-grant",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1869",
+              "end": "1877",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 18
+        }
+      ]
+    },
+    {
+      "id": "rutherford-b-hayes",
+      "name": "Rutherford B. Hayes",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "rutherford-b-hayes",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1877",
+              "end": "1881",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 19
+        }
+      ]
+    },
+    {
+      "id": "james-a-garfield",
+      "name": "James A. Garfield",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "james-a-garfield",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1881",
+              "end": "1881",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 20
+        }
+      ]
+    },
+    {
+      "id": "chester-a-arthur",
+      "name": "Chester A. Arthur",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "chester-a-arthur",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1881",
+              "end": "1885",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 21
+        }
+      ]
+    },
+    {
+      "id": "grover-cleveland",
+      "name": "Grover Cleveland",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "grover-cleveland",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1885",
+              "end": "1889",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 22
+        },
+        {
+          "kind": "president",
+          "presidentId": "grover-cleveland",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1893",
+              "end": "1897",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 24
+        }
+      ]
+    },
+    {
+      "id": "benjamin-harrison",
+      "name": "Benjamin Harrison",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "benjamin-harrison",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1889",
+              "end": "1893",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 23
+        }
+      ]
+    },
+    {
+      "id": "william-mckinley",
+      "name": "William McKinley",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "william-mckinley",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1897",
+              "end": "1901",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 25
+        }
+      ]
+    },
+    {
+      "id": "roosevelt",
+      "name": "Theodore Roosevelt",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "roosevelt",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1901",
+              "end": "1909",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 26
+        }
+      ]
+    },
+    {
+      "id": "william-howard-taft",
+      "name": "William Howard Taft",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "william-howard-taft",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1909",
+              "end": "1913",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 27
+        }
+      ]
+    },
+    {
+      "id": "woodrow-wilson",
+      "name": "Woodrow Wilson",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "woodrow-wilson",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1913",
+              "end": "1921",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 28
+        }
+      ]
+    },
+    {
+      "id": "warren-g-harding",
+      "name": "Warren G. Harding",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "warren-g-harding",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1921",
+              "end": "1923",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 29
+        }
+      ]
+    },
+    {
+      "id": "calvin-coolidge",
+      "name": "Calvin Coolidge",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "calvin-coolidge",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1923",
+              "end": "1929",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 30
+        }
+      ]
+    },
+    {
+      "id": "herbert-hoover",
+      "name": "Herbert Hoover",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "herbert-hoover",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1929",
+              "end": "1933",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 31
+        }
+      ]
+    },
+    {
+      "id": "franklin-d-roosevelt",
+      "name": "Franklin D. Roosevelt",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "franklin-d-roosevelt",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1933",
+              "end": "1945",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 32
+        }
+      ]
+    },
+    {
+      "id": "harry-s-truman",
+      "name": "Harry S. Truman",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "harry-s-truman",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1945",
+              "end": "1953",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 33
+        }
+      ]
+    },
+    {
+      "id": "dwight-d-eisenhower",
+      "name": "Dwight D. Eisenhower",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "dwight-d-eisenhower",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1953",
+              "end": "1961",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 34
+        }
+      ]
+    },
+    {
+      "id": "kennedy",
+      "name": "John F. Kennedy",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "kennedy",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1961",
+              "end": "1963",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 35
+        }
+      ]
+    },
+    {
+      "id": "lyndon-b-johnson",
+      "name": "Lyndon B. Johnson",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "lyndon-b-johnson",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1963",
+              "end": "1969",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 36
+        }
+      ]
+    },
+    {
+      "id": "richard-nixon",
+      "name": "Richard Nixon",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "richard-nixon",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1969",
+              "end": "1974",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 37
+        }
+      ]
+    },
+    {
+      "id": "gerald-ford",
+      "name": "Gerald Ford",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "gerald-ford",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1974",
+              "end": "1977",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 38
+        }
+      ]
+    },
+    {
+      "id": "jimmy-carter",
+      "name": "Jimmy Carter",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "jimmy-carter",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1977",
+              "end": "1981",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 39
+        }
+      ]
+    },
+    {
+      "id": "ronald-reagan",
+      "name": "Ronald Reagan",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "ronald-reagan",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1981",
+              "end": "1989",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 40
+        }
+      ]
+    },
+    {
+      "id": "george-h-w-bush",
+      "name": "George H. W. Bush",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "george-h-w-bush",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1989",
+              "end": "1993",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 41
+        }
+      ]
+    },
+    {
+      "id": "bill-clinton",
+      "name": "Bill Clinton",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "bill-clinton",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1993",
+              "end": "2001",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 42
+        }
+      ]
+    },
+    {
+      "id": "george-w-bush",
+      "name": "George W. Bush",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "george-w-bush",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2001",
+              "end": "2009",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 43
+        }
+      ]
+    },
+    {
+      "id": "barack-obama",
+      "name": "Barack Obama",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "barack-obama",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2009",
+              "end": "2017",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 44
+        }
+      ]
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "donald-trump",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2017",
+              "end": "2021",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 45
+        },
+        {
+          "kind": "president",
+          "presidentId": "donald-trump",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2025",
+              "end": null,
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 47
+        }
+      ]
+    },
+    {
+      "id": "joe-biden",
+      "name": "Joe Biden",
+      "roles": [
+        {
+          "kind": "president",
+          "presidentId": "joe-biden",
+          "relationship": "self",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2021",
+              "end": "2025",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-presidents", "house-presidents"],
+          "ordinal": 46
+        }
+      ]
+    },
+    {
+      "id": "martha-washington",
+      "name": "Martha Washington",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "washington",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1789",
+              "end": "1797",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "abigail-adams",
+      "name": "Abigail Adams",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "john-adams",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1797",
+              "end": "1801",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "martha-wayles-jefferson",
+      "name": "Martha Wayles Skelton Jefferson",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "jefferson",
+          "relationship": "spouse",
+          "status": "recognized-not-served",
+          "periods": [],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies", "whha-hostesses"],
+          "notes": "Recognized presidential spouse; died before his presidency. No First Lady service period."
+        }
+      ]
+    },
+    {
+      "id": "dolley-madison",
+      "name": "Dolley Madison",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "james-madison",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1809",
+              "end": "1817",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        },
+        {
+          "kind": "hostess",
+          "presidentId": "jefferson",
+          "relationship": "wife of secretary of state",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1801",
+              "end": "1809",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-dolley"],
+          "notes": "Occasional substitute only; dates bound Jefferson administration and do not assert continuous service. Her First Lady service belongs to James Madison."
+        }
+      ]
+    },
+    {
+      "id": "elizabeth-monroe",
+      "name": "Elizabeth Monroe",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "james-monroe",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1817",
+              "end": "1825",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "louisa-catherine-adams",
+      "name": "Louisa Catherine Adams",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "john-quincy-adams",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1825",
+              "end": "1829",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "rachel-jackson",
+      "name": "Rachel Donelson Jackson",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "andrew-jackson",
+          "relationship": "spouse",
+          "status": "recognized-not-served",
+          "periods": [],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies", "whha-hostesses"],
+          "notes": "Recognized presidential spouse; died before his presidency. No First Lady service period."
+        }
+      ]
+    },
+    {
+      "id": "hannah-van-buren",
+      "name": "Hannah Hoes Van Buren",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "martin-van-buren",
+          "relationship": "spouse",
+          "status": "recognized-not-served",
+          "periods": [],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies", "whha-hostesses"],
+          "notes": "Recognized presidential spouse; died before his presidency. No First Lady service period."
+        }
+      ]
+    },
+    {
+      "id": "anna-harrison",
+      "name": "Anna Symmes Harrison",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "william-henry-harrison",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1841",
+              "end": "1841",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies", "whha-anna"],
+          "notes": "First Lady during the presidency, but never occupied the White House; Jane Irwin Harrison performed hosting duties."
+        }
+      ]
+    },
+    {
+      "id": "letitia-tyler",
+      "name": "Letitia Christian Tyler",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "john-tyler",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1841",
+              "end": "1842",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "julia-tyler",
+      "name": "Julia Gardiner Tyler",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "john-tyler",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1844",
+              "end": "1845",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "sarah-polk",
+      "name": "Sarah Childress Polk",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "james-k-polk",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1845",
+              "end": "1849",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "margaret-taylor",
+      "name": "Margaret Smith Taylor",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "zachary-taylor",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1849",
+              "end": "1850",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "abigail-fillmore",
+      "name": "Abigail Powers Fillmore",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "millard-fillmore",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1850",
+              "end": "1853",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "jane-pierce",
+      "name": "Jane Appleton Pierce",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "franklin-pierce",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1853",
+              "end": "1857",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "mary-lincoln",
+      "name": "Mary Todd Lincoln",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "lincoln",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1861",
+              "end": "1865",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "eliza-johnson",
+      "name": "Eliza McCardle Johnson",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "andrew-johnson",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1865",
+              "end": "1869",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "julia-dent-grant",
+      "name": "Julia Dent Grant",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "ulysses-s-grant",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1869",
+              "end": "1877",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "lucy-hayes",
+      "name": "Lucy Webb Hayes",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "rutherford-b-hayes",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1877",
+              "end": "1881",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "lucretia-garfield",
+      "name": "Lucretia Rudolph Garfield",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "james-a-garfield",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1881",
+              "end": "1881",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "ellen-arthur",
+      "name": "Ellen Lewis Herndon Arthur",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "chester-a-arthur",
+          "relationship": "spouse",
+          "status": "recognized-not-served",
+          "periods": [],
+          "sourceIds": ["whha-first-ladies", "nps-first-ladies"],
+          "notes": "Recognized presidential spouse; died before his presidency. No First Lady service period."
+        }
+      ]
+    },
+    {
+      "id": "frances-cleveland",
+      "name": "Frances Folsom Cleveland",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "grover-cleveland",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1886",
+              "end": "1889",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        },
+        {
+          "kind": "first-lady",
+          "presidentId": "grover-cleveland",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1893",
+              "end": "1897",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "caroline-harrison",
+      "name": "Caroline Scott Harrison",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "benjamin-harrison",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1889",
+              "end": "1892",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "ida-mckinley",
+      "name": "Ida Saxton McKinley",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "william-mckinley",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1897",
+              "end": "1901",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "edith-roosevelt",
+      "name": "Edith Roosevelt",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "roosevelt",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1901",
+              "end": "1909",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "helen-taft",
+      "name": "Helen Herron Taft",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "william-howard-taft",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1909",
+              "end": "1913",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "ellen-wilson",
+      "name": "Ellen Axson Wilson",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "woodrow-wilson",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1913",
+              "end": "1914",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "edith-wilson",
+      "name": "Edith Bolling Wilson",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "woodrow-wilson",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1915",
+              "end": "1921",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "florence-harding",
+      "name": "Florence Kling Harding",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "warren-g-harding",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1921",
+              "end": "1923",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "grace-coolidge",
+      "name": "Grace Coolidge",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "calvin-coolidge",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1923",
+              "end": "1929",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "lou-hoover",
+      "name": "Lou Henry Hoover",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "herbert-hoover",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1929",
+              "end": "1933",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "eleanor-roosevelt",
+      "name": "Eleanor Roosevelt",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "franklin-d-roosevelt",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1933",
+              "end": "1945",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "bess-truman",
+      "name": "Bess Wallace Truman",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "harry-s-truman",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1945",
+              "end": "1953",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "mamie-eisenhower",
+      "name": "Mamie Doud Eisenhower",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "dwight-d-eisenhower",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1953",
+              "end": "1961",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "jacqueline-kennedy",
+      "name": "Jacqueline Kennedy",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "kennedy",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1961",
+              "end": "1963",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "lady-bird-johnson",
+      "name": "Lady Bird Johnson",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "lyndon-b-johnson",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1963",
+              "end": "1969",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "pat-nixon",
+      "name": "Pat Nixon",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "richard-nixon",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1969",
+              "end": "1974",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "betty-ford",
+      "name": "Betty Ford",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "gerald-ford",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1974",
+              "end": "1977",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "rosalynn-carter",
+      "name": "Rosalynn Carter",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "jimmy-carter",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1977",
+              "end": "1981",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "nancy-reagan",
+      "name": "Nancy Reagan",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "ronald-reagan",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1981",
+              "end": "1989",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "barbara-bush",
+      "name": "Barbara Bush",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "george-h-w-bush",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1989",
+              "end": "1993",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "hillary-clinton",
+      "name": "Hillary Rodham Clinton",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "bill-clinton",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1993",
+              "end": "2001",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "laura-bush",
+      "name": "Laura Bush",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "george-w-bush",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2001",
+              "end": "2009",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "michelle-obama",
+      "name": "Michelle Obama",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "barack-obama",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2009",
+              "end": "2017",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "melania-trump",
+      "name": "Melania Trump",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "donald-trump",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2017",
+              "end": "2021",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        },
+        {
+          "kind": "first-lady",
+          "presidentId": "donald-trump",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2025",
+              "end": null,
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "jill-biden",
+      "name": "Jill Biden",
+      "roles": [
+        {
+          "kind": "first-lady",
+          "presidentId": "joe-biden",
+          "relationship": "spouse",
+          "status": "served",
+          "periods": [
+            {
+              "start": "2021",
+              "end": "2025",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-first-ladies", "nfll-first-ladies"]
+        }
+      ]
+    },
+    {
+      "id": "randolph",
+      "name": "Martha Jefferson Randolph",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "jefferson",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1802",
+              "end": "1803",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "whha-first-ladies"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        },
+        {
+          "kind": "hostess",
+          "presidentId": "jefferson",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1805",
+              "end": "1806",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "whha-first-ladies"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "emily-donelson",
+      "name": "Emily Tennessee Donelson",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "andrew-jackson",
+          "relationship": "niece by marriage",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1829",
+              "end": "1836",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "nps-first-ladies", "whha-first-ladies"],
+          "notes": "Accounts differ: WHHA lists Sarah from 1836, NPS from 1834; Emily served intermittently through 1836, not a simple exclusive succession. Sarah’s range includes shared duties from 1834."
+        }
+      ]
+    },
+    {
+      "id": "sarah-yorke-jackson",
+      "name": "Sarah Yorke Jackson",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "andrew-jackson",
+          "relationship": "daughter-in-law",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1834",
+              "end": "1837",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "nps-first-ladies", "whha-first-ladies", "whha-sarah"],
+          "notes": "Accounts differ: WHHA lists Sarah from 1836, NPS from 1834; Emily served intermittently through 1836, not a simple exclusive succession. Sarah’s range includes shared duties from 1834."
+        }
+      ]
+    },
+    {
+      "id": "angelica-van-buren",
+      "name": "Angelica Singleton Van Buren",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "martin-van-buren",
+          "relationship": "daughter-in-law",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1838",
+              "end": "1841",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "jane-irwin-harrison",
+      "name": "Jane Irwin Harrison",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "william-henry-harrison",
+          "relationship": "daughter-in-law",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1841",
+              "end": "1841",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "priscilla-cooper-tyler",
+      "name": "Priscilla Cooper Tyler",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "john-tyler",
+          "relationship": "daughter-in-law",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1841",
+              "end": "1844",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "whha-first-ladies"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "letitia-tyler-semple",
+      "name": "Letitia Tyler Semple",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "john-tyler",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1844",
+              "end": "1844",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "betty-taylor-bliss",
+      "name": "Mary Elizabeth Taylor Bliss",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "zachary-taylor",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1849",
+              "end": "1850",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "mary-abigail-fillmore",
+      "name": "Mary Abigail Fillmore",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "millard-fillmore",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1850",
+              "end": "1853",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "varina-davis",
+      "name": "Varina Howell Davis",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "franklin-pierce",
+          "relationship": "wife of secretary of war",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1853",
+              "end": "1857",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Documented substitute during Pierce administration; range is administration context, not a claim of continuous service."
+        }
+      ]
+    },
+    {
+      "id": "abby-kent-means",
+      "name": "Abigail Kent Means",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "franklin-pierce",
+          "relationship": "aunt by marriage of Jane Pierce",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1853",
+              "end": "1857",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "whha-pierce"],
+          "notes": "Documented substitute during Pierce administration; range is administration context, not a claim of continuous service."
+        }
+      ]
+    },
+    {
+      "id": "harriet-lane",
+      "name": "Harriet Lane Johnston",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "james-buchanan",
+          "relationship": "niece",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1857",
+              "end": "1861",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "martha-johnson-patterson",
+      "name": "Martha Johnson Patterson",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "andrew-johnson",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1865",
+              "end": "1869",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "mary-arthur-mcelroy",
+      "name": "Mary Arthur McElroy",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "chester-a-arthur",
+          "relationship": "sister",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1881",
+              "end": "1885",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "rose-cleveland",
+      "name": "Rose Elizabeth Cleveland",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "grover-cleveland",
+          "relationship": "sister",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1885",
+              "end": "1886",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "whha-first-ladies"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "mary-c-hoyt",
+      "name": "Mary C. Hoyt",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "grover-cleveland",
+          "relationship": "sister",
+          "status": "served",
+          "periods": [
+            {
+              "start": null,
+              "end": null,
+              "precision": "unknown"
+            }
+          ],
+          "sourceIds": ["whha-hostesses"],
+          "notes": "Named in WHHA hostess scholarship. Commonly expanded as Mary Cleveland Hoyt; expanded identity, extent of duties, and exact service dates require further documentary research. No dates inferred from Cleveland’s terms."
+        }
+      ]
+    },
+    {
+      "id": "mary-scott-harrison-mckee",
+      "name": "Mary Scott Harrison McKee",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "benjamin-harrison",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1892",
+              "end": "1893",
+              "precision": "year"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "nps-first-ladies", "loc-mckee"],
+          "notes": "Service years describe intermittent hosting, not exclusive or continuous tenure."
+        }
+      ]
+    },
+    {
+      "id": "helen-taft-manning",
+      "name": "Helen Taft Manning",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "william-howard-taft",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1909",
+              "end": "1911",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-taft", "miller-taft", "whha-hostesses", "loc-manning"],
+          "notes": "Substitute during Helen Taft’s recovery after her 1909 stroke; recovery by 1911 is an approximate boundary, not a precisely dated tenure."
+        }
+      ]
+    },
+    {
+      "id": "margaret-woodrow-wilson",
+      "name": "Margaret Woodrow Wilson",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "woodrow-wilson",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1914",
+              "end": "1915",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-hostesses", "whha-margaret"],
+          "notes": "WHHA collection record explicitly places substitute hosting between Ellen’s 1914 death and the December 1915 remarriage. NPS index instead lists 1913–1914; the narrative takes precedence."
+        }
+      ]
+    },
+    {
+      "id": "jennie-anderson",
+      "name": "Jennie Herron Anderson",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "william-howard-taft",
+          "relationship": "sister-in-law",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1909",
+              "end": "1911",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-taft", "miller-taft"],
+          "notes": "Substitute during Helen Taft’s recovery after her 1909 stroke; recovery by 1911 is an approximate boundary, not a precisely dated tenure."
+        }
+      ]
+    },
+    {
+      "id": "eleanor-more",
+      "name": "Eleanor Herron More",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "william-howard-taft",
+          "relationship": "sister-in-law",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1909",
+              "end": "1911",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-taft", "miller-taft"],
+          "notes": "Substitute during Helen Taft’s recovery after her 1909 stroke; recovery by 1911 is an approximate boundary, not a precisely dated tenure."
+        }
+      ]
+    },
+    {
+      "id": "maria-herron",
+      "name": "Maria Herron",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "william-howard-taft",
+          "relationship": "sister-in-law",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1909",
+              "end": "1911",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["whha-taft", "miller-taft"],
+          "notes": "Substitute during Helen Taft’s recovery after her 1909 stroke; recovery by 1911 is an approximate boundary, not a precisely dated tenure."
+        }
+      ]
+    },
+    {
+      "id": "eliza-monroe-hay",
+      "name": "Eliza Monroe Hay",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "james-monroe",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1821",
+              "end": "1825",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["umw-eliza", "whha-elizabeth"],
+          "notes": "Substantial substitute hosting during her mother’s illness, especially Monroe’s second term. Range describes that term, not uninterrupted service."
+        }
+      ]
+    },
+    {
+      "id": "maria-jefferson-eppes",
+      "name": "Maria (Mary) Jefferson Eppes",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "jefferson",
+          "relationship": "daughter",
+          "status": "served",
+          "periods": [
+            {
+              "start": null,
+              "end": null,
+              "precision": "unknown"
+            }
+          ],
+          "sourceIds": ["miller-jefferson", "whha-dolley"],
+          "notes": "Miller Center explicitly identifies Polly as a substitute when Patsy could not host, before her death in 1804. Dates of those particular duties are not given. Monticello biography was inaccessible; no continuous tenure or exact season invented."
+        }
+      ]
+    },
+    {
+      "id": "helen-woodrow-bones",
+      "name": "Helen Woodrow Bones",
+      "roles": [
+        {
+          "kind": "hostess",
+          "presidentId": "woodrow-wilson",
+          "relationship": "cousin",
+          "status": "served",
+          "periods": [
+            {
+              "start": "1914",
+              "end": "1915",
+              "precision": "approximate"
+            }
+          ],
+          "sourceIds": ["loc-bones", "whha-wilson-women"],
+          "notes": "LOC explicitly identifies her as White House hostess; WHHA describes substantial social and administrative responsibilities after Ellen’s death, alongside Margaret Wilson. Dates describe the widower interval rather than an exclusive appointment; she remained in the household afterward."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    "Hostess scope is evidence-based and extensible; WHHA explicitly says other hostesses may exist. New names require evidence of substantial substitute duties, not merely event attendance.",
+    "Mary Cleveland Hoyt: establish exact dates and extent of hosting; inclusion is supported by WHHA scholarship, not a fully dated biography.",
+    "Reconcile Jackson household shared duties and interruptions; the NPS and WHHA index start/end years differ.",
+    "Taft substitutes and Pierce substitutes: refine individual intermittent service ranges without inventing exact dates.",
+    "Maria Jefferson Eppes: substantial substitute role confirmed by Miller Center; establish dates of particular hosting duties. Monticello biography retrieval failed, so service dates remain unknown.",
+    "Harrison administration candidates: assess whether Jane Irwin Findlay’s help with two receptions and Anna Tuthill Harrison Taylor’s reported co-hosting meet the substantial-role threshold. WHHA/Smithsonian support Findlay’s assistance, but further institutional evidence is needed before adding full roster identities. These are unresolved inclusion candidates, not missing published profiles."
+  ]
+}

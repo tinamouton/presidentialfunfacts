@@ -66,7 +66,7 @@ describe('expansion foundations', () => {
     ).toEqual([]);
     for (const change of [
       { start: NaN },
-      { end: 1789 },
+      { end: 1788 },
       { ordinal: 1.5 },
       { presidentId: 'abigail-adams' },
     ]) {

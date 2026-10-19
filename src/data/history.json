@@ -293,6 +293,24 @@
       "name": "The Carter Center · 24 Fun Facts about First Lady Rosalynn Carter",
       "url": "https://www.cartercenter.org/stories/her-secret-service-code-name-and-other-lesser-known-facts-about-first-lady-rosalynn-carter/",
       "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "dolley-weekly-receptions",
+      "name": "White House Historical Association · The Splendid Mrs. Madison",
+      "url": "https://www.whitehousehistory.org/the-splendid-mrs-madison-in-the-elliptical-saloon-1810-1814-by-peter-waddell",
+      "checkedOn": "2026-10-18"
+    },
+    {
+      "id": "dolley-embroidered-gown",
+      "name": "Smithsonian · Dolley Madison’s embroidered gown (search-index review only)",
+      "url": "https://www.americanhistory.si.edu/collections/object/nmah_515208",
+      "checkedOn": "2026-10-18"
+    },
+    {
+      "id": "dolley-correspondence",
+      "name": "University of Virginia Press · Dolley Madison’s Life and Times",
+      "url": "https://rotunda.upress.virginia.edu/dmde/bio-intro.xqy",
+      "checkedOn": "2026-10-18"
     }
   ],
   "people": [
@@ -841,7 +859,8 @@
       "description": "His earliest surviving map dates to age fifteen.",
       "category": "early-life",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-02",
@@ -850,7 +869,8 @@
       "description": "He joined a Shenandoah surveying expedition in 1748.",
       "category": "adventures",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-03",
@@ -859,7 +879,8 @@
       "description": "Culpeper County appointed him surveyor in 1749.",
       "category": "early-life",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-04",
@@ -868,7 +889,8 @@
       "description": "His mother opposed a naval career.",
       "category": "family",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-05",
@@ -877,7 +899,8 @@
       "description": "He served as Braddock’s aide in 1755.",
       "category": "adventures",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-06",
@@ -886,7 +909,8 @@
       "description": "He entered the House of Burgesses in 1758.",
       "category": "legacy",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-07",
@@ -895,7 +919,8 @@
       "description": "He married Martha Custis in January 1759.",
       "category": "family",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-08",
@@ -904,7 +929,8 @@
       "description": "He inherited Mount Vernon in 1761.",
       "category": "family",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-09",
@@ -913,7 +939,8 @@
       "description": "He became Continental Army commander in 1775.",
       "category": "legacy",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-10",
@@ -922,7 +949,8 @@
       "description": "Army command kept him from home for six years.",
       "category": "adventures",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-11",
@@ -931,7 +959,8 @@
       "description": "He and Martha raised two Custis grandchildren.",
       "category": "family",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-12",
@@ -940,7 +969,8 @@
       "description": "He resigned his military commission in 1783.",
       "category": "legacy",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-13",
@@ -949,7 +979,8 @@
       "description": "He presided over the 1787 Constitutional Convention.",
       "category": "legacy",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-14",
@@ -958,7 +989,8 @@
       "description": "He was elected president in 1789.",
       "category": "firsts",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "washington-15",
@@ -967,7 +999,8 @@
       "description": "He returned to farming after his presidency.",
       "category": "legacy",
       "sourceId": "washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-01",
@@ -976,7 +1009,8 @@
       "description": "He was born at Shadwell in 1743.",
       "category": "early-life",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-02",
@@ -985,7 +1019,8 @@
       "description": "Young Jefferson studied Latin, Greek, and French.",
       "category": "early-life",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-03",
@@ -994,7 +1029,8 @@
       "description": "He entered William and Mary in 1760.",
       "category": "early-life",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-04",
@@ -1003,7 +1039,8 @@
       "description": "He studied law under George Wythe.",
       "category": "early-life",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-05",
@@ -1012,7 +1049,8 @@
       "description": "His first recorded legal case dates to 1767.",
       "category": "early-life",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-06",
@@ -1021,7 +1059,8 @@
       "description": "He designed the house at Monticello.",
       "category": "arts",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-07",
@@ -1030,7 +1069,8 @@
       "description": "Monticello construction began in 1769.",
       "category": "arts",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-08",
@@ -1039,7 +1079,8 @@
       "description": "He drafted the Declaration of Independence.",
       "category": "legacy",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-09",
@@ -1048,7 +1089,8 @@
       "description": "He authored Virginia’s Statute for Religious Freedom.",
       "category": "legacy",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-10",
@@ -1057,7 +1099,8 @@
       "description": "He founded the University of Virginia.",
       "category": "legacy",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-11",
@@ -1066,7 +1109,8 @@
       "description": "He enslaved over 600 people during his lifetime.",
       "category": "legacy",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-12",
@@ -1075,7 +1119,8 @@
       "description": "The Louisiana Purchase doubled the country’s size.",
       "category": "legacy",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-13",
@@ -1084,7 +1129,8 @@
       "description": "His daughter Martha sometimes served as hostess.",
       "category": "family",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-14",
@@ -1093,7 +1139,8 @@
       "description": "His grave marker omits his presidency.",
       "category": "legacy",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jefferson-15",
@@ -1102,7 +1149,8 @@
       "description": "He died on Independence Day’s fiftieth anniversary.",
       "category": "legacy",
       "sourceId": "jefferson",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-01",
@@ -1111,7 +1159,8 @@
       "description": "He was born near Hodgenville in 1809.",
       "category": "early-life",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-02",
@@ -1120,7 +1169,8 @@
       "description": "Lincoln was largely self-educated.",
       "category": "early-life",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-03",
@@ -1129,7 +1179,8 @@
       "description": "He qualified as a lawyer in 1836.",
       "category": "early-life",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-04",
@@ -1138,7 +1189,8 @@
       "description": "He served in Illinois’s legislature from 1834–1842.",
       "category": "legacy",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-05",
@@ -1147,7 +1199,8 @@
       "description": "He won election to Congress in 1846.",
       "category": "legacy",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-06",
@@ -1156,7 +1209,8 @@
       "description": "He joined the Republican Party in 1856.",
       "category": "legacy",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-07",
@@ -1165,7 +1219,8 @@
       "description": "His 1858 Senate campaign ended in defeat.",
       "category": "legacy",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-08",
@@ -1174,7 +1229,8 @@
       "description": "He issued the Emancipation Proclamation in 1863.",
       "category": "legacy",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-09",
@@ -1183,7 +1239,8 @@
       "description": "He appointed Grant overall commander in 1864.",
       "category": "legacy",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-10",
@@ -1192,7 +1249,8 @@
       "description": "He died after being shot at Ford’s Theatre.",
       "category": "legacy",
       "sourceId": "lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-11",
@@ -1201,16 +1259,18 @@
       "description": "He received under a year of formal schooling.",
       "category": "early-life",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-12",
       "personId": "lincoln",
-      "headline": "Two left feet",
+      "headline": "Meeting Mary at a dance",
       "description": "He met Mary at a Springfield dance.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-13",
@@ -1219,7 +1279,8 @@
       "description": "He bought his only house in Springfield.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-14",
@@ -1228,7 +1289,8 @@
       "description": "The Lincolns expanded their cottage to two stories.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "lincoln-15",
@@ -1237,7 +1299,8 @@
       "description": "His family lived there for seventeen years.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-01",
@@ -1246,7 +1309,8 @@
       "description": "His family called young Theodore “Teedie.”",
       "category": "early-life",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-02",
@@ -1255,7 +1319,8 @@
       "description": "He suffered severe childhood asthma.",
       "category": "early-life",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-03",
@@ -1264,7 +1329,8 @@
       "description": "He began Harvard studies in 1876.",
       "category": "early-life",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-04",
@@ -1273,7 +1339,8 @@
       "description": "He worked as a Dakota Territory rancher.",
       "category": "adventures",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-05",
@@ -1282,7 +1349,8 @@
       "description": "He wrote Hunting Trips of a Ranchman.",
       "category": "arts",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-06",
@@ -1291,7 +1359,8 @@
       "description": "He wrote roughly thirty books.",
       "category": "arts",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-07",
@@ -1300,7 +1369,8 @@
       "description": "He married Edith Carow in London in 1886.",
       "category": "family",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-08",
@@ -1309,7 +1379,8 @@
       "description": "He served as New York City police commissioner.",
       "category": "legacy",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-09",
@@ -1318,7 +1389,8 @@
       "description": "He led volunteers in the Spanish-American War.",
       "category": "adventures",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-10",
@@ -1327,7 +1399,8 @@
       "description": "He took the presidential oath in Buffalo.",
       "category": "firsts",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-11",
@@ -1336,7 +1409,8 @@
       "description": "He received the 1906 Nobel Peace Prize.",
       "category": "legacy",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-12",
@@ -1345,7 +1419,8 @@
       "description": "His presidency established 150 national forests.",
       "category": "legacy",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-13",
@@ -1354,7 +1429,8 @@
       "description": "He established the Pelican Island federal bird reserve.",
       "category": "legacy",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-14",
@@ -1363,7 +1439,8 @@
       "description": "He collected African specimens for the Smithsonian.",
       "category": "adventures",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "roosevelt-15",
@@ -1372,7 +1449,8 @@
       "description": "He explored a Brazilian river with Kermit.",
       "category": "adventures",
       "sourceId": "roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-01",
@@ -1381,7 +1459,8 @@
       "description": "Family and friends called him Jack.",
       "category": "early-life",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-02",
@@ -1390,7 +1469,8 @@
       "description": "He was one of nine Kennedy children.",
       "category": "family",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-03",
@@ -1399,7 +1479,8 @@
       "description": "He was named for his maternal grandfather.",
       "category": "family",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-04",
@@ -1408,7 +1489,8 @@
       "description": "At Choate, he subscribed to the New York Times.",
       "category": "early-life",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-05",
@@ -1417,7 +1499,8 @@
       "description": "His thesis became Why England Slept.",
       "category": "arts",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-06",
@@ -1426,7 +1509,8 @@
       "description": "He graduated from Harvard in 1940.",
       "category": "early-life",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-07",
@@ -1435,7 +1519,8 @@
       "description": "He commanded a Pacific patrol torpedo boat.",
       "category": "adventures",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-08",
@@ -1444,7 +1529,8 @@
       "description": "He carved a rescue message into coconut shell.",
       "category": "adventures",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-09",
@@ -1453,7 +1539,8 @@
       "description": "He towed injured Patrick McMahon to shore.",
       "category": "adventures",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-10",
@@ -1462,7 +1549,8 @@
       "description": "He received the Navy and Marine Corps Medal.",
       "category": "legacy",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-11",
@@ -1471,7 +1559,8 @@
       "description": "He served six years in the House.",
       "category": "legacy",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-12",
@@ -1480,7 +1569,8 @@
       "description": "He won a Senate seat in 1952.",
       "category": "legacy",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-13",
@@ -1489,7 +1579,8 @@
       "description": "Profiles in Courage won the 1957 biography Pulitzer.",
       "category": "arts",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-14",
@@ -1498,7 +1589,8 @@
       "description": "He was the youngest elected U.S. president.",
       "category": "firsts",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "kennedy-15",
@@ -1507,7 +1599,8 @@
       "description": "He created the Peace Corps.",
       "category": "legacy",
       "sourceId": "kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-01",
@@ -1516,7 +1609,8 @@
       "description": "Her birth surname was Dandridge.",
       "category": "early-life",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-02",
@@ -1525,7 +1619,8 @@
       "description": "She was born in New Kent County.",
       "category": "early-life",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-03",
@@ -1534,7 +1629,8 @@
       "description": "She married Daniel Parke Custis in 1750.",
       "category": "family",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-04",
@@ -1543,7 +1639,8 @@
       "description": "She had four children with Daniel Custis.",
       "category": "family",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-05",
@@ -1552,7 +1649,8 @@
       "description": "Daniel died in 1757.",
       "category": "family",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-06",
@@ -1561,7 +1659,8 @@
       "description": "She managed business interests during her widowhood.",
       "category": "legacy",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-07",
@@ -1570,7 +1669,8 @@
       "description": "She met George Washington in 1758.",
       "category": "family",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-08",
@@ -1579,7 +1679,8 @@
       "description": "The Washingtons settled at Mount Vernon.",
       "category": "family",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-09",
@@ -1588,7 +1689,8 @@
       "description": "They raised her surviving Custis children.",
       "category": "family",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-10",
@@ -1597,7 +1699,8 @@
       "description": "She visited Cambridge’s 1775–1776 winter encampment.",
       "category": "adventures",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-11",
@@ -1606,7 +1709,8 @@
       "description": "She joined the 1777–1778 winter encampment.",
       "category": "adventures",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-12",
@@ -1615,7 +1719,8 @@
       "description": "She organized clothing and supplies for troops.",
       "category": "legacy",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-13",
@@ -1624,7 +1729,8 @@
       "description": "She hosted presidential gatherings called levees.",
       "category": "firsts",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-14",
@@ -1633,7 +1739,8 @@
       "description": "She preferred private life at Mount Vernon.",
       "category": "family",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "martha-washington-15",
@@ -1642,7 +1749,8 @@
       "description": "She freed George’s enslaved people but enslaved others.",
       "category": "legacy",
       "sourceId": "martha-washington",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-01",
@@ -1651,7 +1759,8 @@
       "description": "Her family called her Patsy.",
       "category": "early-life",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-02",
@@ -1660,7 +1769,8 @@
       "description": "She was born September 27, 1772.",
       "category": "early-life",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-03",
@@ -1669,16 +1779,18 @@
       "description": "She was Thomas Jefferson’s eldest daughter.",
       "category": "family",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-04",
       "personId": "randolph",
-      "headline": "Learning beyond home",
+      "headline": "A private education",
       "description": "She received a private education.",
       "category": "early-life",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-05",
@@ -1687,7 +1799,8 @@
       "description": "She accompanied Jefferson abroad.",
       "category": "adventures",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-06",
@@ -1696,7 +1809,8 @@
       "description": "She married Thomas Mann Randolph in 1790.",
       "category": "family",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-07",
@@ -1705,7 +1819,8 @@
       "description": "She had twelve children.",
       "category": "family",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-08",
@@ -1714,7 +1829,8 @@
       "description": "Eleven of her children survived to adulthood.",
       "category": "family",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-09",
@@ -1723,7 +1839,8 @@
       "description": "Her family lived at Monticello.",
       "category": "family",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-10",
@@ -1732,7 +1849,8 @@
       "description": "She managed households and enslaved workers.",
       "category": "legacy",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-11",
@@ -1741,7 +1859,8 @@
       "description": "She hosted in 1802–1803 and 1805–1806.",
       "category": "firsts",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-12",
@@ -1750,7 +1869,8 @@
       "description": "Her son James Madison Randolph was born there.",
       "category": "family",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-13",
@@ -1759,7 +1879,8 @@
       "description": "Monticello was sold after Jefferson’s death.",
       "category": "legacy",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-14",
@@ -1768,7 +1889,8 @@
       "description": "She helped compile and edit Jefferson’s papers.",
       "category": "arts",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "randolph-15",
@@ -1777,7 +1899,8 @@
       "description": "She died in 1836 and is buried there.",
       "category": "legacy",
       "sourceId": "randolph",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-01",
@@ -1786,7 +1909,8 @@
       "description": "She was born in Lexington in 1818.",
       "category": "early-life",
       "sourceId": "mary-lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-02",
@@ -1795,7 +1919,8 @@
       "description": "Her birth name was Mary Ann Todd.",
       "category": "early-life",
       "sourceId": "mary-lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-03",
@@ -1804,7 +1929,8 @@
       "description": "She attended Dr. Ward’s coeducational academy.",
       "category": "early-life",
       "sourceId": "mary-lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-04",
@@ -1813,7 +1939,8 @@
       "description": "Her schooling exceeded many contemporary women’s opportunities.",
       "category": "early-life",
       "sourceId": "mary-lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-05",
@@ -1822,7 +1949,8 @@
       "description": "Some relatives disapproved of her marrying Lincoln.",
       "category": "family",
       "sourceId": "mary-lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-06",
@@ -1831,7 +1959,8 @@
       "description": "She married Abraham on November 4, 1842.",
       "category": "family",
       "sourceId": "mary-lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-07",
@@ -1840,7 +1969,8 @@
       "description": "She died in Springfield in 1882.",
       "category": "legacy",
       "sourceId": "mary-lincoln",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-08",
@@ -1849,7 +1979,8 @@
       "description": "She grew up in a fourteen-room house.",
       "category": "early-life",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-09",
@@ -1858,7 +1989,8 @@
       "description": "She met Abraham at a dance.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-10",
@@ -1867,7 +1999,8 @@
       "description": "Their courtship broke off in January 1841.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-11",
@@ -1876,7 +2009,8 @@
       "description": "They resumed dating secretly through mutual friends.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-12",
@@ -1885,7 +2019,8 @@
       "description": "They married at Elizabeth’s house.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-13",
@@ -1894,7 +2029,8 @@
       "description": "Their first married home was one rented room.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-14",
@@ -1903,7 +2039,8 @@
       "description": "Their first child was born in that room.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "mary-lincoln-15",
@@ -1912,7 +2049,8 @@
       "description": "They moved into their house in May 1844.",
       "category": "family",
       "sourceId": "lincoln-home",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-01",
@@ -1921,7 +2059,8 @@
       "description": "Edith Carow was born in Manhattan in 1861.",
       "category": "early-life",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-02",
@@ -1930,7 +2069,8 @@
       "description": "She was friends with Theodore’s sister Corinne.",
       "category": "family",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-03",
@@ -1939,7 +2079,8 @@
       "description": "Tutors provided most of her early education.",
       "category": "early-life",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-04",
@@ -1948,7 +2089,8 @@
       "description": "She later attended Miss Comstock’s school.",
       "category": "early-life",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-05",
@@ -1957,7 +2099,8 @@
       "description": "She and Theodore exchanged letters as teenagers.",
       "category": "family",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-06",
@@ -1966,7 +2109,8 @@
       "description": "They reconnected at Theodore’s sister Anna’s home.",
       "category": "family",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-07",
@@ -1975,7 +2119,8 @@
       "description": "They married December 2, 1886.",
       "category": "family",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-08",
@@ -1984,7 +2129,8 @@
       "description": "They settled at Sagamore Hill.",
       "category": "family",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-09",
@@ -1993,7 +2139,8 @@
       "description": "She raised Alice and five more children.",
       "category": "family",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-10",
@@ -2002,7 +2149,8 @@
       "description": "She managed Sagamore Hill’s finances and personnel.",
       "category": "legacy",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-11",
@@ -2011,7 +2159,8 @@
       "description": "She hired Isabella Hagner, the first White House social secretary.",
       "category": "firsts",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-12",
@@ -2020,7 +2169,8 @@
       "description": "She added two colonial gardens.",
       "category": "arts",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-13",
@@ -2029,7 +2179,8 @@
       "description": "She helped oversee the 1902 White House renovation.",
       "category": "arts",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-14",
@@ -2038,7 +2189,8 @@
       "description": "She commissioned cabinets for presidential china.",
       "category": "arts",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "edith-roosevelt-15",
@@ -2047,7 +2199,8 @@
       "description": "She proposed displaying first ladies’ portraits downstairs.",
       "category": "legacy",
       "sourceId": "edith-roosevelt",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-01",
@@ -2056,7 +2209,8 @@
       "description": "She was born in Southampton in 1929.",
       "category": "early-life",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-02",
@@ -2065,7 +2219,8 @@
       "description": "She won national riding championships by eleven.",
       "category": "adventures",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-03",
@@ -2074,7 +2229,8 @@
       "description": "She studied abroad during college.",
       "category": "early-life",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-04",
@@ -2083,7 +2239,8 @@
       "description": "She transferred from Vassar to George Washington University.",
       "category": "early-life",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-05",
@@ -2092,7 +2249,8 @@
       "description": "She married Kennedy in Newport in 1953.",
       "category": "family",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-06",
@@ -2101,7 +2259,8 @@
       "description": "She wrote the weekly column Campaign Wife.",
       "category": "arts",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-07",
@@ -2110,7 +2269,8 @@
       "description": "She was thirty-one at Kennedy’s inauguration.",
       "category": "firsts",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-08",
@@ -2119,7 +2279,8 @@
       "description": "She created a kindergarten on the sun porch.",
       "category": "family",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-09",
@@ -2128,7 +2289,8 @@
       "description": "She established the White House curator’s position.",
       "category": "legacy",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-10",
@@ -2137,7 +2299,8 @@
       "description": "Eighty million Americans watched her White House tour.",
       "category": "arts",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-11",
@@ -2146,7 +2309,8 @@
       "description": "Her televised tour earned an honorary Emmy.",
       "category": "arts",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-12",
@@ -2155,7 +2319,8 @@
       "description": "She spoke French, Spanish, and Italian.",
       "category": "adventures",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-13",
@@ -2164,7 +2329,8 @@
       "description": "She selected I.M. Pei for Kennedy’s library.",
       "category": "arts",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-14",
@@ -2173,7 +2339,8 @@
       "description": "She worked as an editor at Viking and Doubleday.",
       "category": "arts",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "jacqueline-kennedy-15",
@@ -2182,7 +2349,8 @@
       "description": "She campaigned to preserve Grand Central Station.",
       "category": "legacy",
       "sourceId": "jacqueline-kennedy",
-      "verification": "verified"
+      "verification": "verified",
+      "classification": "fact"
     },
     {
       "id": "john-adams-01",
@@ -2193,7 +2361,8 @@
       "sourceId": "john-adams-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-adams-02",
@@ -2204,7 +2373,8 @@
       "sourceId": "john-adams-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "john-adams-03",
@@ -2215,7 +2385,8 @@
       "sourceId": "john-adams-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-adams-04",
@@ -2226,7 +2397,8 @@
       "sourceId": "john-adams-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-adams-05",
@@ -2237,7 +2409,8 @@
       "sourceId": "john-adams-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-adams-06",
@@ -2248,7 +2421,8 @@
       "sourceId": "john-adams-presidency",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-adams-07",
@@ -2259,7 +2433,8 @@
       "sourceId": "john-adams-presidency",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-adams-08",
@@ -2270,7 +2445,8 @@
       "sourceId": "alien-sedition",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "john-adams-09",
@@ -2281,7 +2457,8 @@
       "sourceId": "john-adams-presidency",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-adams-10",
@@ -2292,7 +2469,8 @@
       "sourceId": "john-adams-presidency",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-01",
@@ -2303,7 +2481,8 @@
       "sourceId": "abigail-adams-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-02",
@@ -2314,7 +2493,8 @@
       "sourceId": "abigail-adams-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-03",
@@ -2325,7 +2505,8 @@
       "sourceId": "abigail-adams-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-04",
@@ -2336,7 +2517,8 @@
       "sourceId": "abigail-adams-public-life",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-05",
@@ -2347,7 +2529,8 @@
       "sourceId": "abigail-adams-public-life",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-06",
@@ -2358,7 +2541,8 @@
       "sourceId": "remember-ladies",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-07",
@@ -2369,7 +2553,8 @@
       "sourceId": "abigail-adams-public-life",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-08",
@@ -2380,7 +2565,8 @@
       "sourceId": "abigail-adams-public-life",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-09",
@@ -2391,7 +2577,8 @@
       "sourceId": "abigail-adams-public-life",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "abigail-adams-10",
@@ -2402,7 +2589,8 @@
       "sourceId": "abigail-adams-public-life",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "james-madison-01",
@@ -2413,7 +2601,8 @@
       "sourceId": "james-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "james-madison-02",
@@ -2424,7 +2613,8 @@
       "sourceId": "madison-treasures",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "james-madison-03",
@@ -2435,7 +2625,8 @@
       "sourceId": "madison-treasures",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "james-madison-04",
@@ -2446,7 +2637,8 @@
       "sourceId": "james-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "james-madison-05",
@@ -2457,7 +2649,8 @@
       "sourceId": "bill-rights-history",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "james-madison-06",
@@ -2468,7 +2661,8 @@
       "sourceId": "james-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "james-madison-07",
@@ -2479,7 +2673,8 @@
       "sourceId": "james-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "james-madison-08",
@@ -2490,7 +2685,8 @@
       "sourceId": "james-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "james-madison-09",
@@ -2501,7 +2697,8 @@
       "sourceId": "madison-treasures",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "james-madison-10",
@@ -2512,7 +2709,8 @@
       "sourceId": "madison-treasures",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-01",
@@ -2523,7 +2721,8 @@
       "sourceId": "dolley-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-02",
@@ -2534,7 +2733,8 @@
       "sourceId": "dolley-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-03",
@@ -2545,7 +2745,8 @@
       "sourceId": "dolley-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-04",
@@ -2556,7 +2757,8 @@
       "sourceId": "dolley-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-05",
@@ -2567,29 +2769,32 @@
       "sourceId": "dolley-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-06",
       "personId": "dolley-madison",
       "headline": "Wednesday conversations",
-      "description": "Dolley Madison’s weekly White House receptions brought political opponents together for conversation and cooperation.",
+      "description": "Dolley Madison held weekly White House receptions where people from opposing political parties could meet and talk.",
       "category": "legacy",
-      "sourceId": "dolley-social-politics",
+      "sourceId": "dolley-weekly-receptions",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-07",
       "personId": "dolley-madison",
       "headline": "Politics through a social network",
-      "description": "Dolley Madison exchanged letters and visits to gather political news and help friends and family seek jobs.",
+      "description": "Dolley Madison talked about politics with friends, visited Washington families, and exchanged letters about political events.",
       "category": "legacy",
-      "sourceId": "dolley-social-politics",
+      "sourceId": "dolley-correspondence",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-08",
@@ -2600,7 +2805,8 @@
       "sourceId": "portrait-rescue",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-09",
@@ -2611,7 +2817,8 @@
       "sourceId": "dolley-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "dolley-madison-10",
@@ -2622,7 +2829,8 @@
       "sourceId": "dolley-madison-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-01",
@@ -2633,7 +2841,8 @@
       "sourceId": "jqa-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-02",
@@ -2644,7 +2853,8 @@
       "sourceId": "jqa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-03",
@@ -2655,7 +2865,8 @@
       "sourceId": "jqa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-04",
@@ -2666,7 +2877,8 @@
       "sourceId": "potomac-presidents",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-05",
@@ -2677,7 +2889,8 @@
       "sourceId": "jqa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-06",
@@ -2688,7 +2901,8 @@
       "sourceId": "jqa-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-07",
@@ -2699,7 +2913,8 @@
       "sourceId": "jqa-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-08",
@@ -2710,7 +2925,8 @@
       "sourceId": "jqa-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-09",
@@ -2721,7 +2937,8 @@
       "sourceId": "potomac-presidents",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "john-quincy-adams-10",
@@ -2732,7 +2949,9 @@
       "sourceId": "potomac-presidents",
       "verification": "verified",
       "evidence": "legend",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "legend",
+      "uncertainty": "This interview story is often repeated, but historians do not consider it an established event."
     },
     {
       "id": "louisa-catherine-adams-01",
@@ -2743,7 +2962,8 @@
       "sourceId": "louisa-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-02",
@@ -2754,7 +2974,8 @@
       "sourceId": "louisa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-03",
@@ -2765,7 +2986,8 @@
       "sourceId": "louisa-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-04",
@@ -2776,7 +2998,8 @@
       "sourceId": "louisa-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-05",
@@ -2787,7 +3010,8 @@
       "sourceId": "louisa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-06",
@@ -2798,7 +3022,8 @@
       "sourceId": "louisa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-07",
@@ -2809,7 +3034,8 @@
       "sourceId": "louisa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-08",
@@ -2820,7 +3046,8 @@
       "sourceId": "louisa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-09",
@@ -2831,7 +3058,8 @@
       "sourceId": "louisa-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "louisa-catherine-adams-10",
@@ -2842,7 +3070,8 @@
       "sourceId": "louisa-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-01",
@@ -2853,7 +3082,8 @@
       "sourceId": "grant-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-02",
@@ -2864,7 +3094,8 @@
       "sourceId": "grant-horses",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-03",
@@ -2875,7 +3106,8 @@
       "sourceId": "grant-horses",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-04",
@@ -2886,7 +3118,8 @@
       "sourceId": "grant-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-05",
@@ -2897,7 +3130,8 @@
       "sourceId": "grant-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-06",
@@ -2908,7 +3142,8 @@
       "sourceId": "william-jones",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-07",
@@ -2919,7 +3154,8 @@
       "sourceId": "grant-enforcement",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-08",
@@ -2930,7 +3166,8 @@
       "sourceId": "grant-nps",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-09",
@@ -2941,7 +3178,8 @@
       "sourceId": "grant-memoirs",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "ulysses-s-grant-10",
@@ -2952,7 +3190,8 @@
       "sourceId": "grant-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-01",
@@ -2963,7 +3202,8 @@
       "sourceId": "julia-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-02",
@@ -2974,7 +3214,8 @@
       "sourceId": "julia-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-03",
@@ -2985,7 +3226,8 @@
       "sourceId": "julia-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-04",
@@ -2996,7 +3238,8 @@
       "sourceId": "julia-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-05",
@@ -3007,7 +3250,8 @@
       "sourceId": "julia-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-06",
@@ -3018,7 +3262,8 @@
       "sourceId": "julia-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-07",
@@ -3029,7 +3274,8 @@
       "sourceId": "julia-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-08",
@@ -3040,7 +3286,8 @@
       "sourceId": "julia-memoirs",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "julia-dent-grant-09",
@@ -3051,7 +3298,8 @@
       "sourceId": "jule",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "calvin-coolidge-01",
@@ -3062,7 +3310,8 @@
       "sourceId": "calvin-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "calvin-coolidge-02",
@@ -3073,7 +3322,8 @@
       "sourceId": "calvin-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "calvin-coolidge-03",
@@ -3084,7 +3334,8 @@
       "sourceId": "coolidge-electric-horse",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "calvin-coolidge-04",
@@ -3095,7 +3346,8 @@
       "sourceId": "coolidge-raccoons",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "calvin-coolidge-05",
@@ -3106,7 +3358,8 @@
       "sourceId": "calvin-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "calvin-coolidge-06",
@@ -3117,7 +3370,8 @@
       "sourceId": "immigration-1924",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "calvin-coolidge-07",
@@ -3128,7 +3382,8 @@
       "sourceId": "calvin-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "calvin-coolidge-08",
@@ -3139,7 +3394,9 @@
       "sourceId": "coolidge-folklore",
       "verification": "verified",
       "evidence": "legend",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "legend",
+      "uncertainty": "This famous reply may have been invented. We do not know that the conversation happened."
     },
     {
       "id": "grace-coolidge-01",
@@ -3150,7 +3407,8 @@
       "sourceId": "grace-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "grace-coolidge-02",
@@ -3161,7 +3419,8 @@
       "sourceId": "grace-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "grace-coolidge-03",
@@ -3172,7 +3431,8 @@
       "sourceId": "coolidge-raccoons",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "grace-coolidge-04",
@@ -3183,7 +3443,8 @@
       "sourceId": "coolidge-raccoons",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "grace-coolidge-05",
@@ -3194,7 +3455,8 @@
       "sourceId": "coolidge-raccoons",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "grace-coolidge-06",
@@ -3205,7 +3467,8 @@
       "sourceId": "grace-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "grace-coolidge-07",
@@ -3216,7 +3479,8 @@
       "sourceId": "grace-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "grace-coolidge-08",
@@ -3227,7 +3491,8 @@
       "sourceId": "grace-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-01",
@@ -3238,7 +3503,8 @@
       "sourceId": "jimmy-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-02",
@@ -3249,7 +3515,8 @@
       "sourceId": "jimmy-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-03",
@@ -3260,7 +3527,8 @@
       "sourceId": "carter-poetics",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-04",
@@ -3271,7 +3539,8 @@
       "sourceId": "jimmy-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-05",
@@ -3282,7 +3551,8 @@
       "sourceId": "jimmy-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-06",
@@ -3293,7 +3563,8 @@
       "sourceId": "jimmy-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-07",
@@ -3304,7 +3575,8 @@
       "sourceId": "jimmy-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-08",
@@ -3315,7 +3587,8 @@
       "sourceId": "jimmy-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "jimmy-carter-09",
@@ -3326,7 +3599,8 @@
       "sourceId": "jimmy-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-01",
@@ -3337,7 +3611,8 @@
       "sourceId": "rosalynn-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-02",
@@ -3348,7 +3623,8 @@
       "sourceId": "rosalynn-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-03",
@@ -3359,7 +3635,8 @@
       "sourceId": "rosalynn-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": false
+      "gameEligible": false,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-04",
@@ -3370,7 +3647,8 @@
       "sourceId": "rosalynn-interests",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-05",
@@ -3381,7 +3659,8 @@
       "sourceId": "rosalynn-interests",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-06",
@@ -3392,7 +3671,8 @@
       "sourceId": "rosalynn-interests",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-07",
@@ -3403,7 +3683,8 @@
       "sourceId": "rosalynn-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-08",
@@ -3414,7 +3695,8 @@
       "sourceId": "rosalynn-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-09",
@@ -3425,7 +3707,8 @@
       "sourceId": "jimmy-center-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     },
     {
       "id": "rosalynn-carter-10",
@@ -3436,7 +3719,8 @@
       "sourceId": "rosalynn-bio",
       "verification": "verified",
       "evidence": "documented",
-      "gameEligible": true
+      "gameEligible": true,
+      "classification": "fact"
     }
   ]
 }

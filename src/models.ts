@@ -50,6 +50,9 @@ export interface Fact {
   verification: 'verified' | 'unverified';
   // Historical certainty is separate from whether the cited source was checked.
   evidence?: 'documented' | 'disputed' | 'legend';
+  // Absent means not yet classified; it never implicitly means fact.
+  classification?: 'fact' | 'legend' | 'mystery';
+  uncertainty?: string;
   // Suitability for separately authored questions; see the legacy policy in editorial.ts.
   gameEligible?: boolean;
 }
